@@ -1,7 +1,12 @@
-﻿name: Gaming News Generator
+﻿@'
+name: Gaming News Generator
 
 on:
   workflow_dispatch:
+
+  schedule:
+    # 05:15 a. m. Perú (UTC-5)
+    - cron: "15 10 * * *"
 
 permissions:
   contents: write
@@ -97,3 +102,4 @@ jobs:
               echo "No hubo cambios en api_usage.json."
             fi
           fi
+'@ | Set-Content ".github\workflows\daily-news.yml" -Encoding UTF8
