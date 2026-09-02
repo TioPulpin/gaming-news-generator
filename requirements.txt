@@ -10,4 +10,5 @@ rapidfuzz
 openai
 python-dotenv
 beautifulsoup4
-pillowgooglenewsdecoder>=0.1,<1
+pillow
+googlenewsdecoder>=0.1,<1
