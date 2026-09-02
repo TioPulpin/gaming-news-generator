@@ -1,0 +1,23 @@
+{
+  "api_enabled": true,
+  "dry_run": false,
+
+  "editorial_pipeline": {
+    "stage_1": {
+      "enabled": true,
+      "purpose": "Reducir la shortlist a 12 noticias",
+      "reasoning": "low"
+    },
+    "stage_2": {
+      "enabled": true,
+      "purpose": "Elegir TOP 5 y redactar contenido final",
+      "reasoning": "medium"
+    }
+  },
+
+  "top_candidates_stage_1": 12,
+  "final_news_count": 5,
+
+  "use_paid_web_search": false,
+  "generate_ai_images_by_default": false
+}

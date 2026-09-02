@@ -1,0 +1,13 @@
+playwright
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+tzdata
+feedparser
+requests
+rapidfuzz
+openai
+python-dotenv
+beautifulsoup4
+pillow

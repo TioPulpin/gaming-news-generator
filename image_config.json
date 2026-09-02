@@ -1,0 +1,10 @@
+{
+  "mode": "discovery",
+  "download_images": false,
+  "use_ai_fallback": false,
+  "prefer_official_sources": true,
+  "allow_article_og_image": true,
+  "minimum_width": 300,
+  "minimum_height": 180,
+  "request_timeout_seconds": 15
+}

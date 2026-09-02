@@ -1,0 +1,58 @@
+# =========================================================
+# SECRETOS - NUNCA SUBIR
+# =========================================================
+
+.env
+credentials.json
+token.json
+
+# =========================================================
+# PYTHON
+# =========================================================
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================================================
+# ARCHIVOS GENERADOS
+# =========================================================
+
+output/
+assets/daily/
+
+data/candidates.json
+data/shortlist.json
+data/shortlist_by_branch.json
+data/editorial_candidates.json
+data/editorial_preview.json
+data/image_candidates.json
+data/article_context.json
+data/writer_payload_preview.json
+data/noticias.json
+
+# api_usage.json SÍ se conservará en GitHub
+# para mantener el contador mensual entre ejecuciones.
+
+# =========================================================
+# BACKUPS / TEMPORALES
+# =========================================================
+
+archive/
+*_backup*.py
+*.tmp
+
+# =========================================================
+# WINDOWS
+# =========================================================
+
+Thumbs.db
+Desktop.ini
+# Datos generados durante cada ejecuci�n
+data/*.json
+!data/api_usage.json
+
+# Backups visuales locales
+template/*_backup*
