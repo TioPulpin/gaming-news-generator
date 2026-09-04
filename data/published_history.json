@@ -62,5 +62,53 @@
     "source": "",
     "url": "",
     "story_key": "no-rest-for-the-wicked-se-retrasa-hasta-marzo"
+  },
+  {
+    "date": "2026-09-04",
+    "branch": "Lanzamientos",
+    "title": "Final Fantasy VII Revelation llegará el 8 de abril de 2027",
+    "source": "Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/square-enix-confirms-final-fantasy-7-revelation-release-date/",
+    "story_key": "final-fantasy-vii-revelation-llegara-el-8-de-abril-de-2027"
+  },
+  {
+    "date": "2026-09-04",
+    "branch": "Industria",
+    "title": "Sony y Microsoft rechazan devolver sobrecostes por aranceles",
+    "source": "Eurogamer.net",
+    "url": "https://www.eurogamer.net/sony-microsoft-no-refunds-us-tariff-lawsuits",
+    "story_key": "sony-y-microsoft-rechazan-devolver-sobrecostes-por-aranceles"
+  },
+  {
+    "date": "2026-09-04",
+    "branch": "Inteligencia artificial",
+    "title": "ChatGPT, Claude y Grok sufren caídas casi simultáneas",
+    "source": "WIRED",
+    "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+    "story_key": "chatgpt-claude-y-grok-sufren-caidas-casi-simultaneas"
+  },
+  {
+    "date": "2026-09-04",
+    "branch": "IA y hardware",
+    "title": "Nvidia lanza una herramienta para crear una IA local",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+    "story_key": "nvidia-lanza-una-herramienta-para-crear-una-ia-local"
+  },
+  {
+    "date": "2026-09-04",
+    "branch": "Series",
+    "title": "MobLand queda renovada para una tercera temporada",
+    "source": "Deadline",
+    "url": "https://deadline.com/2026/09/mobland-renewed-season-3-tom-hardy-mirren-brosnan-1237066505/",
+    "story_key": "mobland-queda-renovada-para-una-tercera-temporada"
+  },
+  {
+    "date": "2026-09-04",
+    "branch": "Series y adaptaciones",
+    "title": "Netflix prepara Ravenloft, su nueva serie de Dungeons & Dragons",
+    "source": "Variety",
+    "url": "https://variety.com/2026/tv/news/ravenloft-d-and-d-series-netflix-forgotten-realms-canceled-1236850699/",
+    "story_key": "netflix-prepara-ravenloft-su-nueva-serie-de-dungeons-dragons"
   }
 ]
