@@ -50,9 +50,10 @@ archive/
 
 Thumbs.db
 Desktop.ini
-# Datos generados durante cada ejecución
+# Datos generados durante cada ejecuci n
 data/*.json
 !data/api_usage.json
+!data/published_history.json
 
 # Backups visuales locales
 template/*_backup*

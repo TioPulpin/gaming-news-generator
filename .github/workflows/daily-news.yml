@@ -63,23 +63,23 @@ jobs:
               raise RuntimeError("Faltan secretos requeridos.")
           PY
 
-      - name: Ejecutar Gaming News Generator
-        run: |
-          python daily_pipeline.py
-
-      - name: Guardar contador de gasto API
+      - name: Guardar estado persistente
         if: always()
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           if [ -f data/api_usage.json ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
             git add -f data/api_usage.json
+          fi
 
-            if ! git diff --cached --quiet; then
-              git commit -m "Update API usage [skip ci]"
-              git push
-            else
-              echo "No hubo cambios en api_usage.json."
-            fi
+          if [ -f data/published_history.json ]; then
+            git add -f data/published_history.json
+          fi
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update persistent state [skip ci]"
+            git push
+          else
+            echo "Sin cambios persistentes."
           fi

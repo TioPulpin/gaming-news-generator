@@ -1,4 +1,4 @@
-import json
+﻿import json
 import subprocess
 import sys
 from pathlib import Path
@@ -74,7 +74,7 @@ def main():
     print("#" * 64)
     print("#")
     print("#   NICOLAS HERNANDEZ - NEWS GENERATOR")
-    print("#   PIPELINE DIARIO MULTITEMÁTICO V3")
+    print("#   PIPELINE DIARIO MULTITEMÃTICO V3")
     print("#")
     print(
         f"#   API habilitada: "
@@ -86,7 +86,7 @@ def main():
         "6 tarjetas"
     )
     print(
-        "#   Gaming + Tecnología + Cultura Pop"
+        "#   Gaming + TecnologÃ­a + Cultura Pop"
     )
     print("#")
     print("#" * 64)
@@ -96,8 +96,17 @@ def main():
     # =====================================================
 
     run_step(
-        "PASO 1 - INVESTIGACIÓN MULTITEMÁTICA",
+        "PASO 1 - INVESTIGACIÃ“N MULTITEMÃTICA",
         "fetch_news.py",
+    )
+
+    # =====================================================
+    # PASO 1.5 - FILTRO ANTI-REPETICIÃ“N
+    # =====================================================
+
+    run_step(
+        "PASO 1.5 - FILTRO ANTI-REPETICIÃ“N",
+        "history_filter.py",
     )
 
     # =====================================================
@@ -105,7 +114,7 @@ def main():
     # =====================================================
 
     run_step(
-        "PASO 2 - RANKING MULTITEMÁTICO GRATIS",
+        "PASO 2 - RANKING MULTITEMÃTICO GRATIS",
         "rank_candidates.py",
     )
 
@@ -129,7 +138,7 @@ def main():
         print("#   MODO PRUEBA COMPLETADO")
         print("#")
         print(
-            "#   Investigación multitemática  OK"
+            "#   InvestigaciÃ³n multitemÃ¡tica  OK"
         )
         print(
             "#   Ranking 8 + 8 + 8            OK"
@@ -145,7 +154,7 @@ def main():
         )
         print("#")
         print(
-            "#   El pipeline se detiene aquí"
+            "#   El pipeline se detiene aquÃ­"
         )
         print(
             "#   porque api_enabled = false."
@@ -169,7 +178,7 @@ def main():
     # =====================================================
 
     run_step(
-        "PASO 5 - RESOLVIENDO IMÁGENES",
+        "PASO 5 - RESOLVIENDO IMÃGENES",
         "resolve_images.py",
     )
 
@@ -178,7 +187,7 @@ def main():
     # =====================================================
 
     run_step(
-        "PASO 6 - DESCARGANDO Y NORMALIZANDO IMÁGENES",
+        "PASO 6 - DESCARGANDO Y NORMALIZANDO IMÃGENES",
         "download_images.py",
     )
 
@@ -201,11 +210,20 @@ def main():
     )
 
     # =====================================================
-    # PASO 9
+    # PASO 9 - REGISTRO DE HISTORIAL
     # =====================================================
 
     run_step(
-        "PASO 9 - RESUMEN DE PRESUPUESTO",
+        "PASO 9 - REGISTRANDO NOTICIAS PUBLICADAS",
+        "history_register.py",
+    )
+
+    # =====================================================
+    # PASO 10
+    # =====================================================
+
+    run_step(
+        "PASO 10 - RESUMEN DE PRESUPUESTO",
         "api_budget.py",
     )
 
@@ -218,7 +236,7 @@ def main():
         "#   6 noticias finales"
     )
     print(
-        "#   6 imágenes reales de Internet"
+        "#   6 imÃ¡genes reales de Internet"
     )
     print(
         "#   6 tarjetas 1080 x 1350"
