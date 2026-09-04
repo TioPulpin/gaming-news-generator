@@ -63,6 +63,10 @@ jobs:
               raise RuntimeError("Faltan secretos requeridos.")
           PY
 
+      - name: Ejecutar Gaming News Generator
+        run: |
+          python daily_pipeline.py
+
       - name: Guardar estado persistente
         if: always()
         run: |
