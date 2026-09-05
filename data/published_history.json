@@ -110,5 +110,53 @@
     "source": "Variety",
     "url": "https://variety.com/2026/tv/news/ravenloft-d-and-d-series-netflix-forgotten-realms-canceled-1236850699/",
     "story_key": "netflix-prepara-ravenloft-su-nueva-serie-de-dungeons-dragons"
+  },
+  {
+    "date": "2026-09-05",
+    "branch": "PlayStation",
+    "title": "Sony resume su State of Play con Wolverine y más",
+    "source": "Eurogamer.net",
+    "url": "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026",
+    "story_key": "sony-resume-su-state-of-play-con-wolverine-y-mas"
+  },
+  {
+    "date": "2026-09-05",
+    "branch": "Xbox",
+    "title": "Xbox limitará las horas mensuales de juego en la nube",
+    "source": "IGN",
+    "url": "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits",
+    "story_key": "xbox-limitara-las-horas-mensuales-de-juego-en-la-nube"
+  },
+  {
+    "date": "2026-09-05",
+    "branch": "IA",
+    "title": "Nvidia conecta tus equipos inactivos para ejecutar IA local",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+    "story_key": "nvidia-conecta-tus-equipos-inactivos-para-ejecutar-ia-local"
+  },
+  {
+    "date": "2026-09-05",
+    "branch": "IA",
+    "title": "Microsoft reduce el precio de su IA de transcripción",
+    "source": "Venturebeat",
+    "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+    "story_key": "microsoft-reduce-el-precio-de-su-ia-de-transcripcion"
+  },
+  {
+    "date": "2026-09-05",
+    "branch": "Series",
+    "title": "Prime Video cancela Spider-Noir tras una sola temporada",
+    "source": "Deadline",
+    "url": "https://deadline.com/2026/09/spider-noir-canceled-prime-video-marvel-characters-series-1237068437/",
+    "story_key": "prime-video-cancela-spider-noir-tras-una-sola-temporada"
+  },
+  {
+    "date": "2026-09-05",
+    "branch": "Series",
+    "title": "Disney+ cancela el desarrollo de una nueva serie de Power Rangers",
+    "source": "Collider",
+    "url": "https://collider.com/power-rangers-series-cancelled/",
+    "story_key": "disney-cancela-el-desarrollo-de-una-nueva-serie-de-power-rangers"
   }
 ]
