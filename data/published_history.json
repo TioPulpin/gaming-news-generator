@@ -158,5 +158,53 @@
     "source": "Collider",
     "url": "https://collider.com/power-rangers-series-cancelled/",
     "story_key": "disney-cancela-el-desarrollo-de-una-nueva-serie-de-power-rangers"
+  },
+  {
+    "date": "2026-09-06",
+    "branch": "Servicios",
+    "title": "Microsoft limitará las horas de Xbox Cloud Gaming",
+    "source": "PC Gamer",
+    "url": "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/",
+    "story_key": "microsoft-limitara-las-horas-de-xbox-cloud-gaming"
+  },
+  {
+    "date": "2026-09-06",
+    "branch": "Lanzamientos",
+    "title": "Kingdom Hearts 4 tendrá una nueva presentación este mes",
+    "source": "Polygon.com",
+    "url": "https://www.polygon.com/kingdom-hearts-4-square-enix-tokyo-game-show-news-teased/",
+    "story_key": "kingdom-hearts-4-tendra-una-nueva-presentacion-este-mes"
+  },
+  {
+    "date": "2026-09-06",
+    "branch": "IA",
+    "title": "ChatGPT, Claude y Grok sufrieron caídas simultáneas",
+    "source": "WIRED",
+    "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+    "story_key": "chatgpt-claude-y-grok-sufrieron-caidas-simultaneas"
+  },
+  {
+    "date": "2026-09-06",
+    "branch": "IA",
+    "title": "Nvidia conecta computadoras inactivas para ejecutar IA local",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+    "story_key": "nvidia-conecta-computadoras-inactivas-para-ejecutar-ia-local"
+  },
+  {
+    "date": "2026-09-06",
+    "branch": "Series",
+    "title": "Spider-Noir no tendrá segunda temporada en Prime Video",
+    "source": "Polygon.com",
+    "url": "https://www.polygon.com/spider-noir-canceled/",
+    "story_key": "spider-noir-no-tendra-segunda-temporada-en-prime-video"
+  },
+  {
+    "date": "2026-09-06",
+    "branch": "Anime",
+    "title": "Detective Conan estrenará un especial donde el público investiga",
+    "source": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com/news/2026-09-05/new-detective-conan-anime-special-lets-fans-deduce-culprit/.241434",
+    "story_key": "detective-conan-estrenara-un-especial-donde-el-publico-investiga"
   }
 ]
