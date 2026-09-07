@@ -206,5 +206,53 @@
     "source": "Anime News Network",
     "url": "https://www.animenewsnetwork.com/news/2026-09-05/new-detective-conan-anime-special-lets-fans-deduce-culprit/.241434",
     "story_key": "detective-conan-estrenara-un-especial-donde-el-publico-investiga"
+  },
+  {
+    "date": "2026-09-07",
+    "branch": "Lanzamientos",
+    "title": "Metro 2039 llegará el 4 de febrero de 2027",
+    "source": "IGN India",
+    "url": "https://in.ign.com/metro-2039/271014/metro-2039-release-date-revealed-at-playstation-state-of-play",
+    "story_key": "metro-2039-llegara-el-4-de-febrero-de-2027"
+  },
+  {
+    "date": "2026-09-07",
+    "branch": "Ventas",
+    "title": "Onimusha vende un millón de copias en un día",
+    "source": "Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/capcom-has-another-hit-on-its-hands-as-onimusha-sells-1-million-in-a-day/",
+    "story_key": "onimusha-vende-un-millon-de-copias-en-un-dia"
+  },
+  {
+    "date": "2026-09-07",
+    "branch": "Hardware",
+    "title": "FEVM presenta un mini PC Intel con gráficas Nvidia",
+    "source": "Notebookcheck",
+    "url": "https://www.notebookcheck.net/Powerful-Intel-equipped-FEVM-mini-PC-launches-with-performance-Nvidia-GPUs.1391220.0.html",
+    "story_key": "fevm-presenta-un-mini-pc-intel-con-graficas-nvidia"
+  },
+  {
+    "date": "2026-09-07",
+    "branch": "IA y hardware",
+    "title": "AMD prepara una estación de IA con 576 GB HBM3e",
+    "source": "tweaktown.com",
+    "url": "https://www.tweaktown.com/news/113434/amds-threadripper-halo-station-is-an-ai-workstation-with-up-to-576gb-of-hbm3e-gpu-memory/index.html",
+    "story_key": "amd-prepara-una-estacion-de-ia-con-576-gb-hbm3e"
+  },
+  {
+    "date": "2026-09-07",
+    "branch": "Anime y manga",
+    "title": "Hunter x Hunter entra otra vez en pausa",
+    "source": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com/news/2026-09-07/hunter-x-hunter-manga-announces-hiatus-4th-stage-play-featuring-chimera-ant-arc/.241478",
+    "story_key": "hunter-x-hunter-entra-otra-vez-en-pausa"
+  },
+  {
+    "date": "2026-09-07",
+    "branch": "Anime",
+    "title": "Dark Machine the Animation se estrenará el 13 de octubre",
+    "source": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com/news/2026-09-07/dark-machine-the-animation-series-reveals-3-new-cast-members-october-13-debut/.241481",
+    "story_key": "dark-machine-the-animation-se-estrenara-el-13-de-octubre"
   }
 ]
