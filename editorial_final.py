@@ -21,6 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent
 CONFIG_FILE = BASE_DIR / "ai_config.json"
 SHORTLIST_FILE = BASE_DIR / "data" / "shortlist.json"
 
+HISTORY_FILE = (
+    BASE_DIR
+    / "data"
+    / "published_history.json"
+)
+
 PREVIEW_FILE = (
     BASE_DIR
     / "data"
@@ -76,6 +82,31 @@ MONTHS_ES = {
 # =========================================================
 
 INSTRUCTIONS = """
+IMPORTANTE SOBRE REPETICIONES:
+
+Ademas de las candidatas, recibiras una lista llamada
+PUBLICADAS_RECIENTEMENTE.
+
+NO selecciones una candidata si describe el mismo hecho noticioso
+que una noticia de PUBLICADAS_RECIENTEMENTE, aunque:
+
+- el titular este redactado de otra manera;
+- una noticia este en ingles y otra en espanol;
+- cambie la fuente;
+- cambie el orden de las palabras;
+- se use otro enfoque para contar el mismo anuncio.
+
+Solo considera que existe una noticia nueva cuando haya un desarrollo
+materialmente distinto y posterior.
+
+Ejemplos validos de desarrollo nuevo:
+- nueva fecha confirmada;
+- cancelacion posterior;
+- nuevas cifras de ventas;
+- adquisicion confirmada;
+- gameplay nuevo;
+- beta o demo nueva.
+
 Eres el editor jefe de una cuenta de noticias en español enfocada en
 VIDEOJUEGOS/GAMING, TECNOLOGÍA/IA y CULTURA POP.
 
@@ -951,8 +982,39 @@ def main():
         encoding="utf-8",
     )
 
+    recent_history = []
+
+    if HISTORY_FILE.exists():
+        history_data = json.loads(
+            HISTORY_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
+
+        if isinstance(history_data, list):
+            recent_history = history_data[-30:]
+
+    history_for_editor = [
+        {
+            "fecha": item.get(
+                "date",
+                item.get("fecha", ""),
+            ),
+            "titulo": item.get(
+                "title",
+                item.get("titulo", ""),
+            ),
+        }
+        for item in recent_history
+    ]
+
+    editorial_input = {
+        "PUBLICADAS_RECIENTEMENTE": history_for_editor,
+        "CANDIDATAS": candidates,
+    }
+
     input_text = json.dumps(
-        candidates,
+        editorial_input,
         ensure_ascii=False,
         separators=(
             ",",
