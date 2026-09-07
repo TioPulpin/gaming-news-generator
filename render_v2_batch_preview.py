@@ -1,4 +1,6 @@
 ﻿import json
+import re
+import unicodedata
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -508,6 +510,551 @@ def display_module_title(
     )
 
 
+
+def normalize_visual_module_text(
+    text: str,
+) -> str:
+
+    text = str(
+        text or ""
+    ).strip()
+
+    text = unicodedata.normalize(
+        "NFKD",
+        text,
+    )
+
+    text = text.encode(
+        "ascii",
+        "ignore",
+    ).decode(
+        "ascii"
+    )
+
+    text = re.sub(
+        r"[^a-zA-Z0-9]+",
+        " ",
+        text.lower(),
+    )
+
+    return " ".join(
+        text.split()
+    )
+
+
+def visual_module_is_weak(
+    module: dict,
+) -> bool:
+
+    title = normalize_visual_module_text(
+        module.get(
+            "titulo",
+            "",
+        )
+    ).upper()
+
+    value = str(
+        module.get(
+            "texto",
+            "",
+        )
+    ).strip()
+
+    clean = normalize_visual_module_text(
+        value
+    )
+
+    words = clean.split()
+
+    length = len(
+        value
+    )
+
+
+    # POR QUE IMPORTA es el modulo
+    # editorial principal.
+    if title == "POR QUE IMPORTA":
+        return False
+
+
+    # Fechas demasiado simples:
+    # 2027
+    # marzo de 2027
+    if title in {
+        "FECHA",
+        "LANZAMIENTO",
+    }:
+        return length < 18
+
+
+    # Una unica plataforma no merece
+    # necesariamente una columna completa.
+    if title == "PLATAFORMAS":
+        return (
+            len(words) <= 1
+            and length <= 15
+        )
+
+
+    # Una plataforma concreta como
+    # Nintendo Switch 2 si tiene entidad.
+    if title == "PLATAFORMA":
+        return length < 14
+
+
+    # Nombres tecnologicos pueden ser breves
+    # pero relevantes: NVLink Fusion.
+    if title == "TECNOLOGIA":
+        return length < 10
+
+
+    # Cifras de inversion/precio se conservan
+    # si son algo mas que un numero aislado.
+    if title in {
+        "INVERSION",
+        "PRECIO",
+    }:
+        return (
+            length < 10
+            or len(words) < 2
+        )
+
+
+    # Regla general.
+    if length <= 9:
+        return True
+
+    if (
+        len(words) == 1
+        and length <= 14
+    ):
+        return True
+
+    return False
+
+
+def visual_module_score(
+    module: dict,
+) -> int:
+
+    title = normalize_visual_module_text(
+        module.get(
+            "titulo",
+            "",
+        )
+    ).upper()
+
+    text = str(
+        module.get(
+            "texto",
+            "",
+        )
+    ).strip()
+
+    words = (
+        normalize_visual_module_text(
+            text
+        ).split()
+    )
+
+    score = (
+        min(
+            len(text),
+            100,
+        )
+        +
+        len(words) * 4
+    )
+
+    bonuses = {
+        "POR QUE IMPORTA": 70,
+        "DATO CLAVE": 30,
+        "IMPACTO": 25,
+        "QUE CAMBIA": 20,
+        "INVERSION": 25,
+        "PRECIO": 25,
+        "TECNOLOGIA": 18,
+        "PLATAFORMA": 18,
+        "FECHA": 15,
+    }
+
+    score += bonuses.get(
+        title,
+        0,
+    )
+
+    if visual_module_is_weak(
+        module
+    ):
+        score -= 120
+
+    return score
+
+
+def modules_are_duplicates(
+    first: dict,
+    second: dict,
+) -> bool:
+
+    a = normalize_visual_module_text(
+        first.get(
+            "texto",
+            "",
+        )
+    )
+
+    b = normalize_visual_module_text(
+        second.get(
+            "texto",
+            "",
+        )
+    )
+
+    if not a or not b:
+        return False
+
+    if a == b:
+        return True
+
+    words_a = set(
+        a.split()
+    )
+
+    words_b = set(
+        b.split()
+    )
+
+    if (
+        not words_a
+        or not words_b
+    ):
+        return False
+
+    overlap = len(
+        words_a & words_b
+    )
+
+    smaller = min(
+        len(words_a),
+        len(words_b),
+    )
+
+    similarity = (
+        overlap
+        / smaller
+    )
+
+    return (
+        smaller >= 5
+        and similarity >= 0.82
+    )
+
+
+def select_visual_modules(
+    modules: list[dict],
+) -> list[dict]:
+
+    modules = [
+        dict(module)
+        for module in modules
+        if isinstance(
+            module,
+            dict,
+        )
+    ]
+
+    if len(modules) <= 2:
+        return modules
+
+
+    # =====================================================
+    # 1. ELIMINAR REDUNDANCIA
+    # =====================================================
+
+    duplicate_pairs = []
+
+    for i in range(
+        len(modules)
+    ):
+        for j in range(
+            i + 1,
+            len(modules),
+        ):
+
+            if modules_are_duplicates(
+                modules[i],
+                modules[j],
+            ):
+
+                duplicate_pairs.append(
+                    (i, j)
+                )
+
+
+    if duplicate_pairs:
+
+        i, j = duplicate_pairs[0]
+
+        score_i = visual_module_score(
+            modules[i]
+        )
+
+        score_j = visual_module_score(
+            modules[j]
+        )
+
+        remove_index = (
+            i
+            if score_i < score_j
+            else j
+        )
+
+        result = [
+            module
+            for index, module
+            in enumerate(
+                modules
+            )
+            if index != remove_index
+        ]
+
+        return result[:2]
+
+
+    # =====================================================
+    # 2. DETECTAR MODULO POBRE
+    # =====================================================
+
+    weak_indexes = [
+        index
+        for index, module
+        in enumerate(
+            modules
+        )
+        if visual_module_is_weak(
+            module
+        )
+    ]
+
+
+    if weak_indexes:
+
+        # Se elimina solamente uno.
+        remove_index = min(
+            weak_indexes,
+            key=lambda index:
+                visual_module_score(
+                    modules[index]
+                ),
+        )
+
+        result = [
+            module
+            for index, module
+            in enumerate(
+                modules
+            )
+            if index != remove_index
+        ]
+
+        return result[:2]
+
+
+    # =====================================================
+    # 3. LOS TRES APORTAN VALOR
+    # =====================================================
+
+    return modules[:3]
+
+
+
+def select_two_visual_modules(
+    modules: list[dict],
+) -> list[dict]:
+
+    modules = [
+        dict(module)
+        for module in modules
+        if isinstance(
+            module,
+            dict,
+        )
+    ]
+
+    if not modules:
+        return []
+
+
+    # =====================================================
+    # QUITAR MODULOS DEBILES
+    # =====================================================
+
+    useful = [
+        module
+        for module in modules
+        if not visual_module_is_weak(
+            module
+        )
+    ]
+
+
+    # Si el filtro fue demasiado agresivo,
+    # conservamos los mejores disponibles.
+    if len(useful) < 2:
+
+        useful = sorted(
+            modules,
+            key=visual_module_score,
+            reverse=True,
+        )
+
+
+    # =====================================================
+    # QUITAR REDUNDANCIA
+    # =====================================================
+
+    clean = []
+
+    for module in useful:
+
+        duplicate = False
+
+        for existing in clean:
+
+            if modules_are_duplicates(
+                module,
+                existing,
+            ):
+                duplicate = True
+                break
+
+        if not duplicate:
+            clean.append(
+                module
+            )
+
+
+    if len(clean) < 2:
+
+        clean = useful
+
+
+    # =====================================================
+    # PRIORIZAR:
+    # 1 editorial + 1 dato concreto
+    # =====================================================
+
+    editorial_titles = {
+        "POR QUE IMPORTA",
+        "DATO CLAVE",
+        "QUE CAMBIA",
+        "IMPACTO",
+        "CONTEXTO",
+        "INDUSTRIA",
+        "COMUNIDAD",
+    }
+
+    concrete_titles = {
+        "FECHA",
+        "PRECIO",
+        "PLATAFORMA",
+        "PLATAFORMAS",
+        "LANZAMIENTO",
+        "DISPONIBILIDAD",
+        "TECNOLOGIA",
+        "FRANQUICIA",
+        "INVERSION",
+    }
+
+
+    def normalized_title(
+        module,
+    ):
+        return (
+            normalize_visual_module_text(
+                module.get(
+                    "titulo",
+                    "",
+                )
+            )
+            .upper()
+        )
+
+
+    editorial = [
+        module
+        for module in clean
+        if normalized_title(
+            module
+        ) in editorial_titles
+    ]
+
+    concrete = [
+        module
+        for module in clean
+        if normalized_title(
+            module
+        ) in concrete_titles
+    ]
+
+
+    selected = []
+
+
+    # Mejor modulo editorial.
+    if editorial:
+
+        best_editorial = max(
+            editorial,
+            key=visual_module_score,
+        )
+
+        selected.append(
+            best_editorial
+        )
+
+
+    # Mejor dato concreto.
+    if concrete:
+
+        best_concrete = max(
+            concrete,
+            key=visual_module_score,
+        )
+
+        if (
+            best_concrete
+            not in selected
+        ):
+            selected.append(
+                best_concrete
+            )
+
+
+    # Completar con el mejor restante.
+    ranked = sorted(
+        clean,
+        key=visual_module_score,
+        reverse=True,
+    )
+
+    for module in ranked:
+
+        if (
+            module
+            not in selected
+        ):
+            selected.append(
+                module
+            )
+
+        if len(selected) == 2:
+            break
+
+
+    return selected[:2]
+
+
 def build_payload(item: dict) -> dict:
 
     branch = str(
@@ -555,6 +1102,27 @@ def build_payload(item: dict) -> dict:
     modules = build_modules(
         item
     )
+
+    modules = select_two_visual_modules(
+        modules
+    )
+
+    module_count = len(
+        modules
+    )
+
+    display_modules = list(
+        modules
+    )
+
+    while len(
+        display_modules
+    ) < 3:
+
+        display_modules.append({
+            "titulo": "",
+            "texto": "",
+        })
 
     return {
         "numero": item.get(
@@ -611,23 +1179,25 @@ def build_payload(item: dict) -> dict:
             or fuente
         ),
 
+        "moduleCount": module_count,
+
         "module1Title":
-            display_module_title(modules[0]["titulo"]),
+            display_module_title(display_modules[0]["titulo"]),
 
         "module1Text":
-            modules[0]["texto"],
+            display_modules[0]["texto"],
 
         "module2Title":
-            display_module_title(modules[1]["titulo"]),
+            display_module_title(display_modules[1]["titulo"]),
 
         "module2Text":
-            modules[1]["texto"],
+            display_modules[1]["texto"],
 
         "module3Title":
-            display_module_title(modules[2]["titulo"]),
+            display_module_title(display_modules[2]["titulo"]),
 
         "module3Text":
-            modules[2]["texto"],
+            display_modules[2]["texto"],
 
         "fuente": fuente,
 
@@ -799,6 +1369,328 @@ RENDER_SCRIPT = r"""
         'module-3-text',
         payload.module3Text
     );
+
+
+
+
+    // =====================================================
+    // ESCALA AUTOMATICA DE LOS MODULOS
+    // =====================================================
+
+    function scaleModuleText(id) {
+
+        const element =
+            document.getElementById(id);
+
+        if (!element) {
+            return;
+        }
+
+        const length =
+            (
+                element.textContent || ''
+            ).trim().length;
+
+        element.classList.remove(
+            'module-xl',
+            'module-lg',
+            'module-md',
+            'module-sm'
+        );
+
+        if (length <= 14) {
+
+            element.classList.add(
+                'module-xl'
+            );
+
+        } else if (length <= 30) {
+
+            element.classList.add(
+                'module-lg'
+            );
+
+        } else if (length <= 58) {
+
+            element.classList.add(
+                'module-md'
+            );
+
+        } else {
+
+            element.classList.add(
+                'module-sm'
+            );
+        }
+    }
+
+
+    scaleModuleText(
+        'module-1-text'
+    );
+
+    scaleModuleText(
+        'module-2-text'
+    );
+
+    scaleModuleText(
+        'module-3-text'
+    );
+
+
+
+
+    // =====================================================
+    // LAYOUT 2 / 3 MODULOS DEFINIDO POR PYTHON
+    // =====================================================
+
+    const moduleContainer =
+        document.getElementById(
+            'info-modules'
+        );
+
+    if (moduleContainer) {
+
+        const wrappers =
+            Array.from(
+                moduleContainer
+                .querySelectorAll(
+                    '.info-module'
+                )
+            );
+
+        const count =
+            Number(
+                payload.moduleCount
+                || 3
+            );
+
+        moduleContainer.classList.remove(
+            'modules-2',
+            'modules-3'
+        );
+
+        moduleContainer.classList.add(
+            count === 2
+                ? 'modules-2'
+                : 'modules-3'
+        );
+
+        wrappers.forEach(
+            (
+                wrapper,
+                index
+            ) => {
+
+                wrapper.style.display =
+                    index < count
+                        ? ''
+                        : 'none';
+
+                wrapper.classList.remove(
+                    'module-divider'
+                );
+            }
+        );
+
+        if (
+            count === 2
+            && wrappers[0]
+        ) {
+
+            wrappers[0]
+                .classList
+                .add(
+                    'module-divider'
+                );
+        }
+    }
+
+
+
+
+    // =====================================================
+    // LAYOUT FINAL SEGUN MODULOS REALMENTE VISIBLES
+    // =====================================================
+
+    const finalModuleContainer =
+        document.getElementById(
+            'info-modules'
+        );
+
+    if (finalModuleContainer) {
+
+        const finalWrappers =
+            Array.from(
+                finalModuleContainer.querySelectorAll(
+                    '.info-module'
+                )
+            );
+
+        const usefulWrappers = [];
+
+        finalWrappers.forEach(
+            (wrapper) => {
+
+                const value =
+                    wrapper.querySelector(
+                        '.module-text'
+                    );
+
+                const title =
+                    wrapper.querySelector(
+                        '.module-title'
+                    );
+
+                const hasValue =
+                    value
+                    && (
+                        value.textContent
+                        || ''
+                    ).trim();
+
+                const hasTitle =
+                    title
+                    && (
+                        title.textContent
+                        || ''
+                    ).trim();
+
+                if (
+                    hasValue
+                    && hasTitle
+                ) {
+
+                    wrapper.style.display =
+                        'flex';
+
+                    usefulWrappers.push(
+                        wrapper
+                    );
+
+                } else {
+
+                    wrapper.style.display =
+                        'none';
+                }
+
+                wrapper.classList.remove(
+                    'module-divider'
+                );
+            }
+        );
+
+
+        // Nunca dejamos una tercera columna vacia.
+        const visibleCount =
+            Math.max(
+                2,
+                Math.min(
+                    usefulWrappers.length,
+                    3
+                )
+            );
+
+
+        finalModuleContainer.classList.remove(
+            'modules-2',
+            'modules-3'
+        );
+
+
+        if (
+            usefulWrappers.length === 2
+        ) {
+
+            finalModuleContainer.classList.add(
+                'modules-2'
+            );
+
+            finalModuleContainer.style.gridTemplateColumns =
+                'repeat(2, minmax(0, 1fr))';
+
+            usefulWrappers[0]
+                .classList
+                .add(
+                    'module-divider'
+                );
+
+        } else {
+
+            finalModuleContainer.classList.add(
+                'modules-3'
+            );
+
+            finalModuleContainer.style.gridTemplateColumns =
+                'repeat(3, minmax(0, 1fr))';
+        }
+    }
+
+
+
+
+
+    // =====================================================
+    // TEMPLATE V2 FINAL - SIEMPRE DOS MODULOS
+    // =====================================================
+
+    const twoModuleContainer =
+        document.getElementById(
+            'info-modules'
+        );
+
+    if (twoModuleContainer) {
+
+        const twoModuleWrappers =
+            Array.from(
+                twoModuleContainer
+                .querySelectorAll(
+                    '.info-module'
+                )
+            );
+
+        twoModuleContainer.classList.remove(
+            'modules-3'
+        );
+
+        twoModuleContainer.classList.add(
+            'modules-2'
+        );
+
+        twoModuleContainer.style.gridTemplateColumns =
+            'repeat(2, minmax(0, 1fr))';
+
+
+        twoModuleWrappers.forEach(
+            (
+                wrapper,
+                index
+            ) => {
+
+                wrapper.style.display =
+                    index < 2
+                        ? 'flex'
+                        : 'none';
+
+                wrapper.classList.remove(
+                    'module-divider'
+                );
+            }
+        );
+
+
+        if (
+            twoModuleWrappers[0]
+        ) {
+
+            twoModuleWrappers[0]
+                .classList
+                .add(
+                    'module-divider'
+                );
+        }
+    }
+
 
 
     // =====================================================

@@ -1935,7 +1935,7 @@ RENDER_SCRIPT = r"""
 
 
 # =========================================================
-# CARGAR UNA NOTICIA REAL
+# CARGAR TODAS LAS NOTICIAS
 # =========================================================
 
 items = json.loads(
@@ -1953,21 +1953,27 @@ if (
     )
 
 
-# Usamos la primera noticia.
-item = items[0]
+# =========================================================
+# DIRECTORIO DE PREVIEWS V2
+# =========================================================
 
-payload = build_payload(
-    item
+OUTPUT_DIR = (
+    BASE_DIR
+    / "output"
+    / "v2_candidate"
+)
+
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True,
 )
 
 
 # =========================================================
-# GENERAR PREVIEW
+# GENERAR LAS 6 TARJETAS V2
 # =========================================================
 
-OUTPUT_FILE.parent.mkdir(
-    exist_ok=True
-)
+generated = []
 
 with sync_playwright() as p:
 
@@ -1981,46 +1987,77 @@ with sync_playwright() as p:
         device_scale_factor=1,
     )
 
-    page.goto(
-        TEMPLATE_FILE.resolve().as_uri()
-    )
+    for item in items:
 
-    page.evaluate(
-        RENDER_SCRIPT,
-        payload,
-    )
-
-    page.wait_for_timeout(
-        1200
-    )
-
-    page.locator(
-        "#card"
-    ).screenshot(
-        path=str(
-            OUTPUT_FILE
+        payload = build_payload(
+            item
         )
-    )
+
+        # Recargamos la plantilla para que
+        # ninguna clase de la tarjeta anterior
+        # se herede a la siguiente.
+        page.goto(
+            TEMPLATE_FILE.resolve().as_uri()
+        )
+
+        page.evaluate(
+            RENDER_SCRIPT,
+            payload,
+        )
+
+        page.wait_for_timeout(
+            800
+        )
+
+        numero = str(
+            payload.get(
+                "numero",
+                "00",
+            )
+        )
+
+        output_file = (
+            OUTPUT_DIR
+            / f"{numero}_template_v2.png"
+        )
+
+        page.locator(
+            "#card"
+        ).screenshot(
+            path=str(
+                output_file
+            )
+        )
+
+        generated.append(
+            output_file
+        )
+
+        print(
+            "Generado:",
+            output_file.name,
+        )
 
     browser.close()
 
 
+# =========================================================
+# RESULTADO
+# =========================================================
+
 print()
-print("=" * 60)
-print(" TEMPLATE V2 - PREVIEW")
-print("=" * 60)
+print("=" * 64)
+print(" GAMING NEWS GENERATOR - TEMPLATE V2")
+print("=" * 64)
+print()
+
+for file in generated:
+    print(file)
+
 print()
 print(
-    "Noticia:"
-)
-print(
-    payload["titulo"]
-)
-print()
-print(
-    "Imagen generada:"
-)
-print(
-    OUTPUT_FILE
+    "Total:",
+    len(generated),
+    "tarjetas"
 )
 print()

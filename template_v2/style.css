@@ -1569,3 +1569,258 @@ body {
     width: 52px !important;
     height: 46px !important;
 }
+
+
+/* === MODULE AUTO SCALE V2 === */
+
+/* Tama?o normal */
+.module-text {
+    transition: none;
+}
+
+
+/* 0 - 14 caracteres */
+.module-text.module-xl {
+    font-size: 24px !important;
+    line-height: 1.10 !important;
+    font-weight: 850 !important;
+    letter-spacing: -0.4px;
+}
+
+
+/* 15 - 30 caracteres */
+.module-text.module-lg {
+    font-size: 21px !important;
+    line-height: 1.14 !important;
+    font-weight: 800 !important;
+}
+
+
+/* 31 - 58 caracteres */
+.module-text.module-md {
+    font-size: 18px !important;
+    line-height: 1.20 !important;
+    font-weight: 700 !important;
+}
+
+
+/* 59+ caracteres */
+.module-text.module-sm {
+    font-size: 16px !important;
+    line-height: 1.28 !important;
+    font-weight: 600 !important;
+}
+
+
+/* Los valores cortos ganan algo m?s de aire */
+.info-module:has(.module-xl),
+.info-module:has(.module-lg) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.info-module:has(.module-xl) .module-top,
+.info-module:has(.module-lg) .module-top {
+    margin-bottom: 12px;
+}
+
+
+
+/* === FINAL TWO MODULES V2 === */
+
+
+/* =========================================================
+   CONTENEDOR: SIEMPRE DOS COLUMNAS
+   ========================================================= */
+
+.info-modules,
+.info-modules.modules-2,
+.info-modules.modules-3 {
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(0, 1fr)
+        ) !important;
+
+    align-items: stretch;
+
+    width: 100%;
+}
+
+
+/* =========================================================
+   CADA MODULO
+   ========================================================= */
+
+.info-module {
+    position: relative;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: flex-start !important;
+
+    justify-content: center !important;
+
+    min-width: 0;
+
+    padding:
+        18px
+        34px
+        20px
+        34px
+        !important;
+}
+
+
+/* Nunca mostrar el tercero */
+
+.info-module:nth-child(3) {
+    display: none !important;
+}
+
+
+/* =========================================================
+   DIVISION CENTRAL
+   ========================================================= */
+
+.info-module::after {
+    display: none !important;
+}
+
+
+.info-module:first-child::after {
+    content: "";
+
+    display: block !important;
+
+    position: absolute;
+
+    top: 18px;
+    right: 0;
+    bottom: 18px;
+
+    width: 1px;
+
+    background:
+        linear-gradient(
+            180deg,
+            transparent,
+            rgba(255, 48, 56, 0.55),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   SUBTITULO ROJO
+   ========================================================= */
+
+.module-top {
+    display: flex !important;
+
+    flex-direction: row !important;
+
+    align-items: center !important;
+
+    justify-content: flex-start !important;
+
+    width: 100%;
+
+    gap: 9px;
+
+    margin:
+        0
+        0
+        12px
+        0
+        !important;
+}
+
+
+.module-title {
+    display: block;
+
+    color: var(--red);
+
+    font-size: 16px !important;
+
+    line-height: 1.05 !important;
+
+    font-weight: 900 !important;
+
+    letter-spacing: 1.35px;
+
+    text-transform: uppercase;
+
+    white-space: normal !important;
+
+    overflow: visible !important;
+}
+
+
+/* =========================================================
+   CONTENIDO BLANCO
+   ========================================================= */
+
+.module-text,
+.info-modules.modules-2
+.module-text,
+.info-modules.modules-3
+.module-text {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+
+    color: #f3f3f4;
+
+    font-size: 20px !important;
+
+    line-height: 1.25 !important;
+
+    font-weight: 700 !important;
+
+    letter-spacing: -0.2px;
+
+    text-align: left !important;
+
+    white-space: normal !important;
+
+    overflow: visible !important;
+
+    word-break: normal;
+}
+
+
+/* Texto bastante largo */
+
+.module-text.module-sm {
+    font-size: 18px !important;
+
+    line-height: 1.28 !important;
+}
+
+
+/* Texto medio */
+
+.module-text.module-md {
+    font-size: 20px !important;
+}
+
+
+/* Texto corto */
+
+.module-text.module-lg,
+.module-text.module-xl {
+    font-size: 22px !important;
+
+    line-height: 1.18 !important;
+}
+
