@@ -39,6 +39,12 @@ NEWS_FILE = (
     / "noticias.json"
 )
 
+RESERVES_FILE = (
+    BASE_DIR
+    / "data"
+    / "editorial_reserves.json"
+)
+
 ENV_FILE = BASE_DIR / ".env"
 
 LIMA = ZoneInfo("America/Lima")
@@ -47,8 +53,9 @@ MODEL_NAME = "gpt-5.6-terra"
 
 EXPECTED_CANDIDATES = 24
 FINAL_COUNT = 6
+RESERVE_COUNT = 3
 
-MAX_OUTPUT_TOKENS = 3000
+MAX_OUTPUT_TOKENS = 4500
 
 HEADERS = {
     "User-Agent": (
@@ -272,6 +279,38 @@ IMPORTANTE:
 - no inventes URLs, fuentes, fechas ni hechos;
 - la imagen NO se decide aquí;
 - el sistema buscará imágenes reales de Internet después.
+
+
+========================================================
+RESERVAS EDITORIALES
+========================================================
+
+Ademas de las 6 noticias principales, debes seleccionar y redactar
+exactamente 3 noticias de reserva.
+
+Las reservas deben ser:
+- exactamente 1 de gaming;
+- exactamente 1 de tecnologia;
+- exactamente 1 de cultura_pop.
+
+REGLAS DE LAS RESERVAS:
+
+- deben provenir de las mismas 24 candidatas;
+- deben conservar candidate_id exactamente;
+- deben estar completamente redactadas igual que las principales;
+- no pueden usar un candidate_id ya usado entre las 6 principales;
+- no pueden repetir candidate_id entre ellas;
+- no deben ser variantes de una historia seleccionada como principal;
+- no deben repetir historias de PUBLICADAS_RECIENTEMENTE;
+- deben ser las mejores alternativas disponibles de cada rama.
+
+Las reservas existen para sustituir automaticamente una noticia
+principal si el filtro final detecta que ya fue publicada.
+
+La respuesta final debe contener:
+- "noticias": exactamente 6 principales;
+- "reservas": exactamente 3 reservas.
+
 """
 
 
@@ -348,10 +387,17 @@ OUTPUT_SCHEMA = {
             "minItems": FINAL_COUNT,
             "maxItems": FINAL_COUNT,
             "items": ITEM_SCHEMA,
-        }
+        },
+        "reservas": {
+            "type": "array",
+            "minItems": RESERVE_COUNT,
+            "maxItems": RESERVE_COUNT,
+            "items": ITEM_SCHEMA,
+        },
     },
     "required": [
-        "noticias"
+        "noticias",
+        "reservas",
     ],
 }
 
@@ -878,6 +924,116 @@ def validate_editorial_choice(
 # MAIN
 # =========================================================
 
+
+def validate_reserve_choice(
+    reserves,
+    chosen,
+    candidate_map,
+):
+    if len(reserves) != RESERVE_COUNT:
+        raise ValueError(
+            "Terra no devolvio exactamente "
+            f"{RESERVE_COUNT} reservas."
+        )
+
+    chosen_ids = {
+        item["candidate_id"]
+        for item in chosen
+    }
+
+    reserve_ids = [
+        item["candidate_id"]
+        for item in reserves
+    ]
+
+    if len(set(reserve_ids)) != RESERVE_COUNT:
+        raise ValueError(
+            "Terra devolvio candidate_id "
+            "duplicados entre las reservas."
+        )
+
+    overlap = (
+        chosen_ids
+        & set(reserve_ids)
+    )
+
+    if overlap:
+        raise ValueError(
+            "Hay candidate_id usados tanto "
+            "en principales como en reservas: "
+            + ", ".join(
+                str(x)
+                for x in sorted(overlap)
+            )
+        )
+
+    counts = {
+        "gaming": 0,
+        "tecnologia": 0,
+        "cultura_pop": 0,
+    }
+
+    for item in reserves:
+        candidate_id = item[
+            "candidate_id"
+        ]
+
+        if candidate_id not in candidate_map:
+            raise ValueError(
+                "candidate_id inexistente "
+                "en reservas: "
+                f"{candidate_id}"
+            )
+
+        expected_branch = (
+            candidate_map[
+                candidate_id
+            ][
+                "editorial_branch"
+            ]
+        )
+
+        returned_branch = item[
+            "editorial_branch"
+        ]
+
+        if (
+            returned_branch
+            != expected_branch
+        ):
+            raise ValueError(
+                "Terra cambio la rama de "
+                "una reserva "
+                f"{candidate_id}: "
+                f"{expected_branch} -> "
+                f"{returned_branch}"
+            )
+
+        if returned_branch not in counts:
+            raise ValueError(
+                "Rama invalida en reserva: "
+                f"{returned_branch}"
+            )
+
+        counts[
+            returned_branch
+        ] += 1
+
+    expected_counts = {
+        "gaming": 1,
+        "tecnologia": 1,
+        "cultura_pop": 1,
+    }
+
+    if counts != expected_counts:
+        raise ValueError(
+            "Distribucion de reservas "
+            "invalida: "
+            f"{counts}"
+        )
+
+    return counts
+
 def main():
     config = json.loads(
         CONFIG_FILE.read_text(
@@ -1302,6 +1458,10 @@ def main():
         "noticias"
     ]
 
+    reserves = editorial[
+        "reservas"
+    ]
+
     candidate_map = {
         item[
             "candidate_id"
@@ -1311,6 +1471,14 @@ def main():
 
     final_counts = (
         validate_editorial_choice(
+            chosen,
+            candidate_map,
+        )
+    )
+
+    reserve_counts = (
+        validate_reserve_choice(
+            reserves,
             chosen,
             candidate_map,
         )
@@ -1400,6 +1568,88 @@ def main():
     NEWS_FILE.write_text(
         json.dumps(
             final_news,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+
+    reserve_news = []
+
+    for edited in reserves:
+        candidate_id = edited[
+            "candidate_id"
+        ]
+
+        source = candidate_map[
+            candidate_id
+        ]
+
+        branch = edited[
+            "editorial_branch"
+        ]
+
+        reserve_news.append({
+            "candidate_id": candidate_id,
+
+            "categoria": edited.get(
+                "categoria"
+            )
+            or branch_label(
+                branch
+            ),
+
+            "rama": branch,
+
+            "fecha": card_date(),
+
+            "titulo": edited[
+                "titulo"
+            ],
+
+            "tituloDestacado": edited[
+                "tituloDestacado"
+            ],
+
+            "resumen": edited[
+                "resumen"
+            ],
+
+            "resumenDestacado": edited[
+                "resumenDestacado"
+            ],
+
+            "imagen": "",
+
+            "fuente": source[
+                "source"
+            ],
+
+            "url": source[
+                "url"
+            ],
+
+            "fecha_original": source[
+                "published"
+            ],
+
+            "por_que_importa": edited[
+                "por_que_importa"
+            ],
+
+            "anguloShort": edited[
+                "anguloShort"
+            ],
+
+            "imagenFuente": "",
+            "imagenFuenteUrl": "",
+            "imagenTipo": "",
+        })
+
+    RESERVES_FILE.write_text(
+        json.dumps(
+            reserve_news,
             ensure_ascii=False,
             indent=2,
         ),
