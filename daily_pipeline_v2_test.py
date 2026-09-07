@@ -205,18 +205,31 @@ def main():
     # =====================================================
 
     run_step(
-        "PASO 7 - GENERANDO 6 TARJETAS - V2 CON FALLBACK V1",
-        "render_production.py",
+        "PASO 7 - GENERANDO 6 TARJETAS V2",
+        "render_batch_v2.py",
     )
 
     # =====================================================
     # PASO 8
     # =====================================================
 
-    run_step(
-        "PASO 8 - SUBIENDO A GOOGLE DRIVE",
-        "drive_upload.py",
+    print()
+    print("=" * 68)
+    print(" PRUEBA TEMPLATE V2 COMPLETADA")
+    print("=" * 68)
+    print()
+    print(
+        "Las tarjetas V2 fueron generadas localmente."
     )
+    print(
+        "NO se subio contenido a Google Drive."
+    )
+    print(
+        "NO se registro ninguna noticia como publicada."
+    )
+    print()
+
+    return
 
     # =====================================================
     # PASO 9 - REGISTRO DE HISTORIAL

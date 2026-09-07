@@ -273,6 +273,60 @@ EXTRAS:
 - por_que_importa: una frase breve;
 - anguloShort: una frase breve para convertirla en video corto.
 
+MODULOS PARA LA TARJETA V2:
+
+Cada noticia, principal o reserva, debe incluir exactamente
+3 modulos informativos.
+
+Cada modulo tiene:
+- titulo
+- texto
+
+El titulo debe elegirse UNICAMENTE entre:
+- FECHA
+- PRECIO
+- PLATAFORMA
+- PLATAFORMAS
+- LANZAMIENTO
+- DISPONIBILIDAD
+- DATO CLAVE
+- CONTEXTO
+- IMPACTO
+- QUE CAMBIA
+- INDUSTRIA
+- COMUNIDAD
+- TECNOLOGIA
+- FRANQUICIA
+- INVERSION
+- POR QUE IMPORTA
+
+REGLAS:
+- exactamente 3 modulos;
+- no repitas el mismo titulo dentro de una noticia;
+- prioriza datos concretos cuando existan;
+- el texto debe ser breve y util para una mini-infografia;
+- apunta a unas 3-12 palabras por modulo;
+- no inventes fechas, precios, plataformas ni cifras;
+- evita repetir literalmente el resumen principal;
+- los modulos deben complementar la noticia, no rellenar espacio.
+
+Ejemplos:
+
+Para un retraso:
+FECHA -> Marzo de 2027
+QUE CAMBIA -> Mas tiempo para rendimiento y clases
+IMPACTO -> Se retrasa la version final del RPG
+
+Para una inversion:
+INVERSION -> US$ 3.500 millones
+TECNOLOGIA -> NVLink Fusion
+IMPACTO -> MediaTek refuerza sus aceleradores de IA
+
+Para un lanzamiento:
+FECHA -> 12 de noviembre de 2026
+PLATAFORMA -> Nintendo Switch 2
+DISPONIBILIDAD -> PC / PlayStation / Xbox / Switch 2
+
 IMPORTANTE:
 - conserva candidate_id exactamente;
 - conserva editorial_branch;
@@ -317,6 +371,45 @@ La respuesta final debe contener:
 # =========================================================
 # STRUCTURED OUTPUT
 # =========================================================
+
+MODULE_TITLES = [
+    "FECHA",
+    "PRECIO",
+    "PLATAFORMA",
+    "PLATAFORMAS",
+    "LANZAMIENTO",
+    "DISPONIBILIDAD",
+    "DATO CLAVE",
+    "CONTEXTO",
+    "IMPACTO",
+    "QUE CAMBIA",
+    "INDUSTRIA",
+    "COMUNIDAD",
+    "TECNOLOGIA",
+    "FRANQUICIA",
+    "INVERSION",
+    "POR QUE IMPORTA",
+]
+
+
+MODULE_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "titulo": {
+            "type": "string",
+            "enum": MODULE_TITLES,
+        },
+        "texto": {
+            "type": "string",
+        },
+    },
+    "required": [
+        "titulo",
+        "texto",
+    ],
+}
+
 
 ITEM_SCHEMA = {
     "type": "object",
@@ -364,6 +457,12 @@ ITEM_SCHEMA = {
         "anguloShort": {
             "type": "string"
         },
+        "modulos": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": MODULE_SCHEMA,
+        },
     },
     "required": [
         "candidate_id",
@@ -375,6 +474,7 @@ ITEM_SCHEMA = {
         "resumenDestacado",
         "por_que_importa",
         "anguloShort",
+        "modulos",
     ],
 }
 
@@ -1560,6 +1660,10 @@ def main():
                 "anguloShort"
             ],
 
+            "modulos": edited[
+                "modulos"
+            ],
+
             "imagenFuente": "",
             "imagenFuenteUrl": "",
             "imagenTipo": "",
@@ -1640,6 +1744,10 @@ def main():
 
             "anguloShort": edited[
                 "anguloShort"
+            ],
+
+            "modulos": edited[
+                "modulos"
             ],
 
             "imagenFuente": "",
