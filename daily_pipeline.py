@@ -205,8 +205,8 @@ def main():
     # =====================================================
 
     run_step(
-        "PASO 7 - GENERANDO 6 TARJETAS",
-        "render_batch.py",
+        "PASO 7 - GENERANDO 6 TARJETAS - V2 CON FALLBACK V1",
+        "render_production.py",
     )
 
     # =====================================================
