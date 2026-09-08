@@ -16,7 +16,7 @@ CANDIDATES_FILE = BASE_DIR / "data" / "candidates.json"
 HISTORY_FILE = BASE_DIR / "data" / "published_history.json"
 BLOCKED_FILE = BASE_DIR / "data" / "blocked_duplicates.json"
 
-BLOCK_DAYS = 5
+BLOCK_DAYS = 10
 
 
 STOPWORDS = {
@@ -49,6 +49,30 @@ STOPWORDS = {
 # No sirven por sí solos para afirmar que dos noticias
 # hablan de la misma historia.
 GENERIC_SUBJECT_TOKENS = {
+
+    # V4_GENERIC_TIME_TOKENS
+    # Fechas, temporadas y palabras demasiado genericas.
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre",
+    "noviembre", "diciembre",
+
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october",
+    "november", "december",
+
+    "temporada", "temporadas",
+    "season", "seasons",
+
+    "primera", "primer",
+    "segunda", "segundo",
+    "tercera", "tercer",
+
+    "first", "second", "third",
+
+    "fecha", "fechas",
+    "date", "dates",
+
+
     "nintendo",
     "switch",
     "playstation",
@@ -448,6 +472,29 @@ def has_material_new_development(
     return bool(material), material
 
 
+def history_age_days(
+    item: dict,
+) -> int | None:
+
+    value = (
+        item.get("date")
+        or item.get("fecha")
+        or ""
+    )
+
+    parsed = parse_history_date(
+        value
+    )
+
+    if parsed is None:
+        return None
+
+    return max(
+        0,
+        (datetime.now() - parsed).days,
+    )
+
+
 def compare_story(
     candidate: dict,
     old_item: dict,
@@ -543,44 +590,82 @@ def compare_story(
 
     same_story = False
 
-    # Muy parecidos y tienen al menos
-    # una entidad concreta compartida.
+    age_days = history_age_days(
+        old_item
+    )
+
+    strong_entity_count = len(
+        distinctive_shared
+    )
+
+    # =====================================================
+    # V4:
+    # misma entidad NO significa misma noticia.
+    #
+    # 0-3 dias:
+    # somos mas estrictos con republicaciones.
+    #
+    # 4-10 dias:
+    # exigimos evidencia mucho mas fuerte.
+    #
+    # Sin fecha:
+    # se trata como comparacion del mismo lote.
+    # =====================================================
+
     if (
-        similarity >= 82
-        and distinctive_shared
+        age_days is None
+        or age_days <= 3
     ):
-        same_story = True
 
-    # Dos nombres propios/productos concretos
-    # y al menos un evento coincidente.
-    elif (
-        len(distinctive_shared) >= 2
-        and common_events
-    ):
-        same_story = True
+        # Una entidad concreta +
+        # mismo evento +
+        # titulo muy parecido.
+        if (
+            strong_entity_count >= 1
+            and common_events
+            and similarity >= 84
+        ):
+            same_story = True
 
-    # Tres entidades concretas con alta cobertura.
-    elif (
-        len(shared) >= 3
-        and containment >= 0.55
-    ):
-        same_story = True
+        # Dos entidades concretas +
+        # mismo acontecimiento.
+        elif (
+            strong_entity_count >= 2
+            and common_events
+        ):
+            same_story = True
 
-    # Un nombre muy concreto, pero necesitamos
-    # dos eventos coincidentes para evitar falsos positivos.
-    elif (
-        len(distinctive_shared) >= 1
-        and len(common_events) >= 2
-    ):
-        same_story = True
+        # Tres entidades concretas
+        # con alta cobertura.
+        elif (
+            strong_entity_count >= 3
+            and containment >= 0.60
+        ):
+            same_story = True
 
-    # Dos entidades concretas y similitud razonable,
-    # incluso si la noticia está en otro idioma.
-    elif (
-        len(distinctive_shared) >= 2
-        and similarity >= 60
-    ):
-        same_story = True
+
+    elif age_days <= 10:
+
+        # Pasados varios dias, una sola entidad
+        # solo bloquea cuando el titular es casi
+        # una repeticion del mismo acontecimiento.
+        if (
+            strong_entity_count >= 1
+            and common_events
+            and similarity >= 92
+        ):
+            same_story = True
+
+        # Dos entidades + mismo evento +
+        # cobertura importante.
+        elif (
+            strong_entity_count >= 2
+            and common_events
+            and containment >= 0.55
+            and similarity >= 78
+        ):
+            same_story = True
+
 
     if not same_story:
         return False, ""
