@@ -494,10 +494,10 @@ def display_module_title(
 ) -> str:
 
     mapping = {
-        "QUE CAMBIA": "QU? CAMBIA",
-        "TECNOLOGIA": "TECNOLOG?A",
-        "INVERSION": "INVERSI?N",
-        "POR QUE IMPORTA": "POR QU? IMPORTA",
+        "QUE CAMBIA": "QU\u00c9 CAMBIA",
+        "TECNOLOGIA": "TECNOLOG\u00cdA",
+        "INVERSION": "INVERSI\u00d3N",
+        "POR QUE IMPORTA": "POR QU\u00c9 IMPORTA",
     }
 
     title = str(
