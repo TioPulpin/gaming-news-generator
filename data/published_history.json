@@ -254,5 +254,53 @@
     "source": "Anime News Network",
     "url": "https://www.animenewsnetwork.com/news/2026-09-07/dark-machine-the-animation-series-reveals-3-new-cast-members-october-13-debut/.241481",
     "story_key": "dark-machine-the-animation-se-estrenara-el-13-de-octubre"
+  },
+  {
+    "date": "2026-09-08",
+    "branch": "Industria",
+    "title": "Sega canceló su ambicioso proyecto Super Game",
+    "source": "gamesindustry.biz",
+    "url": "https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service",
+    "story_key": "sega-cancelo-su-ambicioso-proyecto-super-game"
+  },
+  {
+    "date": "2026-09-08",
+    "branch": "Industria",
+    "title": "Steam habría generado 15.000 millones de dólares en 2026",
+    "source": "eurogamer.net",
+    "url": "https://www.eurogamer.net/forza-horizon-6-biggest-steam-new-release-11-billion-gbp",
+    "story_key": "steam-habria-generado-15-000-millones-de-dolares-en-2026"
+  },
+  {
+    "date": "2026-09-08",
+    "branch": "Hardware",
+    "title": "Huawei presenta un chip que dice no usar tecnología estadounidense",
+    "source": "The Register",
+    "url": "https://www.theregister.com/systems/2026/09/08/huawei-proudly-shows-off-an-entirely-un-american-chip/5294900",
+    "story_key": "huawei-presenta-un-chip-que-dice-no-usar-tecnologia-estadounidense"
+  },
+  {
+    "date": "2026-09-08",
+    "branch": "IA y regulación",
+    "title": "Autores cuestionan reclamos sobre el acuerdo de Anthropic",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "story_key": "autores-cuestionan-reclamos-sobre-el-acuerdo-de-anthropic"
+  },
+  {
+    "date": "2026-09-08",
+    "branch": "Anime",
+    "title": "El nuevo anime de Sgt. Frog revela reparto y estreno",
+    "source": "crunchyroll.com",
+    "url": "https://www.crunchyroll.com/news/latest/2026/9/7/sgt-frog-new-tv-anime-trailer-key-visual-cast-release-date",
+    "story_key": "el-nuevo-anime-de-sgt-frog-revela-reparto-y-estreno"
+  },
+  {
+    "date": "2026-09-08",
+    "branch": "Anime",
+    "title": "Nippon Sangoku confirma una secuela tras su éxito en Prime Video",
+    "source": "ComicBook.com",
+    "url": "https://comicbook.com/anime/news/prime-videos-breakout-anime-hit-confirms-new-sequel-watch-trailer/",
+    "story_key": "nippon-sangoku-confirma-una-secuela-tras-su-exito-en-prime-video"
   }
 ]
