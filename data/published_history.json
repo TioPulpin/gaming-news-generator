@@ -302,5 +302,53 @@
     "source": "ComicBook.com",
     "url": "https://comicbook.com/anime/news/prime-videos-breakout-anime-hit-confirms-new-sequel-watch-trailer/",
     "story_key": "nippon-sangoku-confirma-una-secuela-tras-su-exito-en-prime-video"
+  },
+  {
+    "date": "2026-09-09",
+    "branch": "Lanzamientos",
+    "title": "Nintendo revela Ocarina of Time Remake y su fecha",
+    "source": "IGN",
+    "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-fully-revealed",
+    "story_key": "nintendo-revela-ocarina-of-time-remake-y-su-fecha"
+  },
+  {
+    "date": "2026-09-09",
+    "branch": "Plataformas",
+    "title": "Forza Horizon 6 mantiene su llegada a PS5 este año",
+    "source": "Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/xbox-says-forza-horizon-6-is-still-coming-to-ps5-this-year-as-it-prepares-the-games-next-major-update/",
+    "story_key": "forza-horizon-6-mantiene-su-llegada-a-ps5-este-ano"
+  },
+  {
+    "date": "2026-09-09",
+    "branch": "Inteligencia artificial",
+    "title": "Meta apuesta por el agente de IA Muse",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+    "story_key": "meta-apuesta-por-el-agente-de-ia-muse"
+  },
+  {
+    "date": "2026-09-09",
+    "branch": "Inteligencia artificial",
+    "title": "Investigador de Anthropic renuncia por temores sobre la IA",
+    "source": "wsj.com",
+    "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+    "story_key": "investigador-de-anthropic-renuncia-por-temores-sobre-la-ia"
+  },
+  {
+    "date": "2026-09-09",
+    "branch": "Anime",
+    "title": "Black Clover regresa con su segunda temporada en octubre",
+    "source": "in.ign.com",
+    "url": "https://in.ign.com/black-clover/271244/black-clover-season-2-premiere-date-revealed",
+    "story_key": "black-clover-regresa-con-su-segunda-temporada-en-octubre"
+  },
+  {
+    "date": "2026-09-09",
+    "branch": "Cine",
+    "title": "Godzilla Minus Zero revela tráiler y nuevos miembros del reparto",
+    "source": "variety.com",
+    "url": "https://variety.com/2026/film/news/godzilla-minus-zero-new-trailer-cast-members-1236854751/",
+    "story_key": "godzilla-minus-zero-revela-trailer-y-nuevos-miembros-del-reparto"
   }
 ]
