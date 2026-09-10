@@ -625,14 +625,12 @@ def collect_candidates(
         else ""
     )
 
-    og_context = " ".join(
-        part
-        for part in (
-            og_alt,
-            page_title,
-        )
-        if part
-    )
+    # V4.3:
+    # Solo evidencia propia de la imagen.
+    # El t?tulo de la p?gina NO cuenta como relevancia visual.
+    og_context = str(
+        og_alt or ""
+    ).strip()
 
     for prop in (
         "og:image",
@@ -672,14 +670,11 @@ def collect_candidates(
         else ""
     )
 
-    twitter_context = " ".join(
-        part
-        for part in (
-            twitter_alt,
-            page_title,
-        )
-        if part
-    )
+    # V4.3:
+    # Solo evidencia propia de la imagen.
+    twitter_context = str(
+        twitter_alt or ""
+    ).strip()
 
     for name in (
         "twitter:image",
@@ -740,12 +735,16 @@ def collect_candidates(
                     )
 
                     for image_url in urls:
+                        # V4.3:
+                        # JSON-LD no hereda el t?tulo del art?culo.
+                        # Si la URL de la imagen es espec?fica,
+                        # el scoring podr? detectarlo por separado.
                         add_candidate(
                             items,
                             page_url,
                             image_url,
                             "jsonld",
-                            page_title,
+                            "",
                         )
 
                 for value in obj.values():
