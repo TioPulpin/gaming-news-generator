@@ -1,4 +1,4 @@
-import json
+﻿import json
 import re
 import unicodedata
 from io import BytesIO
@@ -2254,7 +2254,7 @@ def main():
 
     print()
     print("=" * 60)
-    print(" RESOLVIENDO IMÁGENES V4.2")
+    print(" RESOLVIENDO IMÁGENES V4.3")
     print("=" * 60)
     print()
 
@@ -2392,3 +2392,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
