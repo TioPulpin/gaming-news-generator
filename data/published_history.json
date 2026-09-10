@@ -350,5 +350,53 @@
     "source": "variety.com",
     "url": "https://variety.com/2026/film/news/godzilla-minus-zero-new-trailer-cast-members-1236854751/",
     "story_key": "godzilla-minus-zero-revela-trailer-y-nuevos-miembros-del-reparto"
+  },
+  {
+    "date": "2026-09-10",
+    "branch": "Industria",
+    "title": "Xbox publicará Physint tras la salida de PlayStation",
+    "source": "Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/hideo-kojimas-physint-has-jumped-from-playstation-to-xbox-after-kojima-says-sony-tried-to-cancel-it/",
+    "story_key": "xbox-publicara-physint-tras-la-salida-de-playstation"
+  },
+  {
+    "date": "2026-09-10",
+    "branch": "Lanzamientos",
+    "title": "Nintendo anuncia Metroid Ravenous para Switch 2 en 2027",
+    "source": "Polygon.com",
+    "url": "https://www.polygon.com/metroid-ravenous-new-2d-game-announced-release-date-nintendo-direct/",
+    "story_key": "nintendo-anuncia-metroid-ravenous-para-switch-2-en-2027"
+  },
+  {
+    "date": "2026-09-10",
+    "branch": "Industria",
+    "title": "Steam exige tarjeta de crédito para juegos R18+ en Australia",
+    "source": "PC Gamer",
+    "url": "https://www.pcgamer.com/gaming-industry/steam-now-requires-australian-users-to-have-a-credit-card-to-purchase-r18-games-and-no-a-simple-bank-debit-card-wont-work/",
+    "story_key": "steam-exige-tarjeta-de-credito-para-juegos-r18-en-australia"
+  },
+  {
+    "date": "2026-09-10",
+    "branch": "Ciberseguridad",
+    "title": "Veradigm alerta de una brecha de datos de pacientes",
+    "source": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
+    "story_key": "veradigm-alerta-de-una-brecha-de-datos-de-pacientes"
+  },
+  {
+    "date": "2026-09-10",
+    "branch": "Series",
+    "title": "Carrie muestra su nuevo tráiler para Prime Video",
+    "source": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/tv/tv-news/mike-flanagan-carrie-trailer-prime-video-1236694868/",
+    "story_key": "carrie-muestra-su-nuevo-trailer-para-prime-video"
+  },
+  {
+    "date": "2026-09-10",
+    "branch": "Anime",
+    "title": "Eat-Man regresará con un nuevo proyecto de anime",
+    "source": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com/news/2026-09-10/akihito-yoshitomi-eat-man-manga-gets-new-anime-project/.241611",
+    "story_key": "eat-man-regresara-con-un-nuevo-proyecto-de-anime"
   }
 ]
