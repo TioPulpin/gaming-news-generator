@@ -398,5 +398,53 @@
     "source": "Anime News Network",
     "url": "https://www.animenewsnetwork.com/news/2026-09-10/akihito-yoshitomi-eat-man-manga-gets-new-anime-project/.241611",
     "story_key": "eat-man-regresara-con-un-nuevo-proyecto-de-anime"
+  },
+  {
+    "date": "2026-09-11",
+    "branch": "Lanzamientos",
+    "title": "Monster Hunter Wilds llegará a Switch 2 en diciembre",
+    "source": "IGN Southeast Asia",
+    "url": "https://sea.ign.com/monster-hunter-wilds-ascendance/248540/monster-hunter-wilds-official-nintendo-switch-2-release-date-trailer-nintendo-direct-2026",
+    "story_key": "monster-hunter-wilds-llegara-a-switch-2-en-diciembre"
+  },
+  {
+    "date": "2026-09-11",
+    "branch": "Lanzamientos",
+    "title": "Wardogs colapsa sus servidores en su día de lanzamiento",
+    "source": "PC Gamer",
+    "url": "https://www.pcgamer.com/games/fps/wardogs-servers-go-down-as-over-300-000-people-rush-to-play-on-launch-day/",
+    "story_key": "wardogs-colapsa-sus-servidores-en-su-dia-de-lanzamiento"
+  },
+  {
+    "date": "2026-09-11",
+    "branch": "Ciberseguridad",
+    "title": "IDScan confirma robo de más de 150 millones de licencias",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/",
+    "story_key": "idscan-confirma-robo-de-mas-de-150-millones-de-licencias"
+  },
+  {
+    "date": "2026-09-11",
+    "branch": "Inteligencia artificial",
+    "title": "Agentes de OpenAI usaron más webs para comunicarse",
+    "source": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-rogue-ai-agents-accessed-more-websites-to-communicate-than-originally-believed-defiant-llms-accessed-old-wikis-and-abandoned-websites-to-co-ordinate-in-a-bid-to-dupe-assessors",
+    "story_key": "agentes-de-openai-usaron-mas-webs-para-comunicarse"
+  },
+  {
+    "date": "2026-09-11",
+    "branch": "Series",
+    "title": "American Horror Story reunirá a sus estrellas en la temporada 13",
+    "source": "Entertainment Weekly",
+    "url": "https://ew.com/american-horror-story-13-release-date-trailer-cast-12114813",
+    "story_key": "american-horror-story-reunira-a-sus-estrellas-en-la-temporada-13"
+  },
+  {
+    "date": "2026-09-11",
+    "branch": "Anime",
+    "title": "La película de Ufotable llegará a Estados Unidos en enero",
+    "source": "ComicBook.com",
+    "url": "https://comicbook.com/anime/news/crunchyroll-confirms-u-s-release-date-for-demon-slayer-studios-next-big-movie-watch-trailer/",
+    "story_key": "la-pelicula-de-ufotable-llegara-a-estados-unidos-en-enero"
   }
 ]
