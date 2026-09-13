@@ -1,8 +1,8 @@
 {
   "month": "2026-09",
-  "spent_usd": 0.564382,
-  "calls": 14,
-  "text_usd": 0.564382,
+  "spent_usd": 0.611958,
+  "calls": 15,
+  "text_usd": 0.611958,
   "image_usd": 0.0,
   "history": [
     {
@@ -144,6 +144,16 @@
       "cached_tokens": 0,
       "output_tokens": 2356,
       "estimated_cost_usd": 0.048586
+    },
+    {
+      "timestamp": "2026-09-13T05:35:26.416323-05:00",
+      "type": "text",
+      "label": "TOP 6 multitemático + redacción en español",
+      "model": "gpt-5.6-terra",
+      "input_tokens": 10120,
+      "cached_tokens": 0,
+      "output_tokens": 2278,
+      "estimated_cost_usd": 0.047576
     }
   ]
 }
