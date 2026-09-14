@@ -494,5 +494,53 @@
     "source": "Anime News Network",
     "url": "https://www.animenewsnetwork.com/news/2026-09-12/madoka-magica-walpurgisnacht-rising-anime-film-reveals-new-promo-video-visual/.241705",
     "story_key": "madoka-magica-estrena-nuevo-trailer-de-walpurgisnacht-rising"
+  },
+  {
+    "date": "2026-09-14",
+    "branch": "Suscripciones",
+    "title": "El precio impulsa las bajas en Game Pass, PS Plus y NSO",
+    "source": "Eurogamer.net",
+    "url": "https://www.eurogamer.net/xbox-game-pass-playstation-plus-nintendo-cancellations-rising-costs",
+    "story_key": "el-precio-impulsa-las-bajas-en-game-pass-ps-plus-y-nso"
+  },
+  {
+    "date": "2026-09-14",
+    "branch": "Industria",
+    "title": "Polyarc, estudio creador de Moss, anuncia su cierre",
+    "source": "gamesindustry.biz",
+    "url": "https://www.gamesindustry.biz/moss-developer-polyarc-games-announces-closure",
+    "story_key": "polyarc-estudio-creador-de-moss-anuncia-su-cierre"
+  },
+  {
+    "date": "2026-09-14",
+    "branch": "Regulación de IA",
+    "title": "Legisladores de EE. UU. piden nuevas reglas para la IA",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/business/openai-faces-senate-probe-into-hugging-face-incident-axios-reports-2026-09-10/",
+    "story_key": "legisladores-de-ee-uu-piden-nuevas-reglas-para-la-ia"
+  },
+  {
+    "date": "2026-09-14",
+    "branch": "Ciberseguridad",
+    "title": "Trezor alerta de correos fraudulentos tras una brecha",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
+    "story_key": "trezor-alerta-de-correos-fraudulentos-tras-una-brecha"
+  },
+  {
+    "date": "2026-09-14",
+    "branch": "Anime",
+    "title": "The Vermilion Mask llegará a Crunchyroll el 10 de octubre",
+    "source": "ComicBook.com",
+    "url": "https://comicbook.com/anime/news/spooky-crunchyroll-anime-confirms-release-date-with-new-trailer-watch/",
+    "story_key": "the-vermilion-mask-llegara-a-crunchyroll-el-10-de-octubre"
+  },
+  {
+    "date": "2026-09-14",
+    "branch": "Anime",
+    "title": "El anime Bless confirma su estreno para enero de 2027",
+    "source": "crunchyroll.com",
+    "url": "https://www.crunchyroll.com/news/latest/2026/9/12/bless-anime-january-2027-premiere-teaser-visual-two-main-cast-members",
+    "story_key": "el-anime-bless-confirma-su-estreno-para-enero-de-2027"
   }
 ]
