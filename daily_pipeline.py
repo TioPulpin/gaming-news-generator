@@ -201,6 +201,15 @@ def main():
     )
 
     # =====================================================
+    # PASO 6.25 - RECUPERACION AUTOMATICA DE IMAGENES
+    # =====================================================
+
+    run_step(
+        "PASO 6.25 - RECUPERANDO FALLOS DE IMAGEN",
+        "recover_missing_images.py",
+    )
+
+    # =====================================================
     # PASO 6.5 - SEGURIDAD DE IMAGENES
     # =====================================================
 
