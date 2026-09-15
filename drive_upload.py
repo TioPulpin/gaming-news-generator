@@ -294,6 +294,10 @@ def main() -> None:
     expected_files: list[Path] = []
     missing_cards: list[str] = []
 
+    expected_numbers = [
+        "00",
+    ]
+
     for index, item in enumerate(
         news,
         start=1,
@@ -302,10 +306,23 @@ def main() -> None:
             item.get("numero") or index
         ).zfill(2)
 
-        local_path = find_card_file(numero)
+        expected_numbers.append(
+            numero
+        )
+
+    expected_numbers.append(
+        "07"
+    )
+
+    for numero in expected_numbers:
+        local_path = find_card_file(
+            numero
+        )
 
         if local_path is None:
-            missing_cards.append(numero)
+            missing_cards.append(
+                numero
+            )
         else:
             expected_files.append(
                 local_path
@@ -316,6 +333,9 @@ def main() -> None:
     )
     print(
         f"Noticias esperadas: {len(news)}"
+    )
+    print(
+        "Piezas de carrusel esperadas: 8"
     )
     print(
         f"Tarjetas encontradas: "

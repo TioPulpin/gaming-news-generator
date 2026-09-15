@@ -228,11 +228,38 @@ def main():
     )
 
     # =====================================================
+    # PASO 7.25 - PORTADA
+    # =====================================================
+
+    run_step(
+        "PASO 7.25 - GENERANDO PORTADA DEL CARRUSEL",
+        "render_cover.py",
+    )
+
+    # =====================================================
+    # PASO 7.5 - CTA FINAL
+    # =====================================================
+
+    run_step(
+        "PASO 7.5 - GENERANDO CTA FINAL",
+        "render_cta_production.py",
+    )
+
+    # =====================================================
+    # PASO 7.75 - VALIDACION DEL CARRUSEL
+    # =====================================================
+
+    run_step(
+        "PASO 7.75 - VALIDANDO 8 PIEZAS DEL CARRUSEL",
+        "validate_carousel.py",
+    )
+
+    # =====================================================
     # PASO 8
     # =====================================================
 
     run_step(
-        "PASO 8 - SUBIENDO A GOOGLE DRIVE",
+        "PASO 8 - SUBIENDO 8 PIEZAS A GOOGLE DRIVE",
         "drive_upload.py",
     )
 
