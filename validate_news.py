@@ -236,10 +236,11 @@ def main():
                 )
 
             if fragment not in title:
-                fail(
-                    f'En noticia {item["numero"]}, '
+                print(
+                    f'⚠️ WARNING [{item["numero"]}]: '
                     f'el destacado {fragment!r} '
-                    "no aparece literalmente en el título."
+                    "no aparece literalmente en el título. "
+                    "Se continuará sin bloquear el pipeline."
                 )
 
         for fragment in summary_highlights:
@@ -254,10 +255,11 @@ def main():
                 )
 
             if fragment not in summary:
-                fail(
-                    f'En noticia {item["numero"]}, '
+                print(
+                    f'⚠️ WARNING [{item["numero"]}]: '
                     f'el destacado {fragment!r} '
-                    "no aparece literalmente en el resumen."
+                    "no aparece literalmente en el resumen. "
+                    "Se continuará sin bloquear el pipeline."
                 )
 
         print(

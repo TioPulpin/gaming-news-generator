@@ -451,7 +451,7 @@ def main() -> None:
             time.sleep(3)
 
     uploaded = len(uploaded_names)
-    expected = len(news)
+    expected = len(expected_numbers)
 
     print()
     print("=" * 64)
