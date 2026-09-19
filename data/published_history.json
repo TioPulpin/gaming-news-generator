@@ -734,5 +734,53 @@
     "source": "IGN",
     "url": "https://www.ign.com/articles/zach-creggers-resident-evil-expected-to-break-franchise-box-office-record-topping-2010s-resident-evil-afterlife",
     "story_key": "resident-evil-apunta-a-un-record-de-taquilla-en-su-estreno"
+  },
+  {
+    "date": "2026-09-19",
+    "branch": "Hardware",
+    "title": "Valve mejora la carga de Steam Frame con una actualización",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/997779/valve-has-already-fixed-the-steam-frames-slow-charging-speeds",
+    "story_key": "valve-mejora-la-carga-de-steam-frame-con-una-actualizacion"
+  },
+  {
+    "date": "2026-09-19",
+    "branch": "Lanzamientos",
+    "title": "Tropico 7 llegará a Switch 2 junto a consolas y PC",
+    "source": "VGChartz",
+    "url": "https://www.vgchartz.com/article/469129/tropico-7-coming-to-switch-2-launches-alongside-ps5-xbox-series-and-pc-versions/",
+    "story_key": "tropico-7-llegara-a-switch-2-junto-a-consolas-y-pc"
+  },
+  {
+    "date": "2026-09-19",
+    "branch": "Ciberseguridad e IA",
+    "title": "Investigadores usaron Claude para vulnerar sistemas internos de OpenAI",
+    "source": "techcrunch.com",
+    "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+    "story_key": "investigadores-usaron-claude-para-vulnerar-sistemas-internos-de-openai"
+  },
+  {
+    "date": "2026-09-19",
+    "branch": "IA",
+    "title": "Meta lleva Muse a Mac para actuar dentro de tus apps",
+    "source": "techcrunch.com",
+    "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+    "story_key": "meta-lleva-muse-a-mac-para-actuar-dentro-de-tus-apps"
+  },
+  {
+    "date": "2026-09-19",
+    "branch": "Cine",
+    "title": "Lollipop Chainsaw tendrá una película live-action para adultos",
+    "source": "IGN",
+    "url": "https://www.ign.com/articles/lollipop-chainsaw-live-action-movie-revealed-by-dragami-games",
+    "story_key": "lollipop-chainsaw-tendra-una-pelicula-live-action-para-adultos"
+  },
+  {
+    "date": "2026-09-19",
+    "branch": "Series",
+    "title": "Netflix cancela Sweet Magnolias después de cinco temporadas",
+    "source": "Entertainment Weekly",
+    "url": "https://ew.com/sweet-magnolias-canceled-after-5-seasons-at-netflix-12128534",
+    "story_key": "netflix-cancela-sweet-magnolias-despues-de-cinco-temporadas"
   }
 ]
