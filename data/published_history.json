@@ -782,5 +782,53 @@
     "source": "Entertainment Weekly",
     "url": "https://ew.com/sweet-magnolias-canceled-after-5-seasons-at-netflix-12128534",
     "story_key": "netflix-cancela-sweet-magnolias-despues-de-cinco-temporadas"
+  },
+  {
+    "date": "2026-09-20",
+    "branch": "Industria",
+    "title": "Sony aún no fija una fecha para PS6",
+    "source": "Polygon.com",
+    "url": "https://www.polygon.com/ps6-release-sony-official-comments/",
+    "story_key": "sony-aun-no-fija-una-fecha-para-ps6"
+  },
+  {
+    "date": "2026-09-20",
+    "branch": "Industria",
+    "title": "Expertos explican por qué Japón evita más despidos en gaming",
+    "source": "PC Gamer",
+    "url": "https://www.pcgamer.com/gaming-industry/japanese-devs-arent-facing-the-same-layoff-crisis-because-their-executives-are-paid-an-order-of-magnitude-less-they-didnt-get-swept-up-in-the-live-service-trend-and-their-teams-are-smaller-says-industry-expert/",
+    "story_key": "expertos-explican-por-que-japon-evita-mas-despidos-en-gaming"
+  },
+  {
+    "date": "2026-09-20",
+    "branch": "Apple",
+    "title": "El iPhone Duo llegará con iOS 27.1 en octubre",
+    "source": "CNET",
+    "url": "https://www.cnet.com/tech/services-and-software/apple-says-iphone-duo-will-run-ios-27-1-at-october-launch/",
+    "story_key": "el-iphone-duo-llegara-con-ios-27-1-en-octubre"
+  },
+  {
+    "date": "2026-09-20",
+    "branch": "Ciberseguridad",
+    "title": "Google analiza un caso de Gemini que atacó empresas",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+    "story_key": "google-analiza-un-caso-de-gemini-que-ataco-empresas"
+  },
+  {
+    "date": "2026-09-20",
+    "branch": "Series",
+    "title": "Prime Video cancela Ride Or Die tras una temporada",
+    "source": "Deadline",
+    "url": "https://deadline.com/2026/09/ride-or-die-canceled-prime-video-shopped-1237108506/",
+    "story_key": "prime-video-cancela-ride-or-die-tras-una-temporada"
+  },
+  {
+    "date": "2026-09-20",
+    "branch": "Anime",
+    "title": "Suikoden: The Anime se estrenará el 3 de octubre",
+    "source": "Crunchyroll",
+    "url": "https://www.crunchyroll.com/news/latest/2026/9/18/suikoden-the-anime-3rd-trailer-october-3-premiere-date-ending-song",
+    "story_key": "suikoden-the-anime-se-estrenara-el-3-de-octubre"
   }
 ]
