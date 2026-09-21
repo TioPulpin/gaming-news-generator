@@ -11,4 +11,4 @@ openai
 python-dotenv
 beautifulsoup4
 pillow
-googlenewsdecoder>=0.1,<1
+googlenewsdecoder==0.2.1

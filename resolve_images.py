@@ -363,24 +363,25 @@ def resolve_google_news(url):
             interval=1,
         )
 
-        if (
-            isinstance(
-                result,
-                dict,
-            )
-            and result.get(
-                "status"
-            )
-            and result.get(
+        if isinstance(result, dict):
+            decoded_url = result.get(
                 "decoded_url"
             )
-        ):
-            return result[
-                "decoded_url"
-            ]
 
-    except Exception:
-        pass
+            decoder_ok = (
+                result.get("success")
+                or result.get("status")
+            )
+
+            if decoder_ok and decoded_url:
+                return decoded_url
+
+    except Exception as exc:
+        print(
+            "    WARNING decoder Google News:",
+            type(exc).__name__,
+            str(exc),
+        )
 
     return ""
 
