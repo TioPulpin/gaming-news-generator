@@ -1134,6 +1134,389 @@ def validate_reserve_choice(
 
     return counts
 
+
+def repair_reserve_choice(
+    reserves,
+    chosen,
+    candidates,
+    candidate_map,
+    client,
+    assert_budget_for_call,
+    register_text_usage,
+):
+    branches = (
+        "gaming",
+        "tecnologia",
+        "cultura_pop",
+    )
+
+    chosen_ids = {
+        item["candidate_id"]
+        for item in chosen
+    }
+
+    used_ids = set(chosen_ids)
+    kept_by_branch = {}
+    discarded = []
+
+    for item in reserves:
+        candidate_id = item.get(
+            "candidate_id"
+        )
+
+        source = candidate_map.get(
+            candidate_id
+        )
+
+        returned_branch = item.get(
+            "editorial_branch"
+        )
+
+        if candidate_id in used_ids:
+            discarded.append(
+                (
+                    candidate_id,
+                    "solapada con principal",
+                )
+            )
+            continue
+
+        if source is None:
+            discarded.append(
+                (
+                    candidate_id,
+                    "candidate_id inexistente",
+                )
+            )
+            continue
+
+        expected_branch = source.get(
+            "editorial_branch"
+        )
+
+        if (
+            returned_branch
+            != expected_branch
+        ):
+            discarded.append(
+                (
+                    candidate_id,
+                    "rama alterada",
+                )
+            )
+            continue
+
+        if returned_branch not in branches:
+            discarded.append(
+                (
+                    candidate_id,
+                    "rama invalida",
+                )
+            )
+            continue
+
+        if (
+            returned_branch
+            in kept_by_branch
+        ):
+            discarded.append(
+                (
+                    candidate_id,
+                    "rama duplicada",
+                )
+            )
+            continue
+
+        kept_by_branch[
+            returned_branch
+        ] = item
+
+        used_ids.add(
+            candidate_id
+        )
+
+    missing_branches = [
+        branch
+        for branch in branches
+        if branch not in kept_by_branch
+    ]
+
+    if not missing_branches:
+        return [
+            kept_by_branch[branch]
+            for branch in branches
+        ]
+
+    print()
+    print(
+        "WARNING - reservas invalidas; "
+        "activando reparacion focalizada."
+    )
+
+    for candidate_id, reason in discarded:
+        print(
+            "  descartada:",
+            candidate_id,
+            "-",
+            reason,
+        )
+
+    for branch in missing_branches:
+        available = [
+            item
+            for item in candidates
+            if (
+                item.get(
+                    "editorial_branch"
+                )
+                == branch
+                and item.get(
+                    "candidate_id"
+                )
+                not in used_ids
+            )
+        ]
+
+        if not available:
+            raise ValueError(
+                "No hay candidatas libres "
+                "para reparar la reserva de "
+                f"{branch}."
+            )
+
+        allowed_ids = [
+            item["candidate_id"]
+            for item in available
+        ]
+
+        repair_item_schema = json.loads(
+            json.dumps(
+                ITEM_SCHEMA
+            )
+        )
+
+        repair_item_schema[
+            "properties"
+        ][
+            "candidate_id"
+        ][
+            "enum"
+        ] = allowed_ids
+
+        repair_item_schema[
+            "properties"
+        ][
+            "editorial_branch"
+        ][
+            "enum"
+        ] = [branch]
+
+        repair_schema = {
+            "type": "object",
+            "additionalProperties": False,
+            "properties": {
+                "reserva": repair_item_schema,
+            },
+            "required": [
+                "reserva",
+            ],
+        }
+
+        repair_instructions = (
+            "Estas reparando una sola "
+            "reserva editorial de GNG. "
+            f"La rama obligatoria es {branch}. "
+            "Elige exactamente una noticia "
+            "solo de CANDIDATAS_DISPONIBLES. "
+            "Conserva candidate_id y "
+            "editorial_branch exactamente. "
+            "No inventes hechos ni datos. "
+            "Redacta en espanol periodistico, "
+            "claro y breve. "
+            "tituloDestacado debe contener "
+            "1 o 2 fragmentos literales del "
+            "titulo. "
+            "resumenDestacado debe contener "
+            "1 o 2 fragmentos literales del "
+            "resumen. "
+            "Completa por_que_importa, "
+            "anguloShort y exactamente "
+            "3 modulos. "
+            "No uses ningun candidate_id "
+            "de IDS_PROHIBIDOS."
+        )
+
+        repair_input = {
+            "RAMA_OBLIGATORIA": branch,
+            "IDS_PROHIBIDOS": sorted(
+                used_ids
+            ),
+            "CANDIDATAS_DISPONIBLES": (
+                available
+            ),
+        }
+
+        repair_input_text = json.dumps(
+            repair_input,
+            ensure_ascii=False,
+            separators=(
+                ",",
+                ":",
+            ),
+        )
+
+        repair_max_output_tokens = 1800
+
+        estimated_tokens = estimate_tokens(
+            repair_instructions
+            + repair_input_text
+        )
+
+        precheck = assert_budget_for_call(
+            model=MODEL_NAME,
+            estimated_input_tokens=(
+                estimated_tokens
+            ),
+            max_output_tokens=(
+                repair_max_output_tokens
+            ),
+            safety_margin_usd=0.01,
+        )
+
+        print(
+            "  reparando rama:",
+            branch,
+        )
+
+        print(
+            "  proyeccion maxima:",
+            f'${precheck["projected_after_call"]:.4f}',
+        )
+
+        response = client.responses.create(
+            model=MODEL_NAME,
+
+            reasoning={
+                "effort": "low"
+            },
+
+            store=False,
+
+            max_output_tokens=(
+                repair_max_output_tokens
+            ),
+
+            instructions=(
+                repair_instructions
+            ),
+
+            input=repair_input_text,
+
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": (
+                        "gng_reserve_repair"
+                    ),
+                    "strict": True,
+                    "schema": repair_schema,
+                }
+            },
+        )
+
+        usage = response.usage
+
+        if usage is None:
+            raise RuntimeError(
+                "La API no devolvio uso "
+                "en reparacion de reserva."
+            )
+
+        details = getattr(
+            usage,
+            "input_tokens_details",
+            None,
+        )
+
+        cached_tokens = 0
+
+        if details is not None:
+            cached_tokens = int(
+                getattr(
+                    details,
+                    "cached_tokens",
+                    0,
+                )
+                or 0
+            )
+
+        repair_cost = register_text_usage(
+            model=MODEL_NAME,
+            input_tokens=int(
+                usage.input_tokens
+            ),
+            output_tokens=int(
+                usage.output_tokens
+            ),
+            cached_tokens=(
+                cached_tokens
+            ),
+            label=(
+                "Repair reserva "
+                f"{branch}"
+            ),
+        )
+
+        repaired = json.loads(
+            response.output_text
+        )[
+            "reserva"
+        ]
+
+        repaired_id = repaired[
+            "candidate_id"
+        ]
+
+        if repaired_id not in allowed_ids:
+            raise ValueError(
+                "La reparacion devolvio "
+                "candidate_id no permitido: "
+                f"{repaired_id}"
+            )
+
+        if (
+            repaired[
+                "editorial_branch"
+            ]
+            != branch
+        ):
+            raise ValueError(
+                "La reparacion devolvio "
+                "rama incorrecta para "
+                f"{branch}."
+            )
+
+        kept_by_branch[
+            branch
+        ] = repaired
+
+        used_ids.add(
+            repaired_id
+        )
+
+        print(
+            "  OK - reserva reparada:",
+            repaired_id,
+            "| costo:",
+            f"${repair_cost:.6f}",
+        )
+
+    return [
+        kept_by_branch[branch]
+        for branch in branches
+    ]
+
+
 def main():
     config = json.loads(
         CONFIG_FILE.read_text(
@@ -1574,6 +1957,16 @@ def main():
             chosen,
             candidate_map,
         )
+    )
+
+    reserves = repair_reserve_choice(
+        reserves,
+        chosen,
+        candidates,
+        candidate_map,
+        client,
+        assert_budget_for_call,
+        register_text_usage,
     )
 
     reserve_counts = (
