@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "branch": "gaming",
-    "title": "No Rest for the Wicked retrasa su versión 1.0 a 2027",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/no-rest-for-the-wicked-10-launch-delayed-to-march-2027",
-    "story_key": "no-rest-for-the-wicked-retrasa-su-version-1-0-a-2027"
-  },
-  {
-    "date": "2026-09-02",
-    "branch": "gaming",
-    "title": "Metaphor: ReFantazio llegará a Nintendo Switch 2 en noviembre",
-    "source": "IGN",
-    "url": "https://www.ign.com/videos/metaphor-refantazio-official-nintendo-switch-2-trailer",
-    "story_key": "metaphor-refantazio-llegara-a-nintendo-switch-2-en-noviembre"
-  },
-  {
-    "date": "2026-09-02",
-    "branch": "tecnologia",
-    "title": "Nvidia invierte 3.500 millones de dólares en MediaTek para IA",
-    "source": "Tom's Hardware",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pours-usd3-5-billion-into-mediatek-company-will-adopt-nvlink-fusion-for-its-custom-ai-accelerators",
-    "story_key": "nvidia-invierte-3-500-millones-de-dolares-en-mediatek-para-ia"
-  },
-  {
-    "date": "2026-09-02",
-    "branch": "tecnologia",
-    "title": "McKesson confirma un ciberataque y robo de datos sanitarios",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/08/31/hackers-claim-millions-of-patient-records-stolen-during-data-breach-at-healthcare-giant-mckesson/",
-    "story_key": "mckesson-confirma-un-ciberataque-y-robo-de-datos-sanitarios"
-  },
-  {
-    "date": "2026-09-02",
-    "branch": "cultura_pop",
-    "title": "Pokémon: Wild Card confirma una nueva película para 2027",
-    "source": "The Hollywood Reporter",
-    "url": "https://www.hollywoodreporter.com/movies/movie-news/pokemon-wild-card-movie-announced-2027-watch-teaser-1236685585/",
-    "story_key": "pokemon-wild-card-confirma-una-nueva-pelicula-para-2027"
-  },
-  {
-    "date": "2026-09-02",
-    "branch": "cultura_pop",
-    "title": "El doblaje de One Piece estrenará Elbaph semanalmente",
-    "source": "IGN India",
-    "url": "https://in.ign.com/one-piece/270568/one-piece-english-dub-switches-to-weekly-simuldub-schedule-as-elbaph-arc-finally-gets-release-date-o",
-    "story_key": "el-doblaje-de-one-piece-estrenara-elbaph-semanalmente"
-  },
-  {
     "date": "2026-09-03",
     "branch": "gaming",
     "title": "RuneScape llega por primera vez a consolas",
@@ -1358,5 +1310,53 @@
     "source": "Yahoo",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYzZEd2pSQzE5Nll4LVNFTXpZOWJoa2JpaU9Cd1NCZERsRWwyOWJYQ002c1RpdzE1SnFhb09lZUhWWndRMEdvNWNmQ1N5N2FpRGJvdlBFd01TWkIzNS0yT1RxY21pU0JsTThFV1NRN1BMQXVBZWFFYnNOS3drX2t3NGc2Z0dMRFlvUDlKelJBS3hhY2N1Z2lOdDU4RzZNOGs?oc=5",
     "story_key": "el-anime-de-sekiro-confirma-su-estreno-en-crunchyroll"
+  },
+  {
+    "date": "2026-10-02",
+    "branch": "Industria",
+    "title": "Kena: Scars of Kosmora se retrasa hasta 2027",
+    "source": "Video Games Chronicle",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONndJaXR1dmY3d2RTaS15QmNjVXhHbzBEZGNxSW4tTnpCbm9nQmpERlQ3eUdiQnNwbUtBMm1MM3NaVlljWVJRV1I3a1dLdmZRTC0zZ0dHbGZKTE9NdmdqNEZONW80cFdqaGktTnNvc1I4WmttZDVIdWN2R3otdEZfNVpMSzFQd25wemZoWVkwcmtHaXdadGd5SmY1bXNoelBKZU9kLV9JRmYxNE9xcFdhOElMX0xBUVE?oc=5",
+    "story_key": "kena-scars-of-kosmora-se-retrasa-hasta-2027"
+  },
+  {
+    "date": "2026-10-02",
+    "branch": "Regulación",
+    "title": "Europa actúa contra nueve empresas por monedas de juego",
+    "source": "GamesIndustry.biz",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTHJpcFYyYXh3eWxGME1xemdEOTFPb0g2eWV1Y0dMZ1lsNUppbXNOMktXWVJySWczV25ZaW9FN2R5SFZ4eDRjaDFEZlVGUS1zR19ITGRObkJ5THhTUndjWEN1TTZ0WW9aX1JHR3h3U2RCOWs0VUJUU2lZWEt5eVE3d2ZPSWpWaUFvd1ZubXNjbi1oNkx3UE1EcTZQNzNBQ0VSZ3dtbTBxR21MX3JlcGxVNC1hUFI1OW9aLVZTeGhrUnUwcU5xMXRRSFNZdVJjdy0wMFJOaGRtcFc?oc=5",
+    "story_key": "europa-actua-contra-nueve-empresas-por-monedas-de-juego"
+  },
+  {
+    "date": "2026-10-02",
+    "branch": "Ciberseguridad",
+    "title": "Singapur registra una filtración ligada al uso de IA",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2tnNHFlZC1oSTRzOEJZdzdvZlpEVURsUVVCXzFMcGhQU0d2UkNOWEhLU3RxSmQ5WUljdkZwa0NmeDBCcXhvQTRTZU5JNDVxcFVQNzhXZ0hfcEFOVG1wcWsxRUNvYTBZLTBnRnRlVmU4VmI4QW1OVlBZblZQVmFJX2VBZTh5T1lsSnBKZTU0VXZvUVZWNDVCdklCY084UEZSZTlBTWxpRWdvdw?oc=5",
+    "story_key": "singapur-registra-una-filtracion-ligada-al-uso-de-ia"
+  },
+  {
+    "date": "2026-10-02",
+    "branch": "Software",
+    "title": "Apple corrige un fallo de Face ID en iPhone 18 Pro",
+    "source": "PCMag",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMHpFSEQ3a3hBYWRxbmUtdVdLeXZmNmZCWHVucXRyNnhVM0VhX1M1elg0OE1HWTZIZDZPZ0FUNkJsUHQ3THk1akFvd0d0ZlJlQ2gtVTVYdXBpXzFSN1FsWDR4TF9lTXhfTVV0ck91WUJmUVJXbzRRWDh5UE5ZczV4WTVPei1rRWNvU2wzYktFRXJsaGs?oc=5",
+    "story_key": "apple-corrige-un-fallo-de-face-id-en-iphone-18-pro"
+  },
+  {
+    "date": "2026-10-02",
+    "branch": "Series",
+    "title": "Neagley, spin-off de Reacher, renueva para temporada 2",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbTdOY0ZRbzI1Y2hWNTBXLWFZZk5UdWFMdkpmM2l6ckp2TE85b3RFQmNyQkcxb0dqa2pCMW1tT1A3Wkc3a3E4Y0ltaWdUQ3IyQzQzLTZnYVVJTlNlNDgwRmVjNmw0dlR1YklPVzQyZVFGVFQ0YnpxcTRGRFIwWGY4OXphNXpZWjdKWEM5MVdOcGtaQQ?oc=5",
+    "story_key": "neagley-spin-off-de-reacher-renueva-para-temporada-2"
+  },
+  {
+    "date": "2026-10-02",
+    "branch": "Cine",
+    "title": "Disney atribuye el tropiezo de Moana a baja demanda",
+    "source": "GamesRadar+",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTGlMQUJXTmJOaFNQT1puNTVZcFVCNnFSR0lTN3ZkYWdBREJIMHN0SlE5RHRlN2kxN0trV3dXNzUwNHV5MVRDRzJNR0JJcDZCSHRfbjQzYml5WnZFcmNoemN6SW43MHU4Z0J2UXJ3QUo3OEc4eWFwVVYxYW9qanFVeXlDQnJUT3RjZ29USWF0bFc3aWczS2lGRFJGS2tORjN2ZXpnVnctdEgzSVVoVDJmZDIwMHM0YmJSRVBjaklRRkhJd1BDTXFod3V3MnMxUjA3MnpVYjktN0Y0SXMzLUdaSnJkWkp6OFFTeEtlVGszT0RIQ2tscFdDX0NlRkVXbU0?oc=5",
+    "story_key": "disney-atribuye-el-tropiezo-de-moana-a-baja-demanda"
   }
 ]
