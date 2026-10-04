@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-04",
-    "branch": "Lanzamientos",
-    "title": "Final Fantasy VII Revelation llegará el 8 de abril de 2027",
-    "source": "Video Games Chronicle",
-    "url": "https://www.videogameschronicle.com/news/square-enix-confirms-final-fantasy-7-revelation-release-date/",
-    "story_key": "final-fantasy-vii-revelation-llegara-el-8-de-abril-de-2027"
-  },
-  {
-    "date": "2026-09-04",
-    "branch": "Industria",
-    "title": "Sony y Microsoft rechazan devolver sobrecostes por aranceles",
-    "source": "Eurogamer.net",
-    "url": "https://www.eurogamer.net/sony-microsoft-no-refunds-us-tariff-lawsuits",
-    "story_key": "sony-y-microsoft-rechazan-devolver-sobrecostes-por-aranceles"
-  },
-  {
-    "date": "2026-09-04",
-    "branch": "Inteligencia artificial",
-    "title": "ChatGPT, Claude y Grok sufren caídas casi simultáneas",
-    "source": "WIRED",
-    "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
-    "story_key": "chatgpt-claude-y-grok-sufren-caidas-casi-simultaneas"
-  },
-  {
-    "date": "2026-09-04",
-    "branch": "IA y hardware",
-    "title": "Nvidia lanza una herramienta para crear una IA local",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-    "story_key": "nvidia-lanza-una-herramienta-para-crear-una-ia-local"
-  },
-  {
-    "date": "2026-09-04",
-    "branch": "Series",
-    "title": "MobLand queda renovada para una tercera temporada",
-    "source": "Deadline",
-    "url": "https://deadline.com/2026/09/mobland-renewed-season-3-tom-hardy-mirren-brosnan-1237066505/",
-    "story_key": "mobland-queda-renovada-para-una-tercera-temporada"
-  },
-  {
-    "date": "2026-09-04",
-    "branch": "Series y adaptaciones",
-    "title": "Netflix prepara Ravenloft, su nueva serie de Dungeons & Dragons",
-    "source": "Variety",
-    "url": "https://variety.com/2026/tv/news/ravenloft-d-and-d-series-netflix-forgotten-realms-canceled-1236850699/",
-    "story_key": "netflix-prepara-ravenloft-su-nueva-serie-de-dungeons-dragons"
-  },
-  {
     "date": "2026-09-05",
     "branch": "PlayStation",
     "title": "Sony resume su State of Play con Wolverine y más",
@@ -1438,5 +1390,53 @@
     "source": "Deadline",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRFBnWnJHd3ZxdEZKVzN0dEtTUVpYM1Y1cE1GYldGb1lua2s0dmJ3bkQwMjBnc2hTY3hBNEoyZWpRcURqS0pEY1JfM1JROVV5SFE3LTZuZ1FwYW9rbkNVdGZRbFgyUTlrazBnWDdHM25JTERBdnp0eWJFWk1yVDZhZUtNNTVJcDY2Z3NN?oc=5",
     "story_key": "james-gunn-y-peter-safran-seguiran-al-frente-de-dc"
+  },
+  {
+    "date": "2026-10-04",
+    "branch": "Industria",
+    "title": "Capcom planea convertir RE Engine en un motor con IA",
+    "source": "PC Gamer",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbHBzd3FjNEtnTXVYNk1IU1M0SDBYMjhzUm5OcHNORGVMRTBEbFIyei13X25vaVBGYXl6TnRjaTFjWGxjYmNpRmJfektfVHBxSHZUNWZBYUJ4SGFIMWwxenVVb3Z3REt3RGN1cUR4bEdSdC1QTWUtdS1jczZGZFl3VmhPR2FONVhaQ2NuTE5zQTlxektYckRycVhmZTB6b3lDeU9DT0dfWFM2V0UxQ1pUV2hjMVRQeDJKcUhnek1TM1JhMjh5MnhaQjVVS1ZzcnVyZTZXRlRMSmk?oc=5",
+    "story_key": "capcom-planea-convertir-re-engine-en-un-motor-con-ia"
+  },
+  {
+    "date": "2026-10-04",
+    "branch": "Actualización",
+    "title": "Metro Redux recibirá mejora next-gen y la saga alcanza 50 millones",
+    "source": "Eurogamer.net",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYy1NOUljcGhfb3J6dTFuX1N3MXhBVnZkWlVHNzdya0VLc0N0RjBSM3hZWXA4dnNUMmF4YVFiTnMwNW0xaXRuQzQ1djR0MGhDTDhjRTM2OUpYMXhGXzlxUndTRzNqSE93d0k5RkN2b2c2MmJ1SXM5alY1OU9XcjJnQ0xoajNaV0tl?oc=5",
+    "story_key": "metro-redux-recibira-mejora-next-gen-y-la-saga-alcanza-50-millones"
+  },
+  {
+    "date": "2026-10-04",
+    "branch": "Ciberseguridad",
+    "title": "Arrestan a CEO por presunto contrabando de servidores Nvidia a China",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPTS1ZdWR6VWFvcURsdGFQNUZjODR2QkZVOFk4c3hBT3hBNnlyY0k1Q0oyRzNFNk4wY0Q3VTlKdEU0aVdUdGZHNW1YWkN2LUxpcUE4MmJBdVhSRkFyLTFRSEhocUloZTB1MnFNYnV6TmN0WENtUC01aGc5WkpLazJBZGZuNGYtVzZNYmoyX2pDQjNYS1VYSHd5MklwTk1aVWYwNktaUm1JWms0SGFEbWlTMDBXYzJZRUYtWURTQ2lZaVZxMmptaDdnWDctek81dWJQME4xTHh4a1FQT1NPWHMycWptS0hvUzYxVWhOZXBqVWd2VVgxWWlOWWJRWDg3SGY4OVFMY3lPbGVyU3pXa3QzZnlnTGxtWGRicDhjYjdvbndvTzJGNHlxS05Ja25FRGMyeF96Q1hjLU9JWmlrQ2RBUkw3Tm42dDEzU245ZmxFdVZlT0RtbTVaRUcwTk5TbDJEa3FPdXpyeVZ6OUFxMWY3Yzkwa3JIcERwM0NmX3ozUjJaLWcwY3FXN1FKNm1lMUF4UFE?oc=5",
+    "story_key": "arrestan-a-ceo-por-presunto-contrabando-de-servidores-nvidia-a-china"
+  },
+  {
+    "date": "2026-10-04",
+    "branch": "Hardware e IA",
+    "title": "Nvidia presenta una DGX Spark de 64 GB para IA local",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNNFhTNUhxdDVQdjd4T3kwZUZfUWQwWDZ6V0NOSXhySzN3bmdsOFo1QUpqNWV4R1Q3VzFCZXpLMVYxZk1wYXJwUFl3cmFlbzBOWGdfRmhaOUdVM3JSQ1hBcWQtY1hjbVhIWHdXUkxMU1NIWWNvMHo1aXdwUXVYRmt5YXhRcFJPNUQ2aW5nNjhoLWRPWS0yVmp2NV9YcExOTTJiMnZ2TWRNaW5PNjEtZVppdmRKYkoydDZqS1VxZTg0R09tSERDUW4zY3k3NWdMb0tNcTBBVFZmLW1nUHRWS212dHlZNlVGSHdQcHRYQWRnSmd6RjZXWEtqU1VERGM1Q1hpREZTN3pCRkVaRG5menN6ak8wdmhyYnlkZFFidTFOWmRDZUMtU1ZtbmY4TQ?oc=5",
+    "story_key": "nvidia-presenta-una-dgx-spark-de-64-gb-para-ia-local"
+  },
+  {
+    "date": "2026-10-04",
+    "branch": "Adaptaciones",
+    "title": "RuneScape 4 tendrá una adaptación animada",
+    "source": "ign.com",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXcxbDhUSllyc1lxMFA3NjBkcENHeUF0MlM0QUJ6TzRXRHl4QnFwSzBBYUgwY21QaUxfVUs5Z2Y5cGY0RlZwYThoMkdpRGV0MkYzRjdhWXZnTXktN1FXZFBVZS1fOVdRdUZ5UkVfWDZrZG9ZZ0NtR0tQd2lIelRCN0xOX3VGMjZX?oc=5",
+    "story_key": "runescape-4-tendra-una-adaptacion-animada"
+  },
+  {
+    "date": "2026-10-04",
+    "branch": "Anime",
+    "title": "Black Clover temporada 2 ya tiene estreno en Crunchyroll",
+    "source": "Crunchyroll",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNHlZbUlFdkF6eFVDVllXSUdkVXd4aGYwblVpSWhNVWNBOXJJOEQydGlTdVFmeVdnUHNSbXpHQ2VUN0l2TDhPTUlPT2xRM0ROM2VRNGRyY3gwcDJzcERwLWdGc3JDRi1CZHRHaDk5dDZnMFhyWlpOaE04aXlQSy1NUWRlNVZuNkNMQzR0Y2RCWmQ5SV9GUTJYTGdDRFlOQlYxNnFGT0gwY2ZLUmlmZlQxOFV3?oc=5",
+    "story_key": "black-clover-temporada-2-ya-tiene-estreno-en-crunchyroll"
   }
 ]
