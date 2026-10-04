@@ -54,6 +54,7 @@ Desktop.ini
 data/*.json
 !data/api_usage.json
 !data/published_history.json
+!data/last_successful_run.json
 
 # Backups visuales locales
 template/*_backup*

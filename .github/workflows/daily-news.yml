@@ -1,4 +1,4 @@
-﻿name: Gaming News Generator
+name: Gaming News Generator
 
 on:
   workflow_dispatch:
@@ -29,6 +29,14 @@ jobs:
     steps:
       - name: Descargar proyecto
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Sincronizar main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -79,6 +87,10 @@ jobs:
 
           if [ -f data/published_history.json ]; then
             git add -f data/published_history.json
+          fi
+
+          if [ -f data/last_successful_run.json ]; then
+            git add -f data/last_successful_run.json
           fi
 
           if ! git diff --cached --quiet; then
