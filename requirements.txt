@@ -12,3 +12,4 @@ python-dotenv
 beautifulsoup4
 pillow
 googlenewsdecoder==0.2.1
+selectolax==0.4.12
