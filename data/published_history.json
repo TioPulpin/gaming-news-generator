@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "branch": "PlayStation",
-    "title": "Sony resume su State of Play con Wolverine y más",
-    "source": "Eurogamer.net",
-    "url": "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026",
-    "story_key": "sony-resume-su-state-of-play-con-wolverine-y-mas"
-  },
-  {
-    "date": "2026-09-05",
-    "branch": "Xbox",
-    "title": "Xbox limitará las horas mensuales de juego en la nube",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits",
-    "story_key": "xbox-limitara-las-horas-mensuales-de-juego-en-la-nube"
-  },
-  {
-    "date": "2026-09-05",
-    "branch": "IA",
-    "title": "Nvidia conecta tus equipos inactivos para ejecutar IA local",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-    "story_key": "nvidia-conecta-tus-equipos-inactivos-para-ejecutar-ia-local"
-  },
-  {
-    "date": "2026-09-05",
-    "branch": "IA",
-    "title": "Microsoft reduce el precio de su IA de transcripción",
-    "source": "Venturebeat",
-    "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-    "story_key": "microsoft-reduce-el-precio-de-su-ia-de-transcripcion"
-  },
-  {
-    "date": "2026-09-05",
-    "branch": "Series",
-    "title": "Prime Video cancela Spider-Noir tras una sola temporada",
-    "source": "Deadline",
-    "url": "https://deadline.com/2026/09/spider-noir-canceled-prime-video-marvel-characters-series-1237068437/",
-    "story_key": "prime-video-cancela-spider-noir-tras-una-sola-temporada"
-  },
-  {
-    "date": "2026-09-05",
-    "branch": "Series",
-    "title": "Disney+ cancela el desarrollo de una nueva serie de Power Rangers",
-    "source": "Collider",
-    "url": "https://collider.com/power-rangers-series-cancelled/",
-    "story_key": "disney-cancela-el-desarrollo-de-una-nueva-serie-de-power-rangers"
-  },
-  {
     "date": "2026-09-06",
     "branch": "Servicios",
     "title": "Microsoft limitará las horas de Xbox Cloud Gaming",
@@ -1438,5 +1390,53 @@
     "source": "Crunchyroll",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNHlZbUlFdkF6eFVDVllXSUdkVXd4aGYwblVpSWhNVWNBOXJJOEQydGlTdVFmeVdnUHNSbXpHQ2VUN0l2TDhPTUlPT2xRM0ROM2VRNGRyY3gwcDJzcERwLWdGc3JDRi1CZHRHaDk5dDZnMFhyWlpOaE04aXlQSy1NUWRlNVZuNkNMQzR0Y2RCWmQ5SV9GUTJYTGdDRFlOQlYxNnFGT0gwY2ZLUmlmZlQxOFV3?oc=5",
     "story_key": "black-clover-temporada-2-ya-tiene-estreno-en-crunchyroll"
+  },
+  {
+    "date": "2026-10-05",
+    "branch": "Industria",
+    "title": "El director de Final Fantasy VII Remake habla de su trama",
+    "source": "VGChartz",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ3Z4WklVLUlTd3VEMFE1WWVMU0M2NG5EUVMyMmdQSl96YzE2Mk9YbUVFWEJBb0wzQkNvTFk4UGVqcHZfUWVINGg2Qkt5ME1ZQmtCVHFMSGVKYXJSdjJLY2tZNzF2a200alg5RG1YeDdDNlc5SGs0Z0l4ekswMWlQekJ1VUtMRW5aRjB5SUQtemRCcndobXM2NlBmN2JQdUVMREtoeHRLSDVQWUs3REFVcUd2ZEJqTnZF?oc=5",
+    "story_key": "el-director-de-final-fantasy-vii-remake-habla-de-su-trama"
+  },
+  {
+    "date": "2026-10-05",
+    "branch": "Seguridad",
+    "title": "Modern Warfare 4 prepara un cambio contra los wallhacks",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQkpsTk15REdNbU15SHRQQTZjSDBnUmprSnVkOTJVNXhkMEF0VEpPbTVINFM4d0VGak5TUk5NS2sxcHRQQ3dxNzlPN0FsWnZoN1o2TndHYjB1SjhMNjdkMDVlTlZSdmVqZnNGakZmV2ppaWFVWk1CeHhfMk1wdFZ4Skh0dVoxTktlUVNlOW9KUkNReEkzeHdleVhFWE1JWkI2SW1MTTgwX0ZsV0h4VFNyU1BtUnk2M2hFWVVSZmdialBsaUNyTm4zVGtnd2NvU19CRVlPMXg5VUNZbFhuUFpkSkhVS2g2OEZ6?oc=5",
+    "story_key": "modern-warfare-4-prepara-un-cambio-contra-los-wallhacks"
+  },
+  {
+    "date": "2026-10-05",
+    "branch": "Ciberseguridad",
+    "title": "Una filtración en Dinamarca expone datos de 8,8 millones",
+    "source": "bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcUVPUE95c3VPVnNnZFU2QkJWaEdidTdDWGIzSl81YWMzSkxueWpjY1lwOVZRaEdGVkgtZ2JPNVVjaWFwQWJlQUxmaTVKMmFkVzdmZ2xRWldCVDd5M180VDdaaTg3akR3bnRqSHJHSk1FZWhaV2szLTdsZ01zMGZXbjFUWVc5M2VvZTlpaVlvYV9GWjE4WG9pWEZRTG9faWI3RDdVOFhROUFEOG5xRTJEdmNhMA?oc=5",
+    "story_key": "una-filtracion-en-dinamarca-expone-datos-de-8-8-millones"
+  },
+  {
+    "date": "2026-10-05",
+    "branch": "Hardware",
+    "title": "Micro Center exige promesa de no exportar la RTX 5090",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNOUpuOTk2ODlyRGU1VzVPN1NOTUFzeWtscmhSTmJybkZ0RzhLVmRfbTFaNHVrWjVBcV96YXJ6NElSZHRDMnpXSlFKMEJ6TS1qQ1J3QjhqbTlDSlNWVFNhU3RmOGNRMEJHeXZ0UDFPZE5acjBoXzdya2lKUW1RVk83b2RHbWdwZUh4bmxrVVZSMzUtTWlSSG8zUWdfNzZPQTNjOEtnbDM4U3ZZOUVtUUVrZGNhWjZPTmVUbHhpUXh4dWx0QU9MUEl1dEhlci1Gc001aXUzNldOWlpuV0hHTTlvUU5sQklYNFN6d3BscFlwNDFfeHZlWlBiSUFPdmlQajAxZjh2RWswdWJNS29TNDVfUDFmM29sd1ZEenB4T2Y4NTdsZjUtblVDalkxc1p2YlZacVhwanVYejRsZG9zQkhUZmxpS1lGTlFETkhLeHY3SDRodw?oc=5",
+    "story_key": "micro-center-exige-promesa-de-no-exportar-la-rtx-5090"
+  },
+  {
+    "date": "2026-10-05",
+    "branch": "Anime",
+    "title": "Manchuria Opium Squad tendrá una adaptación al anime",
+    "source": "crunchyroll.com",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTmZkU2tHMndBck1fcXBzbkNYa1l0d090czdqMXdZZXRaU2d6eDRseDBISi1UZGp1Z0FSZ0lxd3VLenAxQ3I0NHNuakFrMlcySE12UXRGUTRPYlJWTEp0cGV3b25aYTVvWmFGcEdLUUJReFNiWlVtOWFnd2xTaUVuLXNYcEpCMFNkRHNnVUk5aThBdw?oc=5",
+    "story_key": "manchuria-opium-squad-tendra-una-adaptacion-al-anime"
+  },
+  {
+    "date": "2026-10-05",
+    "branch": "Anime",
+    "title": "The Record of a Fallen Vampire tendrá anime en 2027",
+    "source": "crunchyroll.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSXlCdEdtVU1XUnJnNmdvUkxyZC1IeEFUTkFlMnNPUVoyM3VLMU1NRERxZTV2QUt1VTVOTWVwZHExQVJqSEY1cEtqMnplNXJjZjA5NjQ1bC1kUVp0cXFnUkh4Yk5FV2Y4YjZZc1hkUVpWMU13eVJHbmNRQy1oN3hsd3kxRktlYmY3SkxFMlJpWmZKMTBIYmpzU2E3aUJyYlBrNFlPanRubGp5WHlELWc?oc=5",
+    "story_key": "the-record-of-a-fallen-vampire-tendra-anime-en-2027"
   }
 ]
