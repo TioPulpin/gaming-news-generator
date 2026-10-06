@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-06",
-    "branch": "Servicios",
-    "title": "Microsoft limitará las horas de Xbox Cloud Gaming",
-    "source": "PC Gamer",
-    "url": "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/",
-    "story_key": "microsoft-limitara-las-horas-de-xbox-cloud-gaming"
-  },
-  {
-    "date": "2026-09-06",
-    "branch": "Lanzamientos",
-    "title": "Kingdom Hearts 4 tendrá una nueva presentación este mes",
-    "source": "Polygon.com",
-    "url": "https://www.polygon.com/kingdom-hearts-4-square-enix-tokyo-game-show-news-teased/",
-    "story_key": "kingdom-hearts-4-tendra-una-nueva-presentacion-este-mes"
-  },
-  {
-    "date": "2026-09-06",
-    "branch": "IA",
-    "title": "ChatGPT, Claude y Grok sufrieron caídas simultáneas",
-    "source": "WIRED",
-    "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
-    "story_key": "chatgpt-claude-y-grok-sufrieron-caidas-simultaneas"
-  },
-  {
-    "date": "2026-09-06",
-    "branch": "IA",
-    "title": "Nvidia conecta computadoras inactivas para ejecutar IA local",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-    "story_key": "nvidia-conecta-computadoras-inactivas-para-ejecutar-ia-local"
-  },
-  {
-    "date": "2026-09-06",
-    "branch": "Series",
-    "title": "Spider-Noir no tendrá segunda temporada en Prime Video",
-    "source": "Polygon.com",
-    "url": "https://www.polygon.com/spider-noir-canceled/",
-    "story_key": "spider-noir-no-tendra-segunda-temporada-en-prime-video"
-  },
-  {
-    "date": "2026-09-06",
-    "branch": "Anime",
-    "title": "Detective Conan estrenará un especial donde el público investiga",
-    "source": "Anime News Network",
-    "url": "https://www.animenewsnetwork.com/news/2026-09-05/new-detective-conan-anime-special-lets-fans-deduce-culprit/.241434",
-    "story_key": "detective-conan-estrenara-un-especial-donde-el-publico-investiga"
-  },
-  {
     "date": "2026-09-07",
     "branch": "Lanzamientos",
     "title": "Metro 2039 llegará el 4 de febrero de 2027",
@@ -1438,5 +1390,53 @@
     "source": "crunchyroll.com",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSXlCdEdtVU1XUnJnNmdvUkxyZC1IeEFUTkFlMnNPUVoyM3VLMU1NRERxZTV2QUt1VTVOTWVwZHExQVJqSEY1cEtqMnplNXJjZjA5NjQ1bC1kUVp0cXFnUkh4Yk5FV2Y4YjZZc1hkUVpWMU13eVJHbmNRQy1oN3hsd3kxRktlYmY3SkxFMlJpWmZKMTBIYmpzU2E3aUJyYlBrNFlPanRubGp5WHlELWc?oc=5",
     "story_key": "the-record-of-a-fallen-vampire-tendra-anime-en-2027"
+  },
+  {
+    "date": "2026-10-06",
+    "branch": "Lanzamientos",
+    "title": "Frostpunk confirma su fecha de lanzamiento en Nintendo Switch",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmVHZE02blE5VlRoYVRSbGREeWtuUGRlWkRSM1lhZTUwbkd5eUhwRlNtVGJNX2tjMnZVTWJpMXdPMUc1eWZZMmoxc2J2U3VLMlhqZVhoa080OWNWZmNBbERfekNNdXdyaUJOYnFRMnUxeW9JQUxjV3lvVkhMWEZINkV1dllua3lGV0E?oc=5",
+    "story_key": "frostpunk-confirma-su-fecha-de-lanzamiento-en-nintendo-switch"
+  },
+  {
+    "date": "2026-10-06",
+    "branch": "Anuncios",
+    "title": "Nintendo anuncia The Legend of Zelda: Master Collection",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWWlxNWQwVGJPbkUxbEozeC1PTW1OWndvZzhlZ1B2WUtUby01VTVuVlFvTlg2UjBGcGJyRHEyeVJuTFVoRGh2T3gzSmR3RFJ1cEFIV3oxcjN2TFJzQ1JyRDd3QkVKM3VXRmFMYktaSHJSb0ZjcXVMMnN0VUFoSm1PZy0ycEhNZw?oc=5",
+    "story_key": "nintendo-anuncia-the-legend-of-zelda-master-collection"
+  },
+  {
+    "date": "2026-10-06",
+    "branch": "Inteligencia artificial",
+    "title": "OpenAI y Synopsys crearán una IA para diseñar chips",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOOEV3UkhBWnlSSHNQVG1xSDVKWGNGYXh4RWdmbXkzbzQ5UGRfaXk4TWY1eGlwcE91ZTQtSTB4UFpxTV9GeHZTVEJMazJGbXQ1NXhCZ1dBek1pdHlGTXFXMnkxeVk1MWNKV1YzQ3pUdHBIRnFzWFBfOFZVd0ZDVElTNkRiWlJreXNBVGYzYXdlZTVQZ3BZS083MGJtN0tnNTBVRVpOSVhKN01WV2tMZUxPOU4zT1pxblRtT1Vrb1BUMEVNdFZyTTVVam9lVmVMUHFpc0traDRlaUNMbFA5eDBadnNDNWdDN0V1THBOYVhvLUJrQTRjdjBMVXh3RkdwMUluX1FsTnBpbU9SN2tFUFE5MEJHaGZCUURSdkhuLWM0elIwSmJmd2FpUk4zaXp5cHV4eUdYT2NXRFp1Q3BmbUp3dWNIS1RrSmVIZkhCVmRLSHY1UnptcERrelRSdW1YVy1JRmxzZVlkQ1c?oc=5",
+    "story_key": "openai-y-synopsys-crearan-una-ia-para-disenar-chips"
+  },
+  {
+    "date": "2026-10-06",
+    "branch": "Redes sociales",
+    "title": "TikTok incorpora asistente de compras con IA",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkNjRGNCZTFjNDFKc2J5aWgtX092bDFDOV9FTlpPUUUzUUxzMXpvMTJhd3ZEbDNnR2JnbTM2N1MyWll4NmxqNVh5OHQtSTZhR3l1aUNWeWRvcFdkY19Xb2Nrb1lnLU95dXlzRDZiVC1LaE1XR2F3WjB0YW1JWmRLTGN0RXAzZndKNVpBU2hCS1ZpSFgySHE4TXJ3elB1TlhH?oc=5",
+    "story_key": "tiktok-incorpora-asistente-de-compras-con-ia"
+  },
+  {
+    "date": "2026-10-06",
+    "branch": "Series",
+    "title": "Tulsa King renueva para una quinta temporada",
+    "source": "The Hollywood Reporter",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTHVNTE5sbnRfTV9tcDh4ZGtsWDdSMkM4NDZILXFUZ0IxUUJ6X2dPOFJJc2xYNWlPTXNmXzZhSjJvUzYtVnlJcmJfVjluQkpFbVJJdmpMX3dxbkE1d0FFX0tLaWJka0tUenRIVE9sd2g0S0M0Y2RYUS1xRkptYzV4aEhyaWQ4ZmZqRHFCdC0zQ1VpdXZmTFkxN09lUS1uYjA?oc=5",
+    "story_key": "tulsa-king-renueva-para-una-quinta-temporada"
+  },
+  {
+    "date": "2026-10-06",
+    "branch": "Series",
+    "title": "Imperfect Women renueva para una segunda temporada",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa0NaTjFtenMyaXVhT3lNUXJHQUxQQVZ3VjdnQ2pEcXJQeHg5SUg4Und4UlhtLVVDN0t0a3JfVnVsczZOVGtQVHpxRldzenpWa19zTzRIbTRudDVHYWdidGxKc0VJMWF0Y3BNd2VWc1hCZ1lsWmEtcWptZVkwOGhPamFzMHJLa1JFX0pjWmZtS0RZeUI2LUZucjdONzBOMTQ?oc=5",
+    "story_key": "imperfect-women-renueva-para-una-segunda-temporada"
   }
 ]
