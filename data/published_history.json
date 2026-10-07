@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-07",
-    "branch": "Lanzamientos",
-    "title": "Metro 2039 llegará el 4 de febrero de 2027",
-    "source": "IGN India",
-    "url": "https://in.ign.com/metro-2039/271014/metro-2039-release-date-revealed-at-playstation-state-of-play",
-    "story_key": "metro-2039-llegara-el-4-de-febrero-de-2027"
-  },
-  {
-    "date": "2026-09-07",
-    "branch": "Ventas",
-    "title": "Onimusha vende un millón de copias en un día",
-    "source": "Video Games Chronicle",
-    "url": "https://www.videogameschronicle.com/news/capcom-has-another-hit-on-its-hands-as-onimusha-sells-1-million-in-a-day/",
-    "story_key": "onimusha-vende-un-millon-de-copias-en-un-dia"
-  },
-  {
-    "date": "2026-09-07",
-    "branch": "Hardware",
-    "title": "FEVM presenta un mini PC Intel con gráficas Nvidia",
-    "source": "Notebookcheck",
-    "url": "https://www.notebookcheck.net/Powerful-Intel-equipped-FEVM-mini-PC-launches-with-performance-Nvidia-GPUs.1391220.0.html",
-    "story_key": "fevm-presenta-un-mini-pc-intel-con-graficas-nvidia"
-  },
-  {
-    "date": "2026-09-07",
-    "branch": "IA y hardware",
-    "title": "AMD prepara una estación de IA con 576 GB HBM3e",
-    "source": "tweaktown.com",
-    "url": "https://www.tweaktown.com/news/113434/amds-threadripper-halo-station-is-an-ai-workstation-with-up-to-576gb-of-hbm3e-gpu-memory/index.html",
-    "story_key": "amd-prepara-una-estacion-de-ia-con-576-gb-hbm3e"
-  },
-  {
-    "date": "2026-09-07",
-    "branch": "Anime y manga",
-    "title": "Hunter x Hunter entra otra vez en pausa",
-    "source": "Anime News Network",
-    "url": "https://www.animenewsnetwork.com/news/2026-09-07/hunter-x-hunter-manga-announces-hiatus-4th-stage-play-featuring-chimera-ant-arc/.241478",
-    "story_key": "hunter-x-hunter-entra-otra-vez-en-pausa"
-  },
-  {
-    "date": "2026-09-07",
-    "branch": "Anime",
-    "title": "Dark Machine the Animation se estrenará el 13 de octubre",
-    "source": "Anime News Network",
-    "url": "https://www.animenewsnetwork.com/news/2026-09-07/dark-machine-the-animation-series-reveals-3-new-cast-members-october-13-debut/.241481",
-    "story_key": "dark-machine-the-animation-se-estrenara-el-13-de-octubre"
-  },
-  {
     "date": "2026-09-08",
     "branch": "Industria",
     "title": "Sega canceló su ambicioso proyecto Super Game",
@@ -1438,5 +1390,53 @@
     "source": "Deadline",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa0NaTjFtenMyaXVhT3lNUXJHQUxQQVZ3VjdnQ2pEcXJQeHg5SUg4Und4UlhtLVVDN0t0a3JfVnVsczZOVGtQVHpxRldzenpWa19zTzRIbTRudDVHYWdidGxKc0VJMWF0Y3BNd2VWc1hCZ1lsWmEtcWptZVkwOGhPamFzMHJLa1JFX0pjWmZtS0RZeUI2LUZucjdONzBOMTQ?oc=5",
     "story_key": "imperfect-women-renueva-para-una-segunda-temporada"
+  },
+  {
+    "date": "2026-10-07",
+    "branch": "Lanzamientos",
+    "title": "Warhammer Survivors llegará el 10 de noviembre a Game Pass",
+    "source": "VGChartz",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQekw2LXdOLW5TMlJMR2Z6YzhEXzlfdDR2RFVqYjcwQVZKalY1WDFiSDZFV0ZWWmFxTzI0OVZjYmFWanRjR1RobWpzYTZxN3BUTjFPRWZ3WTJ5eTFuTzFScEYzYWhQR1JJcVlYQlN1QXlVcmpnZjFGMVJXNGdhSUJDM0NCaWFLSktCdU1pSVRTUUNTV0VaZ3k4eXVQWFBXejU3STVuVjdPM3lwcmZpWlViRkFiTTNVSG9INTRlLXdxZWo5aXNBZHg4dWMyanpXcWM?oc=5",
+    "story_key": "warhammer-survivors-llegara-el-10-de-noviembre-a-game-pass"
+  },
+  {
+    "date": "2026-10-07",
+    "branch": "Industria",
+    "title": "Supermassive Games despide a más de 70 empleados",
+    "source": "Video Games Chronicle",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMUVrTjh4N1hUVEFfbDZBVVZUREhqQTk3dDJnYXVfTzg4Q003djFlN0gzWGlSSlpXMGFCUFdJWHZwdkRHTllueDJkbU92bHlqbkRlaUNYSWgtT0hlQlgzRUFtWFRBM1dralYyOVIxOWFpd0VoZ3J0S0d6eHYtcW5zR3lSVEptZVY1UWd1TnU4MHdSTE9XM1l5VGFudEdOamtVM0xra1gtN0J3SU5CbDc1eWxsZ2ZIV2dDRkNUQTYwQnEtUDExSnpqUHVUbm1Wdw?oc=5",
+    "story_key": "supermassive-games-despide-a-mas-de-70-empleados"
+  },
+  {
+    "date": "2026-10-07",
+    "branch": "Ciberseguridad",
+    "title": "Contratista de Accenture deja el FBI tras una filtración",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNnh4WEZTOEFBQUo1TmMzeGNFQ1FPaDQzY21NY0lpMjZJM2tiazlCSG5nb3BsdDVmaHVnc0RzbWpZZG1tUDBJdmNJN3pBcFN0eDdRTTlmZEt2YmZtck1Nc3ZzZTdzd1Ftb3FPNzVHcTFXQ2cxTGdXZHppeTlFUU5lSWxKY3ZmYnFtVWl6eGxueXFGaTBoVHd6WjUxSU80WkMyNE9pTkRHZnVyZ0tEN01pM0tCcHo1ZVdIOUpfRXVQaw?oc=5",
+    "story_key": "contratista-de-accenture-deja-el-fbi-tras-una-filtracion"
+  },
+  {
+    "date": "2026-10-07",
+    "branch": "IA y hardware",
+    "title": "AMD afirma haber enviado 500.000 PC para IA agéntica",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQLWliQTZQd1Z5RTNLNUN6RGkxM2tNVzROSW0xOGhxYUpCZWdvaWx4azlaNk1xMTRLZlhaNGEyamZoNVg4N204SUZrRy1fc0ppS2NhZm96QnczQ1VaQWc1Yk1SNEV4eUU0MlhITGQ5RU1mMEdNTEdCSTVuZlViRWhNVjVCS0o5TVdVcG9nTTdtS0R6cDNzQlRBeUVpaXRqWG10Y0xxSXZnZjYxSnBmR3lmaWxsWmRFZlBocmhQM1o0dHpnTmJNN281aWRLSTJGdk1DWUxQMkRSYnl5Q0NuX3gtZkRYVHlTREI3VHpSaVpWS241SWxjT1lTYlBJSkxTNmpWOVQzcUw4R1NKdXI1NWxNRzc3QmxnWTEtR2FFZ2Mwem9MVld1WUF1Sg?oc=5",
+    "story_key": "amd-afirma-haber-enviado-500-000-pc-para-ia-agentica"
+  },
+  {
+    "date": "2026-10-07",
+    "branch": "Series",
+    "title": "Netflix cancela Sweet Magnolias después de cinco temporadas",
+    "source": "Entertainment Weekly",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM2RpdGpoeTl1LThNc1dhQVNJRjRhU1QwU3BZdWJKU3NFbVRhWi1IUnhpRzFtUU1xYmZZSnhuX3lWZlhISEN1UVo0MWdNTWFGQmFhQUdEU2tOV3JUbWlPSDVIaFVjb1Y5VFd5d0RyVUVubWx5NE5pVDlaTnF4d19CSw?oc=5",
+    "story_key": "netflix-cancela-sweet-magnolias-despues-de-cinco-temporadas"
+  },
+  {
+    "date": "2026-10-07",
+    "branch": "Streaming",
+    "title": "Skydance confirma el futuro de HBO Max y Paramount Plus",
+    "source": "TVLine",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRXpLU3ZKTnVmeUd0SlA3SGYtT09PREhLQTE5ZHA1UlhpbU5mOVNUcjRsMWpnQzVyRHpmU2dUQkdTZzVtN3duZjdKTE9UYmtXNWZwWUJyeGhxeUdNWjFTdU9Sc2xFS2ZIQ245TnI1Qkh5OUJHSlZ2Zll1X2FtbFJPOUloWFZIZU1XcHhSbmN5OVV3NldaaFZR?oc=5",
+    "story_key": "skydance-confirma-el-futuro-de-hbo-max-y-paramount-plus"
   }
 ]
