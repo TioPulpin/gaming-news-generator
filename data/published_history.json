@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-09",
-    "branch": "Lanzamientos",
-    "title": "Nintendo revela Ocarina of Time Remake y su fecha",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-fully-revealed",
-    "story_key": "nintendo-revela-ocarina-of-time-remake-y-su-fecha"
-  },
-  {
-    "date": "2026-09-09",
-    "branch": "Plataformas",
-    "title": "Forza Horizon 6 mantiene su llegada a PS5 este año",
-    "source": "Video Games Chronicle",
-    "url": "https://www.videogameschronicle.com/news/xbox-says-forza-horizon-6-is-still-coming-to-ps5-this-year-as-it-prepares-the-games-next-major-update/",
-    "story_key": "forza-horizon-6-mantiene-su-llegada-a-ps5-este-ano"
-  },
-  {
-    "date": "2026-09-09",
-    "branch": "Inteligencia artificial",
-    "title": "Meta apuesta por el agente de IA Muse",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-    "story_key": "meta-apuesta-por-el-agente-de-ia-muse"
-  },
-  {
-    "date": "2026-09-09",
-    "branch": "Inteligencia artificial",
-    "title": "Investigador de Anthropic renuncia por temores sobre la IA",
-    "source": "wsj.com",
-    "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
-    "story_key": "investigador-de-anthropic-renuncia-por-temores-sobre-la-ia"
-  },
-  {
-    "date": "2026-09-09",
-    "branch": "Anime",
-    "title": "Black Clover regresa con su segunda temporada en octubre",
-    "source": "in.ign.com",
-    "url": "https://in.ign.com/black-clover/271244/black-clover-season-2-premiere-date-revealed",
-    "story_key": "black-clover-regresa-con-su-segunda-temporada-en-octubre"
-  },
-  {
-    "date": "2026-09-09",
-    "branch": "Cine",
-    "title": "Godzilla Minus Zero revela tráiler y nuevos miembros del reparto",
-    "source": "variety.com",
-    "url": "https://variety.com/2026/film/news/godzilla-minus-zero-new-trailer-cast-members-1236854751/",
-    "story_key": "godzilla-minus-zero-revela-trailer-y-nuevos-miembros-del-reparto"
-  },
-  {
     "date": "2026-09-10",
     "branch": "Industria",
     "title": "Xbox publicará Physint tras la salida de PlayStation",
@@ -1438,5 +1390,53 @@
     "source": "Disney Plus",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qNzZFUGVjdUdYbDVreVJiUHViVFVfRkZpU2U4aHpseC02ZVpvbUI4cjJQOFY3cnlicFYtZnBOSlh0dUlqOU8zaWxrWjhXMXAtakNyNnlJckZra1otM004M0YtV2s3MXVDZDJXbkJfYU44cG1NMHFj?oc=5",
     "story_key": "disney-revela-trailer-estreno-y-reparto-de-hexed"
+  },
+  {
+    "date": "2026-10-09",
+    "branch": "Industria",
+    "title": "Forza Horizon 6 se retrasa a 2027 en PS5",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YVlF0QXpwdFJjb2QxdGJlTm0weVJyR0ZSVlZYdTE1ZllNeVRrOUM2bDBDRmsxWlJtVF9ZYnFOZl93LXVvMzlWZ0pFMkJjQy1mZ0JCTGU1UG1SMnpWQzcyWjlLVzljS1h3ZFdMOEoybjh5Y2kwVm5xMXhBWmFUeXM?oc=5",
+    "story_key": "forza-horizon-6-se-retrasa-a-2027-en-ps5"
+  },
+  {
+    "date": "2026-10-09",
+    "branch": "Industria",
+    "title": "Undead Labs cambiará State of Decay 3 tras separarse de Xbox",
+    "source": "Eurogamer.net",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvNFZ3MVIwRHdxNGFEUTh1ZVFCZDJfWlVPeC1qMmVRc0dRbmFpVzZQMkRjVlpuSzhvcWRiTkVtLWpRa1JpMzNsbGdNMEJ0TVZpQThPMEJWOFNzT0RrMXpFcHcwajc2dnRoYWR6bVpIYlRqZEVBTHc?oc=5",
+    "story_key": "undead-labs-cambiara-state-of-decay-3-tras-separarse-de-xbox"
+  },
+  {
+    "date": "2026-10-09",
+    "branch": "IA",
+    "title": "Nvidia, OpenAI y Anthropic prometen US$2.400 millones para IA",
+    "source": "YourStory.com",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeGgyUHVHMDBVZFJZWXFwNFJuak9pYTJRcGNLdXJxbktFQ2l1ZlRQLXdSTS1DbkRrMGd3dVR4T09fdTBYeHFURlBnWlBCQWtER3FzT1NrbDBFSS02ZzR4OGcydUxfMTJsenVuajZ1LW1TbUdfWVZrU21jWjNySWM4Yg?oc=5",
+    "story_key": "nvidia-openai-y-anthropic-prometen-us-2-400-millones-para-ia"
+  },
+  {
+    "date": "2026-10-09",
+    "branch": "Plataformas",
+    "title": "Meta bloquea anuncios de TikTok en sus plataformas",
+    "source": "Engadget",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51R0I5Y2hWSzhrUXdWR1dSTXp2RTlJWTlRcllLRTc4eHljUnBnWkptRTNnMTZLM1lKaGY1VlRkSXpJSmJ1bzR6U3BIUHo3OWF5NWtKdC1FaHlrSVluRThSb0ZPbWU?oc=5",
+    "story_key": "meta-bloquea-anuncios-de-tiktok-en-sus-plataformas"
+  },
+  {
+    "date": "2026-10-09",
+    "branch": "Anime y manga",
+    "title": "The Ghost of Bongcheon-Dong tendrá película de acción real",
+    "source": "Anime News Network",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQnNIVHJLcnliejcwdlJyTy1JSXM4emVMTUZxS05GeWNJNHNxcmF1b2g0UzQ4T3RseURiUlI1Z2E1MHhZU0FVY2FYTzRlek5EX1VqU1lhYko1Y2twYkQ5c1NGX0xfelVtU2dlUmg3M3lZb3FVOHk3VEF4X2tZQk8xaE1EZElhY1lvekF3cVBiZUNfZGdJUjBEQUh3RWZoNk43ZFNHb2NZbmsySXhHUC11RTZLdVUxeEx2QkZXbExHaUROajE1RzJmUUg5Tms?oc=5",
+    "story_key": "the-ghost-of-bongcheon-dong-tendra-pelicula-de-accion-real"
+  },
+  {
+    "date": "2026-10-09",
+    "branch": "Cómics",
+    "title": "Star Wars: Ahsoka tendrá precuela en cómics de Marvel",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbUc4eU95bnUwbDFBWm9VbUhDeXpqVEFKV0IyTHhwY1BkTmdhX3g2TFNzWlBKX1hEdFJidEVuZURXYUxTZlBPU1A1aWxtOVhKWm5EcjhiUUJrRThPS044VkpibkRjUTFzVjlHR2RkRlhCQWlPTEFOZlhFNm5hZ0duZ3l0RW5ad1BnNmczSndUaHdmMERCTEJwbGpPNE1OR001SFQ2SkVKUE1Sdw?oc=5",
+    "story_key": "star-wars-ahsoka-tendra-precuela-en-comics-de-marvel"
   }
 ]
