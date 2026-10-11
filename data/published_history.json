@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-11",
-    "branch": "Lanzamientos",
-    "title": "Monster Hunter Wilds llegará a Switch 2 en diciembre",
-    "source": "IGN Southeast Asia",
-    "url": "https://sea.ign.com/monster-hunter-wilds-ascendance/248540/monster-hunter-wilds-official-nintendo-switch-2-release-date-trailer-nintendo-direct-2026",
-    "story_key": "monster-hunter-wilds-llegara-a-switch-2-en-diciembre"
-  },
-  {
-    "date": "2026-09-11",
-    "branch": "Lanzamientos",
-    "title": "Wardogs colapsa sus servidores en su día de lanzamiento",
-    "source": "PC Gamer",
-    "url": "https://www.pcgamer.com/games/fps/wardogs-servers-go-down-as-over-300-000-people-rush-to-play-on-launch-day/",
-    "story_key": "wardogs-colapsa-sus-servidores-en-su-dia-de-lanzamiento"
-  },
-  {
-    "date": "2026-09-11",
-    "branch": "Ciberseguridad",
-    "title": "IDScan confirma robo de más de 150 millones de licencias",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/",
-    "story_key": "idscan-confirma-robo-de-mas-de-150-millones-de-licencias"
-  },
-  {
-    "date": "2026-09-11",
-    "branch": "Inteligencia artificial",
-    "title": "Agentes de OpenAI usaron más webs para comunicarse",
-    "source": "Tom's Hardware",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-rogue-ai-agents-accessed-more-websites-to-communicate-than-originally-believed-defiant-llms-accessed-old-wikis-and-abandoned-websites-to-co-ordinate-in-a-bid-to-dupe-assessors",
-    "story_key": "agentes-de-openai-usaron-mas-webs-para-comunicarse"
-  },
-  {
-    "date": "2026-09-11",
-    "branch": "Series",
-    "title": "American Horror Story reunirá a sus estrellas en la temporada 13",
-    "source": "Entertainment Weekly",
-    "url": "https://ew.com/american-horror-story-13-release-date-trailer-cast-12114813",
-    "story_key": "american-horror-story-reunira-a-sus-estrellas-en-la-temporada-13"
-  },
-  {
-    "date": "2026-09-11",
-    "branch": "Anime",
-    "title": "La película de Ufotable llegará a Estados Unidos en enero",
-    "source": "ComicBook.com",
-    "url": "https://comicbook.com/anime/news/crunchyroll-confirms-u-s-release-date-for-demon-slayer-studios-next-big-movie-watch-trailer/",
-    "story_key": "la-pelicula-de-ufotable-llegara-a-estados-unidos-en-enero"
-  },
-  {
     "date": "2026-09-13",
     "branch": "Lanzamientos",
     "title": "Diablo 5 llegará en 2029 con un futuro postapocalíptico",
@@ -1438,5 +1390,53 @@
     "source": "The Hollywood Reporter",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUZTU0VreS1rTFJtYnpMN3c3bW9tbkFCRktlX3lGM0VKMkxDWHJrc0dOTXRJdjN6UXdQSU1oeVZZcnlPaG1jbU9sNUtBUDhxUmduN3ZiUjk4U1VuVnY2NzE5Z2pSV2ZzYXJZeFFjQXFtWElYTHJWdEowcnV1YlFMMGhTVldGcHNEU01JZHJWZVp2ZkxSTmRueTRjRXN4UlZHd1FNNDNB?oc=5",
     "story_key": "marvel-prepara-zodiac-para-2028-y-mas-especiales-de-zombies"
+  },
+  {
+    "date": "2026-10-11",
+    "branch": "Lanzamientos",
+    "title": "The Witch's Bakery confirma su fecha de lanzamiento con un nuevo tráiler",
+    "source": "IGN India",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaDZGNW4tcUxGbjhlYjNlbXFwN0luOXJ2VzVoNnJOVzhaTnJuYm5mNFN0ZDNzM0N1eWFuS0lpMUpEY0xlUzhYY0Vld1A5aW1HUVI0TGVZY3JpY1BNcmJLRFJBMmZTSFJNRlQtcDBFV3VMV0RWdFAzVTR4bTYyU1REdENhZkhUUXdaXzh4Uy03YjdGV2hULWxyT2w2OWpwVmF4b1o0NEhCR2tJUHA0NUJMajlVSlBSVEw2M0JiaGVlaXRnMmM1N1A0ZEd2OA?oc=5",
+    "story_key": "the-witch-s-bakery-confirma-su-fecha-de-lanzamiento-con-un-nuevo-trailer"
+  },
+  {
+    "date": "2026-10-11",
+    "branch": "Hardware",
+    "title": "Pimax presenta un visor VR inalámbrico para competir con Valve",
+    "source": "PC Gamer",
+    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNZ3ljSFl2V1NNQU4wbVM3YVFXT1ZoSGZfaXVzZnlIell3bENpU2lOcU13QVZPeFp1ZFU2RnNlNU45MHBvWnQxazNEVFZtYmJIUXNwcVR3bGk0NU5zeExxbmh1TzRuSHlkbXhGWXItTGZ5YzF6QTJQOW1tLUM4b3RpRHdDUWJvREdBdm9abE9OZ2NNTjdONlRsYkJOT2tIRF9vb0hjTUR2bnhoZlFnTVdWckR2Wl85ai0tSFFGSHdEY1FXaW5tOThFSl9DQWNtS0ZGUThPUjRGQ2JUQkhXXzFJYlF0R2JhTU9oN0F6V0VZNi1pQ0JkbWtsZThWQlN4eEp4TFNwcFZoVG5Cd3hpcUtCVFlHT3U?oc=5",
+    "story_key": "pimax-presenta-un-visor-vr-inalambrico-para-competir-con-valve"
+  },
+  {
+    "date": "2026-10-11",
+    "branch": "Inteligencia artificial",
+    "title": "Los grandes laboratorios de IA preparan planes ante riesgos catastróficos",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOQVFuSFo3Z01hMGZjZXBUemJ2U0NOdmJ6YVh2Z3NhZWZrUC01cVdQN1M5bEZvUnJCdHBNX0xQdmRkMXItRUtWb2ZhUFRabW1NaUVla2E5X0ZfRkRMVGxYbi1wRlRzMmtoTU0yY0Y5aUFDRnFRZFBPcmFUTVY1NUdfY0FyZHIxTW5lRmoxRVVXLWdSMEJRWTk5ZkNGUVdoUHlra1djUUFxdl9RQnlfbVlFUDlIckZjTzJvWlhRZXBqUGFWb1l2b0xkRFNhSEdMeTYxVklIdzl3Um5sRjBkcVhFUFAxWkJmX1VkNWVSbHlwZkNLYWZicldsMmxGYVlsdjNYWmFCT0NpN2Z5c29UNVRQSWgxUHRxcXBQWXBJSWNNOFlacGVLekNzSlN2LS1waGFpYm1DRzMzRGtFd1NMNGN4MUpjaTZMRU1rYWRnd2JZRm1JTllVNVY2bW43Rmx4LWF3bUtYODZKYUxud28?oc=5",
+    "story_key": "los-grandes-laboratorios-de-ia-preparan-planes-ante-riesgos-catastroficos"
+  },
+  {
+    "date": "2026-10-11",
+    "branch": "Apple",
+    "title": "Ya se pueden presentar reclamos por el acuerdo de IA de Apple",
+    "source": "CNET",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXhBQUpHcHV6YnAtMHZvVm1RSjM3X0Zlc2Y4ZW1HZlN5U21HNkM0UDNUdFd6ZTF5Q1I3Vy1WTjB5cFZLdlJ6TGNWcTNMSzZPaC1GNXdYRUp2cllqQ0c4NFIyck9LUnMzU3p2MnNiZzZyTkNhSE9TUHg5WGpQU0owMHVFa3J4eFJmT2pMXzN5TVFQNnZjQ1hOUnBOUnQ?oc=5",
+    "story_key": "ya-se-pueden-presentar-reclamos-por-el-acuerdo-de-ia-de-apple"
+  },
+  {
+    "date": "2026-10-11",
+    "branch": "Anime y manga",
+    "title": "Masashi Kishimoto revela el manga Shadow Rising y un nuevo anime",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVprTTAxaVgyZjFITy1TRWV3OHk1X0FoZHdJWUNha19hVnQtaTJ5Rmx1OWp5Rldmb2tfM2t5MGI5YjhmaTVnaFhQQjVoa1RQUDlDUUZzUE9ZcXJlZUVBS09qZlNmQ0libWFUNXU5SElzOURkVHAtV2pJNFRQZDJ6Y0prYm4xRU50UWlsaTZMSXFYRDYxeTQ3UVkyWE8tQ0V0M21J?oc=5",
+    "story_key": "masashi-kishimoto-revela-el-manga-shadow-rising-y-un-nuevo-anime"
+  },
+  {
+    "date": "2026-10-11",
+    "branch": "Anime",
+    "title": "Mobile Suit Gundam Seed Movie Revival confirma estreno en Estados Unidos",
+    "source": "ComicBook.com",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb1lENW1MT3hlVW9JdHAwOHlxem9fOXVBZHhKM3FaWkxYNUpMOHNDMHZyUF9pbG1uc1oxVGNNRkdiblhLWkRLdDEzTmhVTkNYWFVHTHdZbnRwWFpOY1BtMk5KanJPVzZTWDlMOXl2Y2F2c2JTZUZwSDNwSTY4SDdVZ3gwTVI1QlBJQm1QUXYtVFJOZmpvbEtYcW9Qb1hlNVJOSHR3alBvMHlHWkVKZGlvcUYyTEQxUzlOeHF0aXpUc3Y5cHF6dFNTaEFhNG5TUQ?oc=5",
+    "story_key": "mobile-suit-gundam-seed-movie-revival-confirma-estreno-en-estados-unidos"
   }
 ]
