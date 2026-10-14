@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-14",
-    "branch": "Suscripciones",
-    "title": "El precio impulsa las bajas en Game Pass, PS Plus y NSO",
-    "source": "Eurogamer.net",
-    "url": "https://www.eurogamer.net/xbox-game-pass-playstation-plus-nintendo-cancellations-rising-costs",
-    "story_key": "el-precio-impulsa-las-bajas-en-game-pass-ps-plus-y-nso"
-  },
-  {
-    "date": "2026-09-14",
-    "branch": "Industria",
-    "title": "Polyarc, estudio creador de Moss, anuncia su cierre",
-    "source": "gamesindustry.biz",
-    "url": "https://www.gamesindustry.biz/moss-developer-polyarc-games-announces-closure",
-    "story_key": "polyarc-estudio-creador-de-moss-anuncia-su-cierre"
-  },
-  {
-    "date": "2026-09-14",
-    "branch": "Regulación de IA",
-    "title": "Legisladores de EE. UU. piden nuevas reglas para la IA",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/business/openai-faces-senate-probe-into-hugging-face-incident-axios-reports-2026-09-10/",
-    "story_key": "legisladores-de-ee-uu-piden-nuevas-reglas-para-la-ia"
-  },
-  {
-    "date": "2026-09-14",
-    "branch": "Ciberseguridad",
-    "title": "Trezor alerta de correos fraudulentos tras una brecha",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
-    "story_key": "trezor-alerta-de-correos-fraudulentos-tras-una-brecha"
-  },
-  {
-    "date": "2026-09-14",
-    "branch": "Anime",
-    "title": "The Vermilion Mask llegará a Crunchyroll el 10 de octubre",
-    "source": "ComicBook.com",
-    "url": "https://comicbook.com/anime/news/spooky-crunchyroll-anime-confirms-release-date-with-new-trailer-watch/",
-    "story_key": "the-vermilion-mask-llegara-a-crunchyroll-el-10-de-octubre"
-  },
-  {
-    "date": "2026-09-14",
-    "branch": "Anime",
-    "title": "El anime Bless confirma su estreno para enero de 2027",
-    "source": "crunchyroll.com",
-    "url": "https://www.crunchyroll.com/news/latest/2026/9/12/bless-anime-january-2027-premiere-teaser-visual-two-main-cast-members",
-    "story_key": "el-anime-bless-confirma-su-estreno-para-enero-de-2027"
-  },
-  {
     "date": "2026-09-15",
     "branch": "gaming",
     "title": "007 First Light se retrasa hasta marzo de 2027 en Switch 2",
@@ -1486,5 +1438,53 @@
     "source": "IGN India",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSFlWWVNicTJjeU1GS0x4RkNrTzgtMlZzSHNLZXJsREp0YjB6d01hTXdtV3hPNjM1Wl9qSG5WaFE1OGVKcjlVTVViZ0pBbFFzN0dkTl8wZV9MVFFWZElJdDAzRXpveGpwYWt3SGhWRy1oSmlRa25qMktKdW94Qzk1TmpSX2VZTjhESElhSWVDel9GaC0yZnhwalF1dlFLaHRCcllqcUUzTTVkYV9kcWxHNDhB?oc=5",
     "story_key": "kagurabachi-estrenara-sus-dos-primeros-episodios-en-gira-mundial"
+  },
+  {
+    "date": "2026-10-14",
+    "branch": "Industria",
+    "title": "Xbox no sobrevivirá sin nuevas IP, según un reporte",
+    "source": "PC Gamer",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeE9zdFdwSjhkU3lVMmJoUkJYSW04SFhSMjg4NlllWFVtM2pzV3EtV3hhLThCU1BYOWdWOER6Mkd6QlhETGdfQWtKRW9xUl9iYjNBeXBWb0cweDVTUm9OeVlvSHFsMEVDQVFMcVJDNEVTbXJSWV9kem5RTTU3Mk94MnZGSzJVY2pWdmFKR3NGOW9zR0JOS28zMVh3SllKSFlnVUJ2cEI3LWlDMlVZR3JON1dhU1ZqUExUS3N6Ylh5cGFfcGR0N0t0c0Mwa1J3VDlOMUczV1NRUFFQa1pvQm0tYzRhWktDZTBBSWpUaDRlalJGOXVvUHVwcDl1cw?oc=5",
+    "story_key": "xbox-no-sobrevivira-sin-nuevas-ip-segun-un-reporte"
+  },
+  {
+    "date": "2026-10-14",
+    "branch": "Industria",
+    "title": "Ubisoft cerrará RedLynx y recortará puestos en Singapur",
+    "source": "GamesIndustry.biz",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcVc3N0tnTHFIZWNTWFZibVZCQkxUNGliYU43VXExTzFfdlBBXzhTaUwxZGRiQVBNdkhOWEhRLU1OQ0ZOZHhKa2gzM1RJZUIyUE85NlRncVMzaElMMnczN2xUT291bHQxcU9wRGdEY3A5cUpZU1dYaVdHZmpzQm9PNnBlUjhxNGJaeFRiM1ZkVlhwaFpxRldCTUlhc3ZhNkxfYlZYODNiYWF2cjA?oc=5",
+    "story_key": "ubisoft-cerrara-redlynx-y-recortara-puestos-en-singapur"
+  },
+  {
+    "date": "2026-10-14",
+    "branch": "IA y hardware",
+    "title": "Empresas chinas habrían comprado un millón de GPU Nvidia",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQVHVNbjRZMUpXekp4di1oY1JvZjlJUkR2bXhWdUttRVdtcGVDQjNxbEpVTG5Ra0w3RFU0R1M5R3haOHFLTEE2OFBuQ3R4eVBhMDc2UXhtZjd4eWFPMWVlaEdmYU0wM3Y0c1ViVENxcUtSVzhUSHliM05ZbjBuVjB5YTJtS3YtTkx4NjdRNTZtbGhIdS1ydkZnRGNwbFhWRFQzR05keU9RX1Qwb0ZydHEwQ3lFcUtpTDZRbGxKdl90SXh1X0xwYXhZcHp6QTlxQTBFNGJPLThIdk04QWhZTW9xUTQwQ0hFMWhpaXM0OXpQU1M0ZnpRNF9lTzJhbjhaajRNWThIdnlLLUN0M05sVlRzNnFjeVZPeXJiUlFZU2RFZ0FrbFRuOEdaRGlTN1lHdw?oc=5",
+    "story_key": "empresas-chinas-habrian-comprado-un-millon-de-gpu-nvidia"
+  },
+  {
+    "date": "2026-10-14",
+    "branch": "Streaming",
+    "title": "Apple presenta un nuevo Apple TV 4K con Siri AI",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOERnbGJDT0t1aHBWd2RBdkttbVpYLVZueFdkREI5VnRJaWh3bXE0QW1scjZrY0czOE1ROUJiX0w2cHZHV2d2eTRoRGJYSFl3M1ppRDFCN25aUUI1Z19YeWlDTGZwRUxzNEd0Mjh3QkM4VkZLeXhjNHJfM1hkWkZsZjY4ejVRWm0zVzJUdnUzWHpEQkxXbWwydU5kRDdYcTFmcDY4WE5lODE?oc=5",
+    "story_key": "apple-presenta-un-nuevo-apple-tv-4k-con-siri-ai"
+  },
+  {
+    "date": "2026-10-14",
+    "branch": "Cine y streaming",
+    "title": "La Moana de acción real ya tiene fecha en Disney+",
+    "source": "ComingSoon.net",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWpFSW1PS0NscF9YODhfYkEtVl84a3RnRXdSbHNBd29aeVpLSmZvVExsMlRtVzQ3WHBwMm5EUVN3ZlBhYTlyOXF6SFNoTUJtR082amhwZXpWajl0bWw2Rk1MVC1qNVFDOHB5MGdOMnVGeGxKb01jdVlQUjZfeXRubk94cEoxVTUzNDNsQjlFNE5VeXZPT29tNdIBmAFBVV95cUxNVWpFSW1PS0NscF9YODhfYkEtVl84a3RnRXdSbHNBd29aeVpLSmZvVExsMlRtVzQ3WHBwMm5EUVN3ZlBhYTlyOXF6SFNoTUJtR082amhwZXpWajl0bWw2Rk1MVC1qNVFDOHB5MGdOMnVGeGxKb01jdVlQUjZfeXRubk94cEoxVTUzNDNsQjlFNE5VeXZPT29tNQ?oc=5",
+    "story_key": "la-moana-de-accion-real-ya-tiene-fecha-en-disney"
+  },
+  {
+    "date": "2026-10-14",
+    "branch": "Series animadas",
+    "title": "Artemis Fowl tendrá una nueva serie animada",
+    "source": "ComicBookMovie.com",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObUVtMk9pc21GdXBHdFJiT01QNHktbkNMb3lVeC1naVU2Q2ZUN1JpVWJ4dW85dldpNmg0YnRBMUtaRG01Q2hDa2swa19EQU9ja005SW1lSmpoRXZQQ3A3OTJuV3ZXWURKWDYtaWliTUVQakNWNkZMcHdMeDd6MmJVVUZVS3pBUEtuZlc5YUd2aThsNGgwR0NzMVRkOGdYNktDbDVQQ284a2ZTeVBaV1BrWkdnT0dUcXpFMHF5djhvTnBwZnhjNjczOVFad3FVcEVXMGQyN1prc1Z5VUs5Q25MQ1Zn?oc=5",
+    "story_key": "artemis-fowl-tendra-una-nueva-serie-animada"
   }
 ]
