@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-15",
-    "branch": "gaming",
-    "title": "007 First Light se retrasa hasta marzo de 2027 en Switch 2",
-    "source": "Polygon.com",
-    "url": "https://www.polygon.com/007-first-light-nintendo-switch-2-delayed/",
-    "story_key": "007-first-light-se-retrasa-hasta-marzo-de-2027-en-switch-2"
-  },
-  {
-    "date": "2026-09-15",
-    "branch": "gaming",
-    "title": "Valve confirma el precio de Steam Frame desde US$1.059",
-    "source": "Dexerto",
-    "url": "https://www.dexerto.com/gaming/valve-reveals-steam-frame-price-and-release-date-starting-at-1059-3408909/",
-    "story_key": "valve-confirma-el-precio-de-steam-frame-desde-us-1-059"
-  },
-  {
-    "date": "2026-09-15",
-    "branch": "tecnologia",
-    "title": "Microsoft lanza un parche urgente para corregir Windows 11",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues",
-    "story_key": "microsoft-lanza-un-parche-urgente-para-corregir-windows-11"
-  },
-  {
-    "date": "2026-09-15",
-    "branch": "tecnologia",
-    "title": "Apple lanza iOS 27 y macOS Golden Gate 27",
-    "source": "Ars Technica",
-    "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
-    "story_key": "apple-lanza-ios-27-y-macos-golden-gate-27"
-  },
-  {
-    "date": "2026-09-15",
-    "branch": "cultura_pop",
-    "title": "Netflix prepara adaptaciones de Crazy Taxi, Sonic y Stranger Than Heaven",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/live-action-crazy-taxi-movie-new-sonic-animated-series-and-stranger-than-heaven-adaptation-heading-to-netflix",
-    "story_key": "netflix-prepara-adaptaciones-de-crazy-taxi-sonic-y-stranger-than-heaven"
-  },
-  {
-    "date": "2026-09-15",
-    "branch": "cultura_pop",
-    "title": "Apple TV lidera los Emmys con 28 premios",
-    "source": "Variety",
-    "url": "https://variety.com/2026/tv/news/apple-tv-wins-emmys-widows-bay-hbo-max-1236861206/",
-    "story_key": "apple-tv-lidera-los-emmys-con-28-premios"
-  },
-  {
     "date": "2026-09-16",
     "branch": "gaming",
     "title": "Wo Long 2 confirma fecha y lanza una demo",
@@ -1486,5 +1438,53 @@
     "source": "ComicBookMovie.com",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObUVtMk9pc21GdXBHdFJiT01QNHktbkNMb3lVeC1naVU2Q2ZUN1JpVWJ4dW85dldpNmg0YnRBMUtaRG01Q2hDa2swa19EQU9ja005SW1lSmpoRXZQQ3A3OTJuV3ZXWURKWDYtaWliTUVQakNWNkZMcHdMeDd6MmJVVUZVS3pBUEtuZlc5YUd2aThsNGgwR0NzMVRkOGdYNktDbDVQQ284a2ZTeVBaV1BrWkdnT0dUcXpFMHF5djhvTnBwZnhjNjczOVFad3FVcEVXMGQyN1prc1Z5VUs5Q25MQ1Zn?oc=5",
     "story_key": "artemis-fowl-tendra-una-nueva-serie-animada"
+  },
+  {
+    "date": "2026-10-15",
+    "branch": "Lanzamientos",
+    "title": "007 First Light cambia su fecha en Nintendo Switch 2",
+    "source": "Video Games Chronicle",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVXZFcWhZR2pSWm1EcjdLMm02a1o5Z3RpLTRkRmx1bm5FY0YwbEpzUDJvTExHWUxZc196VE41cU5JNFFrcmw1c2VfNjdDam5YNUIzclItdDlIX05mdTcwYkJtTmdSemdDTTZ0Z0hXUGdlRzBONXRWU2xaUkd0cW9KbTFZd01vNjlqMDRKTWxYaGJ0b1p2Z2ZXNG5pRi1LZ3NveUdVUGs5cGJDdFEweXQ0dUt3WQ?oc=5",
+    "story_key": "007-first-light-cambia-su-fecha-en-nintendo-switch-2"
+  },
+  {
+    "date": "2026-10-15",
+    "branch": "PC",
+    "title": "Refund This Game reta a vencerlo antes del reembolso",
+    "source": "IGN India",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSl9UYjB3bnRuemo1WTNQeHY4YUlWQlRtLUt6czdaSWt4NjVNWVhhNE9SZ1J2WHVZRFZJakh5cXJOa1BtTXo1SjJ4SzhXdjFKX3ZFSnNrYjd0YWlVY0R4ZDJ4bjA5emFTcVZ2QV9ZVjM5alE4TlNVLTVJTWF2MlRhVmM3REFyTHA4SGVxUjkxWWk3Z2RBUW9ScnRHcG1ZaTE5bmdnQ1NyOUJjUlljRjZaSnZLSnh0eU44S0FBTDZmZ2tMemNQSVNVaGR5SktWQ1p4?oc=5",
+    "story_key": "refund-this-game-reta-a-vencerlo-antes-del-reembolso"
+  },
+  {
+    "date": "2026-10-15",
+    "branch": "Inteligencia artificial",
+    "title": "Apple prepara el debut de sus funciones de IA en China",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzl6TER0VWJDcVVzTm52elZnc2NHWDNhd09wS1ZfQ25XUFhOS3hqS1QwQ3VNbGlmUFVqbTlzeTVac21zUFVNMXRJZHM4RjZXMW5qaTE2UXQzRXA0RFRRcnlJUk1CR3lzb1BKZGljbkxvZ0RJOC1oREttNHNtTHQ4NVpUUm42MWpUTDE4Vk5LLUlBV2pNaWVYVTRzVndLbm1VUzFMRHFsejVHSURlQlc5UU5rSQ?oc=5",
+    "story_key": "apple-prepara-el-debut-de-sus-funciones-de-ia-en-china"
+  },
+  {
+    "date": "2026-10-15",
+    "branch": "Regulación de IA",
+    "title": "La Unión Europea investiga a OpenAI y Anthropic por sus agentes",
+    "source": "International Business Times, Singapore Edition",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQW96SHRNdV80c0RHWmN4R1pYcWxIY05vYVZRTHBXbG5aZHdkclYwV0k3bU5iNjJRUEJCRnMycXBZaW1jWXZLU3hkUm1YWVVRMEdkVzFOYW1ZWjJIZGstWjdORkFyLWdneDA2TmR3TnF1RGNXVE5LSDQzeEZnVGg0UzBmdElPYm1JRFI3Y0VPUFF4d3lUNnpQRlBNZFBnQ012aHp6SE5SWHpyR0ZoOWp6SFVfV2o?oc=5",
+    "story_key": "la-union-europea-investiga-a-openai-y-anthropic-por-sus-agentes"
+  },
+  {
+    "date": "2026-10-15",
+    "branch": "Anime",
+    "title": "Blue Eye Samurai anuncia su reparto para la segunda temporada",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ2szQXJWczI5Zk53TGgxUWdKOHl5Ulh1aUwteUxVdjdhUmNURDhLNWM3SmJUTF9FR0IwUmsxaTc2azJwRVpXSHItcHpCeEFob3dBc0hHbzQ3anktaUw4X3p0RjlmY3RfSHZ3MURobXM4eW94RmFhRnNiNXhoSU1UTEVwekdTM242X01qeFBKX1NleXFsVzVVRlhIbjdsRE5uR3BwV2xyaldPRlBZdlRFOTVmVjlwaUhYUFlQRFRtTGlEQQ?oc=5",
+    "story_key": "blue-eye-samurai-anuncia-su-reparto-para-la-segunda-temporada"
+  },
+  {
+    "date": "2026-10-15",
+    "branch": "Series",
+    "title": "Maximum Pleasure Guaranteed es renovada para una segunda temporada",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONzlITkFEaHNOT2NEZ2VIMjlDSS1EVXFra3FHRGE4NkRKXzc4ZkRHdHh6d1NwRFIwaXluS09LRXY0c095bjQwR05DbC1xTXp2cmJKd1ZSa09pN1hCbkIyUGl2QzlkOVdtcXdldmFNY0F3dDhSM0JnWVNxdDVfY0xodWNwMUhuRVp5YjY4OG9VT21pT0ZBbGhBb2dR?oc=5",
+    "story_key": "maximum-pleasure-guaranteed-es-renovada-para-una-segunda-temporada"
   }
 ]
