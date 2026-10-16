@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-16",
-    "branch": "gaming",
-    "title": "Wo Long 2 confirma fecha y lanza una demo",
-    "source": "Eurogamer.net",
-    "url": "https://www.eurogamer.net/wo-long-2-wings-of-ember-demo-release-date",
-    "story_key": "wo-long-2-confirma-fecha-y-lanza-una-demo"
-  },
-  {
-    "date": "2026-09-16",
-    "branch": "gaming",
-    "title": "007 First Light retrasa su versión para Switch 2",
-    "source": "Polygon.com",
-    "url": "https://www.polygon.com/007-first-light-nintendo-switch-2-delayed/",
-    "story_key": "007-first-light-retrasa-su-version-para-switch-2"
-  },
-  {
-    "date": "2026-09-16",
-    "branch": "tecnologia",
-    "title": "OpenAI, Anthropic y Google preparan estándares para la IA",
-    "source": "Jacaranda FM",
-    "url": "https://www.jacarandafm.com/news/news/openai-anthropic-google-working-to-create-ai-body/",
-    "story_key": "openai-anthropic-y-google-preparan-estandares-para-la-ia"
-  },
-  {
-    "date": "2026-09-16",
-    "branch": "tecnologia",
-    "title": "Apple lanza iOS 27 y macOS Golden Gate",
-    "source": "Ars Technica",
-    "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
-    "story_key": "apple-lanza-ios-27-y-macos-golden-gate"
-  },
-  {
-    "date": "2026-09-16",
-    "branch": "cultura_pop",
-    "title": "Netflix anuncia películas de Crazy Taxi y Stranger Than Heaven",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/live-action-crazy-taxi-movie-new-sonic-animated-series-and-stranger-than-heaven-adaptation-heading-to-netflix",
-    "story_key": "netflix-anuncia-peliculas-de-crazy-taxi-y-stranger-than-heaven"
-  },
-  {
-    "date": "2026-09-16",
-    "branch": "cultura_pop",
-    "title": "Netflix estrenará Pride & Prejudice el 3 de diciembre",
-    "source": "Deadline",
-    "url": "https://deadline.com/gallery/pride-and-prejudice-netflix-release-date-first-look-photos-cast/",
-    "story_key": "netflix-estrenara-pride-prejudice-el-3-de-diciembre"
-  },
-  {
     "date": "2026-09-17",
     "branch": "gaming",
     "title": "Zero Parades tendrá Director’s Cut gratis y llegará a PS5",
@@ -1486,5 +1438,53 @@
     "source": "Deadline",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONzlITkFEaHNOT2NEZ2VIMjlDSS1EVXFra3FHRGE4NkRKXzc4ZkRHdHh6d1NwRFIwaXluS09LRXY0c095bjQwR05DbC1xTXp2cmJKd1ZSa09pN1hCbkIyUGl2QzlkOVdtcXdldmFNY0F3dDhSM0JnWVNxdDVfY0xodWNwMUhuRVp5YjY4OG9VT21pT0ZBbGhBb2dR?oc=5",
     "story_key": "maximum-pleasure-guaranteed-es-renovada-para-una-segunda-temporada"
+  },
+  {
+    "date": "2026-10-16",
+    "branch": "Tecnología gaming",
+    "title": "DLSS 5 mejora su velocidad, pero divide opiniones",
+    "source": "PC Gamer",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSHNyQ3M3X18tSkJSNUQ1VjlJajhfMTc1U2FlX1lkUlBzNTRad1UtVExZNDY5MzJwR21xclZ5YzZzX3hQeXhqRDVtb3pTdTY2UThKem00Uk9paUFzRmhqbldSRVJSeEQ4T2p6eGJINzNKVWVOUkljSFFQRkFSUzZvTjFzYkVaeWFtNEZrd2hHa25tSE5sVUt0LWlxTktMQTRyQnBnbEJicWtqNUxZYWtVQWZhajRPR0lndXM2QjZ2Z3QtOEJ3UFA5dGNLdEhDMVV4b3c?oc=5",
+    "story_key": "dlss-5-mejora-su-velocidad-pero-divide-opiniones"
+  },
+  {
+    "date": "2026-10-16",
+    "branch": "PC",
+    "title": "Epic compara su nuevo launcher con Steam",
+    "source": "PC Gamer",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeW5LdUMxT1pTcGs4RXlWYnZpV0tTTXBta05Jb1hrLWpJdk93SWRObTRPbnNUZThLdEZCY0lDTGlmM1NhbzIxRXhJU1F5RE0zeTVOSng5SjFEZ29JWHAzTkdIMDFHOW1Benk0S3JXMk5aNUl1NTFTSXpmclN0WEoxYU4xaDBITjE2NkZzbmJKaTlMQk5KOE9aTjM1dHQ4Y3JURllHalpiV2NkRHp5UGpoTm9lQ045V3laMVN6N0pzcTB4aEFVT3Qzbmwxc29YX3BZdnVfV0VQWVJ4b1JYY2QtRDM5dGFFdw?oc=5",
+    "story_key": "epic-compara-su-nuevo-launcher-con-steam"
+  },
+  {
+    "date": "2026-10-16",
+    "branch": "IA y hardware",
+    "title": "Amazon Bee lanza dos dispositivos personales con IA",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdExPak9nb2l1cFIwcVVMcGJZZktCcXlLQ2ROYjZrVVk4TG8wc3hXTXcxdDlVTDlNZFJGNmxNaDI4QUI2bHZBRVM0U3lIZ2xMd3pCTno5cGhLM19BMjRTa2pCN2o1M3hSQzlIeTJvRUtlSlJKc2JLaTQ5eVBWT1VTU0ozQkJwNmVuQlZ5MVFYSFFhZ2o4elhCTU5kWFIwZ2M?oc=5",
+    "story_key": "amazon-bee-lanza-dos-dispositivos-personales-con-ia"
+  },
+  {
+    "date": "2026-10-16",
+    "branch": "Google",
+    "title": "Google lanza Universal Cart para compras en Estados Unidos",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX2J5WFhBXzExbUNob1ZGczFDd0V6TU5TZlVwZHpjbnc3R2UwSHp0Tm9nWE1LNGpOcmxrQXRndnRxcnVvMTluWS10OTd6MTVVcy1TakVDX3F4M2tFY2MxcU0waXNtVVU3cG1fdjRzWU9VWnhoM1R4dU9jVGdSeXRlZnZlN2R4NW1VOWVSbTM3ek43SUxk?oc=5",
+    "story_key": "google-lanza-universal-cart-para-compras-en-estados-unidos"
+  },
+  {
+    "date": "2026-10-16",
+    "branch": "Anime",
+    "title": "Golden Kamuy continuará en enero con una nueva serie",
+    "source": "Anime News Network",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOelZoZ0lqQmJTN1NlQTRoT2U4V016MVBha1FqeW1rQnRLX1NDMXVaWnlqWS1MdXR4NGE0dUZzaHoyenhVdkdfb1Z1T0FPbnZkTERHTVpORGRmc29PemFNRlUwQVNLX1JoZ0YyVFFrOVNjdWRuV1VwNHhURHc0QnlaSVdTWll5VTZja04wMXFGTmxWNU9uaXcyVXJDd0Y1QWxIbWQzbEJFQWRIdllpZUtDaDBXa1hWQU9Xd2lHekdkdjBvVEZWdzVjRkVwZmFRQVUxOFpiOW9LbTdfd1BWV3ZF?oc=5",
+    "story_key": "golden-kamuy-continuara-en-enero-con-una-nueva-serie"
+  },
+  {
+    "date": "2026-10-16",
+    "branch": "Series",
+    "title": "Fourth Wing encuentra a Violet y Xaden para Prime Video",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHUtc1h6YzV1WUsxeG5BbHFXZkpJaTB3NTY0THBFYl9WOGYxZ09waW04cGV2MGd3UnVTbUpTbXRObnZTS2NEd0N3YXJDbFFseXVSUzlNbUptOWJvWVh5eXhiVDRvaUx4TS1DcUdwN0lZaEpLVjF0QV9Ub2VKWmliX1M3UldSQWVtWV9NYzVRSEdTTlpBNTJRckFlQ05UNXFr?oc=5",
+    "story_key": "fourth-wing-encuentra-a-violet-y-xaden-para-prime-video"
   }
 ]
