@@ -28,7 +28,7 @@ HISTORY_FILE = (
 )
 
 EXPECTED_COUNT = 6
-EXPECTED_RESERVES = 3
+EXPECTED_RESERVES = 6
 
 VALID_BRANCHES = {
     "gaming",
@@ -214,9 +214,9 @@ def validate_reserves(
         ] += 1
 
     expected = {
-        "gaming": 1,
-        "tecnologia": 1,
-        "cultura_pop": 1,
+        "gaming": 2,
+        "tecnologia": 2,
+        "cultura_pop": 2,
     }
 
     if counts != expected:
