@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-17",
-    "branch": "gaming",
-    "title": "Zero Parades tendrá Director’s Cut gratis y llegará a PS5",
-    "source": "GameSpot",
-    "url": "https://www.gamespot.com/articles/zero-parades-directors-cut-revealed-and-ps5-edition-release-date-announced/",
-    "story_key": "zero-parades-tendra-director-s-cut-gratis-y-llegara-a-ps5"
-  },
-  {
-    "date": "2026-09-17",
-    "branch": "gaming",
-    "title": "Wo Long 2 confirma fecha y estrena demo alfa",
-    "source": "Video Games Chronicle",
-    "url": "https://www.videogameschronicle.com/news/video-heres-a-look-at-the-wo-long-2-alpha-demo-which-is-available-today-to-mark-its-release-date-announcement/",
-    "story_key": "wo-long-2-confirma-fecha-y-estrena-demo-alfa"
-  },
-  {
-    "date": "2026-09-17",
-    "branch": "tecnologia",
-    "title": "La Unión Europea propone vetar redes sociales a menores de 13",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/world/eu-commission-proposes-social-media-ban-children-under-13-2026-09-17/",
-    "story_key": "la-union-europea-propone-vetar-redes-sociales-a-menores-de-13"
-  },
-  {
-    "date": "2026-09-17",
-    "branch": "tecnologia",
-    "title": "Apple lanza iOS 27 y macOS Golden Gate 27",
-    "source": "Ars Technica",
-    "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
-    "story_key": "apple-lanza-ios-27-y-macos-golden-gate-27"
-  },
-  {
-    "date": "2026-09-17",
-    "branch": "cultura_pop",
-    "title": "Netflix prepara adaptaciones de Crazy Taxi, Sonic y Stranger Than Heaven",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/live-action-crazy-taxi-movie-new-sonic-animated-series-and-stranger-than-heaven-adaptation-heading-to-netflix",
-    "story_key": "netflix-prepara-adaptaciones-de-crazy-taxi-sonic-y-stranger-than-heaven"
-  },
-  {
-    "date": "2026-09-17",
-    "branch": "cultura_pop",
-    "title": "Magic Knight Rayearth regresará en octubre por Crunchyroll",
-    "source": "ComicBook.com",
-    "url": "https://comicbook.com/anime/news/31-years-later-legendary-isekai-reboot-sets-crunchyroll-release-date-watch-trailer/",
-    "story_key": "magic-knight-rayearth-regresara-en-octubre-por-crunchyroll"
-  },
-  {
     "date": "2026-09-18",
     "branch": "Industria",
     "title": "Valve libera Lepton para llevar juegos Android a Steam",
@@ -1486,5 +1438,53 @@
     "source": "Deadline",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHUtc1h6YzV1WUsxeG5BbHFXZkpJaTB3NTY0THBFYl9WOGYxZ09waW04cGV2MGd3UnVTbUpTbXRObnZTS2NEd0N3YXJDbFFseXVSUzlNbUptOWJvWVh5eXhiVDRvaUx4TS1DcUdwN0lZaEpLVjF0QV9Ub2VKWmliX1M3UldSQWVtWV9NYzVRSEdTTlpBNTJRckFlQ05UNXFr?oc=5",
     "story_key": "fourth-wing-encuentra-a-violet-y-xaden-para-prime-video"
+  },
+  {
+    "date": "2026-10-17",
+    "branch": "Industria",
+    "title": "Xbox evalúa exclusividad para Fallout, Elder Scrolls y Minecraft",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91YS0zeU5EXzE0T0NMVzN4cDZrSzl4b3I1ankxX1NuZFBKYkJ1RTMzd3FVQXRnV2MyNS1kUUEzcEszNm9PcHlzMkNRSmhZQi1Xc1k1cGNBMUUwSVFNSFZVLWtwOVBIM0FiSHJfT3cwa2N1S1U2cWgteWNsQQ?oc=5",
+    "story_key": "xbox-evalua-exclusividad-para-fallout-elder-scrolls-y-minecraft"
+  },
+  {
+    "date": "2026-10-17",
+    "branch": "Lanzamientos",
+    "title": "Un candidato al GOTY 2026 fija su llegada a Switch 2",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTzBQVzB6TG5qLTlaXzB5d3RfNWNlUHU3eFhLdjFTY2dtd0V5SWYyR0wyYWxXUTVCemZoM3pSZC1QVEZ4b1NuMmp5N2tuQXRIOXNuOFdMT3ptUllMZFlFSmZLUGRrVGlSaHFCYjZ4c2JZZUhpaW82dzlwUHB1SUtuQ1N1STdaaGN4dHFEV2tTQ1B2cUF2V2RLQ0pVZHI?oc=5",
+    "story_key": "un-candidato-al-goty-2026-fija-su-llegada-a-switch-2"
+  },
+  {
+    "date": "2026-10-17",
+    "branch": "IA y hardware",
+    "title": "Nvidia presenta laptops RTX Spark para IA local",
+    "source": "Chosunbiz",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT29ubkVIY09RUnRCNkdHd1Q3Rlk3dF9UZWtNc1hERndnZzVyME1UbzRqYjJ3dUdvSmtscmF1YTlRa1NmdF9oaE1sNmJ2UUlMT2tNSE9HV3BCYk1kNkw2T014emNrNlAzWF8yTWxZV1EtQ3QtQjRWYl9yVTBYVXdaVjJ2U1NQSDM5eWNtQmhn0gGOAUFVX3lxTE1Pb25uRUhjT1FSdEI2R0d3VDdGWTd0X1Rla01zWERGd2dnNXIwTVRvNGpiMnd1R29Ka2xyYXVhOVFrU2Z0X2hoTWw2YnZRSUxPa01IT0dXcEJiTWQ2TDZPTXh6Y2s2UDNYXzJNbFlXUS1DdC1CNFZiX3JVMFhVd1pWMnZTU1BIMzl5Y21CaGc?oc=5",
+    "story_key": "nvidia-presenta-laptops-rtx-spark-para-ia-local"
+  },
+  {
+    "date": "2026-10-17",
+    "branch": "IA",
+    "title": "MacPaw lanza Eney, un asistente de IA para Apple",
+    "source": "9to5Mac",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVEV3cDJBRWNKZW55OGU0clJEMS1DdFFQRFByZkdpMU1sOFZoci0wRlRoc1AtYU5UQWRkZzhQTEhaQzJpSnZibUtiLU1HY0t2YXJ2b0ZEYkh0RmpNeU1PSHNCQUJmNWFwT1JOMC0zeVYzOUZQMUduemNITUZOcWFtOUhqSFVjcWRxbXRwRVNlVDk2Q2lVYk5XMVhnRGU?oc=5",
+    "story_key": "macpaw-lanza-eney-un-asistente-de-ia-para-apple"
+  },
+  {
+    "date": "2026-10-17",
+    "branch": "Anime",
+    "title": "Black Clover revela fecha y reparto de su doblaje",
+    "source": "Crunchyroll",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOckxnRVdMUy1XNDV3UV9pTVduR2tvYzdlaktQSklvWUlJdlB2cGRmUTJxZk4yM1ZhRHJxYmQtNlVuQTZlTHBoTmdRMXdUd0Q3TUlZaXlCb1BBVkc5TnhmaGNsdlUtcXhQeXBOa3lPTS12TlJ3LTFhSUx4VEFVSnFQdWI0ZUxsdHdrOE5ROUZRek9rZ09ydjBkRVRlUldIVllwM21RNl9nUDJ6UERnc1lDa0lUNzhBUkxaZVpfazluLXI?oc=5",
+    "story_key": "black-clover-revela-fecha-y-reparto-de-su-doblaje"
+  },
+  {
+    "date": "2026-10-17",
+    "branch": "Cine",
+    "title": "Francis Lawrence dirigirá la película de Red Rising",
+    "source": "The Hollywood Reporter",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0RuY1NuS0gycWt2V3l6emhWVFJET1dLYWxZQWhWRkJBaEt6RjljclNIUWRHTjRSUEgtN2Nnc19GSHlBZWl2VUpXX0pjWDBRRWJCd1FncVRpYXlPOEZLdzVQLXFwcmo1TDZLR2FQcWdfbmVlWXUxQVZlX1FSbW1vOEtaLVJZRHRHLV9qNFRjY25YYVQxbUpDNEhNbjdLZw?oc=5",
+    "story_key": "francis-lawrence-dirigira-la-pelicula-de-red-rising"
   }
 ]
