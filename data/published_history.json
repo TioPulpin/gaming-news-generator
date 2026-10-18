@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-18",
-    "branch": "Industria",
-    "title": "Valve libera Lepton para llevar juegos Android a Steam",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/997315/valve-has-open-sourced-lepton-its-tool-to-bring-android-games-to-steam",
-    "story_key": "valve-libera-lepton-para-llevar-juegos-android-a-steam"
-  },
-  {
-    "date": "2026-09-18",
-    "branch": "Lanzamientos",
-    "title": "Edge of Memories llegará el 5 de noviembre",
-    "source": "IGN Southeast Asia",
-    "url": "https://sea.ign.com/edge-of-memories/248999/edge-of-memories-official-release-date-trailer-xbox-tgs-2026-broadcast",
-    "story_key": "edge-of-memories-llegara-el-5-de-noviembre"
-  },
-  {
-    "date": "2026-09-18",
-    "branch": "Inteligencia artificial",
-    "title": "OpenAI lanza una plataforma de IA para abogados",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/legal/litigation/openai-launches-legal-focused-ai-platform-escalating-race-law-firm-users-2026-09-17/",
-    "story_key": "openai-lanza-una-plataforma-de-ia-para-abogados"
-  },
-  {
-    "date": "2026-09-18",
-    "branch": "Inteligencia artificial",
-    "title": "La ONU se alía con Google para datos compatibles con IA",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-    "story_key": "la-onu-se-alia-con-google-para-datos-compatibles-con-ia"
-  },
-  {
-    "date": "2026-09-18",
-    "branch": "Anime",
-    "title": "Horror Collector confirma su estreno para el 10 de octubre",
-    "source": "Crunchyroll",
-    "url": "https://www.crunchyroll.com/news/latest/2026/9/18/horror-collector-anime-october-10-release-date-main-cast-teaser-trailer-visual",
-    "story_key": "horror-collector-confirma-su-estreno-para-el-10-de-octubre"
-  },
-  {
-    "date": "2026-09-18",
-    "branch": "Cine",
-    "title": "Resident Evil apunta a un récord de taquilla en su estreno",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/zach-creggers-resident-evil-expected-to-break-franchise-box-office-record-topping-2010s-resident-evil-afterlife",
-    "story_key": "resident-evil-apunta-a-un-record-de-taquilla-en-su-estreno"
-  },
-  {
     "date": "2026-09-19",
     "branch": "Hardware",
     "title": "Valve mejora la carga de Steam Frame con una actualización",
@@ -1486,5 +1438,53 @@
     "source": "The Hollywood Reporter",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0RuY1NuS0gycWt2V3l6emhWVFJET1dLYWxZQWhWRkJBaEt6RjljclNIUWRHTjRSUEgtN2Nnc19GSHlBZWl2VUpXX0pjWDBRRWJCd1FncVRpYXlPOEZLdzVQLXFwcmo1TDZLR2FQcWdfbmVlWXUxQVZlX1FSbW1vOEtaLVJZRHRHLV9qNFRjY25YYVQxbUpDNEhNbjdLZw?oc=5",
     "story_key": "francis-lawrence-dirigira-la-pelicula-de-red-rising"
+  },
+  {
+    "date": "2026-10-18",
+    "branch": "Actualizaciones",
+    "title": "Game Freak pone fin a las actualizaciones de Beast of Reincarnation",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2hTMUxWQ1c1UWQyREN4am1sd3FYV3BYWG90SGtjNkI3MTNkV21BaERnLXhybWRtNnRwUTd3NXFjdzBONEhVRXNsemFsNHBtbkRObm1RRHNDaFB1cC05ZWlrREJrY0tSQnZfa0oyX2pPQktpeDI5UHYxdUtwMjNySDFLb0lwQ2Nz?oc=5",
+    "story_key": "game-freak-pone-fin-a-las-actualizaciones-de-beast-of-reincarnation"
+  },
+  {
+    "date": "2026-10-18",
+    "branch": "Industria",
+    "title": "Xbox busca un estratega para juegos físicos",
+    "source": "Windows Central",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeGJyUEJTR2ZUMUVESWlCVlZEQ0VpbWFqV05pbnZqeml3MFRZUnFmOWRraEN4cXNwQjJabGE5WVZ0NFkwNHpkaFB0SE5VOUpqbG9WYXZhcjNtdjhGX3pLc0ZFX0VjT0V5eG1NekU1UEdhZUsyR1lZMnB4dmZnNVdRX2pIdnJGMXoyVXNreFBVYmJReHJCdUdIRkVxYnhvRDV3OE5sdkphelVuWnhRd2dyUkpyc3ZOOURlRlM4SFNkRS04dXdaeUpjVG9kRVhpNm5PSGJGaFdZbXAxa3Z6ZkE?oc=5",
+    "story_key": "xbox-busca-un-estratega-para-juegos-fisicos"
+  },
+  {
+    "date": "2026-10-18",
+    "branch": "Regulación de IA",
+    "title": "Anthropic propone umbrales para frenar modelos de IA",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOZzBaVmx3ZGk3YlBaUW1pR0FwLVdwWFlwaVlUeVFVdHY4dVhqRExLeV91blg0ZmNyRERfMFpQNmY5NlZtaW8xUDVwbEVlVWFMLUNkUnFiRk9KMEtsNThBR2loVXRxWkZiekxNYllWaEZpTzZBNUMtNndZUnVvTzQzZFJWS2d4NTE2eldDUzR0R2RDNHhuZ3p0cW9ib2puME5nQ2xpR2RRQkRkMmxjTmw2NV9Jck1tZjVCUDZwYjlYb0NyMS1MbWV0cE00SzlBbzZWcFB6M1FnRkFveFQxV0o2QS11MWtzOEUtQkx2NG40S3RJM0lOMUNBZjkzelBLdk94QzA3LUl6cDlPMFF3ZUM2MDYzSDRtQVlWR0pEeTVoY0JDdEN0WUxiUDl1eFpGTDBObUtZRHVlb0pyYzdMOFdTVUIxTXRQNnV5eGFlMWJIbEJhQWpKUDZEX1psZWxNakkzdWp2ekE3V3VFNWNXT21oYnA4c0w5bHZCTHNVUGNkLXRJU3pwMlV6V1p2aw?oc=5",
+    "story_key": "anthropic-propone-umbrales-para-frenar-modelos-de-ia"
+  },
+  {
+    "date": "2026-10-18",
+    "branch": "Ciberseguridad",
+    "title": "Hackeo a OpenCode pone en riesgo claves de IA",
+    "source": "Pasquale Pillitteri",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZVo1ek9ENDZrc1BLbm12enkyZ3c5ZlZpYkZqcFI4TG5ldFhMMlVKMFM5NlRGZF9HUzBhUVNfT1BJa0IyWkx3QTRWNHJEZzVsWlpyUzhPSWFMSGVLekJPNmduV2k2bEY5Z21iWlZhV2NHaFhDMVNPVnVJSGdMWUlic2hmRGMzV0pxTEp0ZnhUX2VXWEpuQ21OaWh5SDRoZl92akE?oc=5",
+    "story_key": "hackeo-a-opencode-pone-en-riesgo-claves-de-ia"
+  },
+  {
+    "date": "2026-10-18",
+    "branch": "Anime",
+    "title": "La película de Aikatsu Stars! llegará en enero de 2027",
+    "source": "Crunchyroll",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM0lhdFBWQXNFWDhUclhaemFCamhQWE9ZWFFocnVDVC1pOTZ0UUtLTHVIamVvMEJKRzBZemRtU2ZVY3hrOTk2X3p3ZE4wYWY5TzJfazdibGFYRGVqa2h6ZE5mYUE1UTZiOWx6UHdQaDdBNUJfR3JUV0p5d3ZFUWV0dFNVS2dJTmh5dllseVZ4QVdFeUU0ajNVYkI1NmlGd1NTVzZLX1cwVUN5aGJvamdSWFlVZ1BTd0ZiY1dsZHA3UjVzQQ?oc=5",
+    "story_key": "la-pelicula-de-aikatsu-stars-llegara-en-enero-de-2027"
+  },
+  {
+    "date": "2026-10-18",
+    "branch": "Anime",
+    "title": "Aoashi temporada 2 confirma fecha de doblaje en inglés",
+    "source": "Crunchyroll",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX0FVckpQZzhUTXBqTkdGSFIwTU5neDI0MjZ5MEFyUzJjRDRQTzJONjJtQzkwNEZIcmxsSzJhNC1Fd0hPMy1xS1BYNkxHclUyaXhONmFmN1cwSjNsRF9Qcng2ZW44azVnNnVXZ2dSSkF1c3kyeWdQazNORXl4eDlPdEdncktoMXBtN2tzVGV1LTBwWFdEdmptWThHLTk5dUtQdkFEWkROU0xVZVp6S0tYTzZ1VkgwN0hz?oc=5",
+    "story_key": "aoashi-temporada-2-confirma-fecha-de-doblaje-en-ingles"
   }
 ]
