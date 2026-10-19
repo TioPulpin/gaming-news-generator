@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-19",
-    "branch": "Hardware",
-    "title": "Valve mejora la carga de Steam Frame con una actualización",
-    "source": "The Verge",
-    "url": "https://www.theverge.com/tech/997779/valve-has-already-fixed-the-steam-frames-slow-charging-speeds",
-    "story_key": "valve-mejora-la-carga-de-steam-frame-con-una-actualizacion"
-  },
-  {
-    "date": "2026-09-19",
-    "branch": "Lanzamientos",
-    "title": "Tropico 7 llegará a Switch 2 junto a consolas y PC",
-    "source": "VGChartz",
-    "url": "https://www.vgchartz.com/article/469129/tropico-7-coming-to-switch-2-launches-alongside-ps5-xbox-series-and-pc-versions/",
-    "story_key": "tropico-7-llegara-a-switch-2-junto-a-consolas-y-pc"
-  },
-  {
-    "date": "2026-09-19",
-    "branch": "Ciberseguridad e IA",
-    "title": "Investigadores usaron Claude para vulnerar sistemas internos de OpenAI",
-    "source": "techcrunch.com",
-    "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-    "story_key": "investigadores-usaron-claude-para-vulnerar-sistemas-internos-de-openai"
-  },
-  {
-    "date": "2026-09-19",
-    "branch": "IA",
-    "title": "Meta lleva Muse a Mac para actuar dentro de tus apps",
-    "source": "techcrunch.com",
-    "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-    "story_key": "meta-lleva-muse-a-mac-para-actuar-dentro-de-tus-apps"
-  },
-  {
-    "date": "2026-09-19",
-    "branch": "Cine",
-    "title": "Lollipop Chainsaw tendrá una película live-action para adultos",
-    "source": "IGN",
-    "url": "https://www.ign.com/articles/lollipop-chainsaw-live-action-movie-revealed-by-dragami-games",
-    "story_key": "lollipop-chainsaw-tendra-una-pelicula-live-action-para-adultos"
-  },
-  {
-    "date": "2026-09-19",
-    "branch": "Series",
-    "title": "Netflix cancela Sweet Magnolias después de cinco temporadas",
-    "source": "Entertainment Weekly",
-    "url": "https://ew.com/sweet-magnolias-canceled-after-5-seasons-at-netflix-12128534",
-    "story_key": "netflix-cancela-sweet-magnolias-despues-de-cinco-temporadas"
-  },
-  {
     "date": "2026-09-20",
     "branch": "Industria",
     "title": "Sony aún no fija una fecha para PS6",
@@ -1486,5 +1438,53 @@
     "source": "Crunchyroll",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX0FVckpQZzhUTXBqTkdGSFIwTU5neDI0MjZ5MEFyUzJjRDRQTzJONjJtQzkwNEZIcmxsSzJhNC1Fd0hPMy1xS1BYNkxHclUyaXhONmFmN1cwSjNsRF9Qcng2ZW44azVnNnVXZ2dSSkF1c3kyeWdQazNORXl4eDlPdEdncktoMXBtN2tzVGV1LTBwWFdEdmptWThHLTk5dUtQdkFEWkROU0xVZVp6S0tYTzZ1VkgwN0hz?oc=5",
     "story_key": "aoashi-temporada-2-confirma-fecha-de-doblaje-en-ingles"
+  },
+  {
+    "date": "2026-10-19",
+    "branch": "Industria",
+    "title": "Sindicato de QA de Activision autoriza una posible huelga",
+    "source": "GamesIndustry.biz",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNc2lZZDV4VzZXTldvNy04QW13QVByM1YzRnJodkYwcWNfdGZuRnRxZ1BlczJHZl9oOWJ3bE9jNmoyOGRMQm5OS3RTdndFQU9WN196TXpuRVZTV1BnaFFIczhNbFc5QnRyeG81Yms1MWh2VXhFSkJwcG5YaEYtZXNCRm1TclMxcmJWT2pZSlV5TXRrS2kwMmZzTmRGX3loY1VHazlRTjZwYzJySFpBXzRkTmR5cDl3Y01fdjRuVVd4aTNocmx0dVR3WnNaNThtdVpOdm51SDFBVXpwOGpCZ0gwZXJ6VWFCQTlmZ0E?oc=5",
+    "story_key": "sindicato-de-qa-de-activision-autoriza-una-posible-huelga"
+  },
+  {
+    "date": "2026-10-19",
+    "branch": "Plataformas",
+    "title": "Steam cambiará los logros para proteger tu porcentaje completado",
+    "source": "Eurogamer.net",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5GczdQTWpCcHh2ckRPMnNPcURMMER3WjhWTk02VF9PVWEwa2toV1F4VHRCbVI1WnhvLW1WcFF1RkFVV0VNODNudTE5Nncwa3k4QmZQZ3h0MXB2a1FYZXM0c3JLdw?oc=5",
+    "story_key": "steam-cambiara-los-logros-para-proteger-tu-porcentaje-completado"
+  },
+  {
+    "date": "2026-10-19",
+    "branch": "IA y chips",
+    "title": "Arm afirma superar a AMD en pruebas de CPU para IA",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOUnZEeklIakJUcUxDYXZ2ODFfZ1NibDBuNnM3RVljeEtMby1MenlHRkZjLUQ4MmlidzNrT2pMTDFzQTNLa25HQk9vZ21mV192Y1A2RVNWQ0J3ODA4TzlTMFhHUmN4a3Y0SUxscGQwRndHZlVxWFo0bVg1TElkZUZjYm45aWRxajJDdW14TEtqM1BaOFFWeEF0eGZldm1ueFZQMWFMc3pMLUUxMlFpRnZXaUxNT0txZFlKckN0bFk1YkxTTU5YWjNGYlMybWZJNTY1Z3N4VXhzV3B5OUNkcXVUMzdHM2Z1ekxKZ1huXzltZmpvNVdLTUxFUmFlT1A5a3Jnbk5hTnNZS1NrRkRQLWNyYW5Wb3pHeTY0Y2Y4WlVaWGlxdUhSdUlpUno0UnZOLWxSTUVWaXF6TTRNRHlMaFp2Ym5Pa3NZbHVmWjl2dl9fYUl3SE5oTkVGOVJKenB2YnNqS3k0V0wwSlhnelFw?oc=5",
+    "story_key": "arm-afirma-superar-a-amd-en-pruebas-de-cpu-para-ia"
+  },
+  {
+    "date": "2026-10-19",
+    "branch": "Hardware",
+    "title": "Nvidia niega el fin de la RTX 5090 pese a su escasez",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQQ0ZlM0FDbXNGbHEwWmhnMXNZbmdwaDMwekowZ2xtczNtOTA1WFJlWHlOQV9qZ0s3V1B6cUYtcy1pckdNUDdWWi1tVm1ZZFFxRzUtdUNGQ2Z4OGx4aXRoX3cwa0FUWVRyMy1pcGFuc0E4clRMS0JtU2pybGZ3ME1fejMtMjZZTEl1LUR5amRDR2lnM1hVMkxselVkbXlKWUZ3QjI1XzJWQkFFNVZkMFZ5TEdzLVRNQktwVHFXYTdpNG50Uk50aWZDOFRDU1hKS18ybXlFWnlyYXI2cTdrUWQxdjFfYmJCNklsYXR4RW1WR09mUm9veEZ1bHNSd2hYdnpsRGFiclVEYUpBLUVlOW14Q2J2XzFwU2xra0QwMkN2dkhRdUZ5cVVkeXAtbC1VSVNIbVNuNWdrYWdtQXptWWhCVi1aMEZ0eDhXUnNJYVpPYTVNeWNuQWxRWlpkaw?oc=5",
+    "story_key": "nvidia-niega-el-fin-de-la-rtx-5090-pese-a-su-escasez"
+  },
+  {
+    "date": "2026-10-19",
+    "branch": "Cine",
+    "title": "La película de Star Wars de Taika Waititi queda congelada",
+    "source": "Variety",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa3NjWmtULUJSUFpUN09tZXNkTFgwYkR3TUNmdnRLTUJaV0dza0FKRHhiSWtrOWVqUGtfUTdhNmVTUDlQZEVTdGx3dHQ2TWtkNFhKMXF5Y29YYXhqU1NkcGNRRFJjVTRUWi1hdHFEbTdMaV9wVWpqbW1IZjVGT1YwOWZlUXNfVzBITG4zdnFHVFptQWY1WVVzUGNPTlU?oc=5",
+    "story_key": "la-pelicula-de-star-wars-de-taika-waititi-queda-congelada"
+  },
+  {
+    "date": "2026-10-19",
+    "branch": "Anime",
+    "title": "Null Meta tendrá adaptación al anime en 2027",
+    "source": "Crunchyroll",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONEk2TXNVVGRyaVlYTm9TNVJMSnA4MFRGSkRtT05xN3ViNkVJdlNiTm5lUzc4M2c2d1BIY3hxelFicWNSRmJmTlhGX1dBMUtWLTh4c2I3VWNuNzZaZUxTQ0lvMENqb3VHdENlNTdmU2lCUE80TF9Jby1HaUY1RVBUQXNtWlBYdHExV19KS1NTR3lWajM4VHV2Zk1lcVJpQmlNSVVFTGhTb1Q?oc=5",
+    "story_key": "null-meta-tendra-adaptacion-al-anime-en-2027"
   }
 ]
