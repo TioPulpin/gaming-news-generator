@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-21",
-    "branch": "Servicios",
-    "title": "Warzone cerrará en PS4 y Xbox One el próximo mes",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5iZVZ0UWgyaklsWUMtRjA1TDdGMlB1SG9UWXd4N2RDWjZ0UURfNi1ISnV4NGVXSFhqU2xnUGZtV2xSMnNuSlN4SE5PQXJpSmdtaFhLclpKYURPMmEyT0EyRE03NUhGWkdwWUU3SEc5VjRIem9vYjN2MnExSWw?oc=5",
-    "story_key": "warzone-cerrara-en-ps4-y-xbox-one-el-proximo-mes"
-  },
-  {
-    "date": "2026-09-21",
-    "branch": "Industria",
-    "title": "Activision cifra el negocio de las trampas en US$8.500 millones",
-    "source": "Eurogamer.net",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQckpXd01MMk9QR1dVRjg0eFYyWElITkRlbWh4TE5WUEtjRDRBdVJLY0hBWldMVmtTMUh1akR6Z3NxZG4waHlaRnpuVHRlMVJZTmNIUW10Q2FKWDNZSVhudFJvak1uNzBpNWo3d1R3aEtUeEVQZnh1ZnBxTnFaUEc0R1VYN1dxdw?oc=5",
-    "story_key": "activision-cifra-el-negocio-de-las-trampas-en-us-8-500-millones"
-  },
-  {
-    "date": "2026-09-21",
-    "branch": "Chips e IA",
-    "title": "AMD asegura superar a Nvidia Vera con sus EPYC Venice",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNMzA2X0J0ME1fMll3R21yMjNPeHpoVFJ0ZXpwaHJRb2ExT1otNjFkdXZGNXBZQ1dWajJPNC1WX1AybV9TNmtCb1ZsZERBa3VNQkVTOFlFQ0lvVGlnenZ4TWgxcWRoMlBvbklrZ0RwRWlSMHhUVXlSY3R1REJmb2RSWWtsUFhadFFQWTUydzJBMTJsTTdXY2Z1Zko2RDR2a1AzdDRlbzl0NVdfTjU2djlvbmVXNHc5N2czbkV1aTFwMUpLUkFaR0NJNHB4WS1xeDA3TlVHczJjQW90OHBOWHZTNHFwTjFMSkZHUEQtNWFwckQ1OE5pRWpVdUM3NVlXUVpVZ3BkQXB2djliX1dYV01nUkREWGhIWEZrUnQ4UGxUdUFHQk1ZOUdDM0RIQnhqTGNhUmVxRnFyVUcxa1ktWTNkTWZqdUdmaHVDdmphOFFKREVrZw?oc=5",
-    "story_key": "amd-asegura-superar-a-nvidia-vera-con-sus-epyc-venice"
-  },
-  {
-    "date": "2026-09-21",
-    "branch": "Apple",
-    "title": "Apple habilita el sitio de compensación por el caso Siri",
-    "source": "MacRumors",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1walIxY2RaNVhHLV9mUTZhdnhrdWNzc2VJWjNzZ21ocWYzU09iQUkyTnR6RThLaEN3Q3o3czRicE1qMVZEcjNXWVNkM0NzSkpZOW13cUZyQWxadlN1TE9Bd0xLeEpIMjNaVmd0R3BvWlB6OEZfdXV5UzJpRXlsUQ?oc=5",
-    "story_key": "apple-habilita-el-sitio-de-compensacion-por-el-caso-siri"
-  },
-  {
-    "date": "2026-09-21",
-    "branch": "Anime",
-    "title": "Dengeki Daisy confirma anime para enero de 2027",
-    "source": "Crunchyroll",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbGFIRTVsMEJGLTNhdUl1eU1ZRnVxb3hNYjFiOGs4OXlSN3NpOXBTSlZCMmlyeXFMRlBOY2FCNUF3WmdUVjVWRXFSTW44b2paVUtZLTZaaVNYb0NLanMwZHRLQ1RkWWYtZUk5V1NpZTVBeW9zOENVQzZuYzN6UXZoMVluc0xGY05BOXVqOW1BN0V1YVRqNEJNT0VhTTdZVFptMk93amMteDJFOHhGWGZvaUp1aWRCcjBWVXJVQ05tODRYalNSWFBQandYZlY0OGhW?oc=5",
-    "story_key": "dengeki-daisy-confirma-anime-para-enero-de-2027"
-  },
-  {
-    "date": "2026-09-21",
-    "branch": "Anime",
-    "title": "Daemons of the Shadow Realm tendrá segunda temporada",
-    "source": "Anime News Network",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGtjenMySWhBRXY4YkhXYkRqcFpKN280M1E1d2hYWDlJSm95VkhRZ3JtU19jeGpFdTFJMUdVODBrUnFyM2Zmbkx3T2dHSmNGd2tGcDNHa3NUY1hDVER5eFJsdWx3VXlTbHU1VHhGNUUtS2t1bzAwSmVKNjBXZkpqckhBYnVYM0Jwc1MxVzBXamdzeFR0Q0xpdU9QRXJESUJPOW1xc1d5ME1GZw?oc=5",
-    "story_key": "daemons-of-the-shadow-realm-tendra-segunda-temporada"
-  },
-  {
     "date": "2026-09-22",
     "branch": "Hardware gaming",
     "title": "El rediseño forzado retrasó la consola NeoGeo AES+",
@@ -1486,5 +1438,53 @@
     "source": "IGN",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN0thZEZsNldxM2w5UmtGdVBPbjN2ZG1OZlEtVUJBbDl6Y096WnZxcTMwQy1wanJRLXZaRmJJQlZ6eG1aZXAtQzZIU2d0VF9PcHJoaUNFenZIZllYSmFWUFpaNm0yOFNIbEI5aG83ZU9zY29NMkZRb2RuNzJQbENKV3M1Z0kta2VUQndHWUxyY2wzU21VNHM2S1Rub0k5UmhkazY3U2tjRXR4TnBTci1ESHdxTTVzWUNqSmpUZzhYN1ZzZGpt?oc=5",
     "story_key": "disney-llevara-star-wars-al-super-bowl-de-2027"
+  },
+  {
+    "date": "2026-10-21",
+    "branch": "Lanzamientos",
+    "title": "Shrek 2 Remastered llegará en noviembre con guiño a GTA 6",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZjBfblBrXzEyWEFlRmRBdGdiMDM0dnM4TlFqWmk3NDZWdW1vMjQ4eHl1YmxNbXdSZl9XcGNwQVlaTlNzYU0xb3dwYXM1S2RBRnIyTzZ4b0c2Y0M0YVo1aFJsajlmMWhJVHpBQlVFcWFnZU5pbkFJWDFsQUFCTFl5RnVOX0dCbk1kVGVaa3pWZmJlVVVmck5FUjFuT1QtZnBDaDRqam5hRVEtcEladUltbEtKdkZBSjZkZ0ItZTJnaw?oc=5",
+    "story_key": "shrek-2-remastered-llegara-en-noviembre-con-guino-a-gta-6"
+  },
+  {
+    "date": "2026-10-21",
+    "branch": "Hardware",
+    "title": "Xbox Series y ROG Ally X recibirán FSR 4.1",
+    "source": "Video Games Chronicle",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaDQ1OXRMYjFGTDBpc0phVTJwUERCcFlqdkFNaHh3ZG1relJ5VUctYjRzOGVZV255cmg4UUtHVmRUZjFLNk5MeWZvNERMekl1cktQMEdrQjU0VnlFUjE2bEJDVnpvR3VCSUgxQUNqNzB1dnpRMEVQcFVLeHl5RWFpam5LMHNtM2p3SmROeGxoUXRUY0dOXzZ2VF9NMVoxZFJqWWZSTlpJNmFmMkRpa1V6Ung2QnFKaDc1R01rUFJZclJ1bGJ2b1pJSWRwbXpteXc?oc=5",
+    "story_key": "xbox-series-y-rog-ally-x-recibiran-fsr-4-1"
+  },
+  {
+    "date": "2026-10-21",
+    "branch": "IA y chips",
+    "title": "AMD e Intel unifican PyTorch para IA en CPU",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQbmkxdUdrSFdnYy13bFdEY2NwYlQ1UWsyTFU3bXJOalhFVkswb3ZUVTBGWVZlYy1YM191c3lfd0ZDaUszVFdrRkQ0QzdRN3VJWHVrM3JfblNFVFNjNUYza3h6RkdrQ1pIUmQ4YkI2TTJhR1ZUcW9Nc0Vfc2hSby1iUWhpNnBLc2s1UG5wdkVNMm5CNDNzQ0dDR2hDTmRlaHVVTFUwUm9acVFkY0JYbmc1cUFaaGNKMl9tSllZbHl2YU1VcTgwY3IxRWE2ZzhoVmtFVFhkTWJjY1FZdDhzZVNVVFhiR3RSaDUxLWJHUmtWdVMybW5Ba2cycE1zb2V6aU9xS2hlY1pQc1I5djRhMTVxNUpoV0hmbklxa0Foa2hDSExndHNzLUU2LUlUZXRsejRkd2RHX3k0dklYQQ?oc=5",
+    "story_key": "amd-e-intel-unifican-pytorch-para-ia-en-cpu"
+  },
+  {
+    "date": "2026-10-21",
+    "branch": "Inteligencia artificial",
+    "title": "DeepSeek presenta una herramienta abierta para abaratar la IA",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTNwMlNFRlZ6SkZCMWtZaEJfUWdXbGxlQVBnSEZOZ0dVM1dLc240NTVQdnZTbjJqd2pRWVNpUUZVYldWZDlzdF8waFlUVlRRaW1uYllNRjdVNFZZSW9aeFhGQmRzS1p1VmhFUG9HbTMzaE5hTm1mOGFwSHp5VzlEbTEtc2ZsQTJ3amdCVjhkZUU5bkY3UDM2ajNRcGY4aDJBWjhFbGljNjlZaXI1X3gyX1gyYTV4QQ?oc=5",
+    "story_key": "deepseek-presenta-una-herramienta-abierta-para-abaratar-la-ia"
+  },
+  {
+    "date": "2026-10-21",
+    "branch": "Series",
+    "title": "American Horror Story queda renovada para su temporada 14",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbTM3Q2tNNGlqNWE1WGpRc3lCM25Ydkw3bFBrOHN3TlRWRllaS29uU0ptczFWMW1LblZMQzUtdUNQeG5QOWQ5bkE0czFZbXZEUlpFYm9hUjdsenJyY1Zuc1pYWVBXdGczbFJNMmhLaEIzYjhnN18td1NZWDBJU2s2SUd6MEJCYVZmMFZv?oc=5",
+    "story_key": "american-horror-story-queda-renovada-para-su-temporada-14"
+  },
+  {
+    "date": "2026-10-21",
+    "branch": "Anime",
+    "title": "Yona of the Dawn elige a Pierrot Films para su secuela",
+    "source": "IGN India",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc3BSYko4VExIZHJDZ0RpOVNZWGxuMi11bmxRb3Q5dHNUWDMzaXZxcjQ1elFSMWp6NHdtWWZHdllNNm1kNnI3aGhOUHl0NTFhcFFRbmIzdUVyTUFxVHlncWQzRk1TNGFGcElvQXFXcXM1dVQ0cHdaNXNVMDN3aGxtTWhNcjFvNTdheDMyUnFNMEsxN2ZaV2dESXVQNTBmVEt1a1pWeDRjbW1EUGQyVGN4N194eXFfM1lVRktYRA?oc=5",
+    "story_key": "yona-of-the-dawn-elige-a-pierrot-films-para-su-secuela"
   }
 ]
