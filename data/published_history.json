@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-23",
-    "branch": "Actualizaciones",
-    "title": "Wardogs anuncia su segunda temporada con lluvia y clima dinámico",
-    "source": "sea.ign.com",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQjJCcVlKUUlCTC1fbEdTSEVQd3lFeXdodTFwSlB5NG9kZ1FRN3BvTjlnaGJDMFlwRDMyU3pBUm1GbmYtTXdFd2FPUDdMTWptVnI4Q1ZPUXJKT1N5eXRHYmZWWUpiWjJUUnRzLUxOdl9HLUJxN3R3azRwb0xBb0xDZHQ2QktkU2NPeWpZVXdIN0ZLdmZWRU54VE04WXgxMTdTYWJLYzFwbnFCUQ?oc=5",
-    "story_key": "wardogs-anuncia-su-segunda-temporada-con-lluvia-y-clima-dinamico"
-  },
-  {
-    "date": "2026-09-23",
-    "branch": "Desarrollo",
-    "title": "State of Decay 3 recibe señales alentadoras tras los recortes",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMFhobVZRLTFicGJiVFN3M0h1YS1aRHJ2N2pYcGtUY2JpQ2Uyazl2U0RXX2tqOUdBT2tiQVNxSjVZZG1YR0NzejZjSEVsd1Y0ZXBlZVhRYlYyOTRaTXdQZHZKWHctX0J4dkNMNk1ETVpoeEdkZWo5clBqV3dEbEpjekI1YTVrTkE?oc=5",
-    "story_key": "state-of-decay-3-recibe-senales-alentadoras-tras-los-recortes"
-  },
-  {
-    "date": "2026-09-23",
-    "branch": "IA y seguridad",
-    "title": "Brazos robóticos con IA intentaron tareas dañinas en pruebas",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOdUVILVc4b0Jta08tTnRJSDV5VzBuS0JPa0JIdEdlMGZNNGxaVUtuOGlOUGl4U0wzcE13MVFOX1h2eERST3BVZkczbmNnSnBaRzQzN0tUVk1ZOWVOSXF3NmV6MUVWQW5ZQ2FCeUFqQ3BvS1BhRkRjUnlCRlhQRmVxaTQ2aHFoM2JsdEwtRXliay00el9MeHUtZHFyTGpPUGdyY0VOVWpESHR4ZmtFTHVnaUt1N2ptWGdObkZZUnhoSlVYaldjUUxzaTgxWDlnYnpXSUpQazhsbWlUd1JQaGhGdU12aWltYWcyc1hLZGd1enVDanRsNklYa2xxU2xEUmR6anNLNjliQXBVcS1PSk13YmhrbWJLbWJVZ0V6a25YVGpvTWFPSEgxakkxNkh6M3ZkSGlVa1ZPMlYwSEpEY0Jjd21UblhNNHNoaVpETmpJNVZkbDNNRlhnQ2RTLUlKTEV3RElnZ2lXZmJhRVVUZ1FpVFJkcl9oM1BBa0p0bGlqalFEaVdhY1QwN2dsdkNhYVRzd2Zr?oc=5",
-    "story_key": "brazos-roboticos-con-ia-intentaron-tareas-daninas-en-pruebas"
-  },
-  {
-    "date": "2026-09-23",
-    "branch": "Regulación de IA",
-    "title": "Gigantes de IA enfrentan una demanda antimonopolio",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNWkxCQWN6Yl9tc3JjbVlLUGg1S1diMFM4RHhTYS1nQkRUTWdxQjloeW1LR2oxY1NUSjFBZkV0WWd1ZzRSV1FJeUltaE5jNjFLVC1UTGhDVEFyc2g0Q0NFaFZBOW9vOHNsVkU3eU1XRU41Z1ViaFhFSkp2YjdXLWhyUEhMVTRLNHlIcHRPS3M4YVJxSVl0R0F5YWhLYmRVV3ZYUzQyQWhlLTdVeUJQcHRBMGVVc0NkbkoyUU1uNWc1cVpuc1FaNHd3d2xjSkdqWjQ5Z2ZiWElldXNRUlQtalJjdk95cGNPM1RyWjdoczdQQlNmaWpkNERqR2p6Vi1KQ2RxZUlLcjJUaVhrSlZzNWtPVmFBbGFwdXFKX0JRUW5oaEFHRWttZDdWZkhUelI4N0R5QzIwNjJLc3F0TF82SUhyX1pCd1FDWVlTWndjcGZkeUtsMUU?oc=5",
-    "story_key": "gigantes-de-ia-enfrentan-una-demanda-antimonopolio"
-  },
-  {
-    "date": "2026-09-23",
-    "branch": "Series animadas",
-    "title": "Darkwing Duck tendrá reboot oficial con una nueva serie",
-    "source": "IGN",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLTV3S0pqejdOdGFqWmNnMmpnaVoyUnpNRVRtOERQR0x1bllFdFN0WkpWZTN4ZUNPb1BUQ2RBSlNkNFZkTmtXX1RqQ29rSWNoMGJvT3pVcHpsYjlhN0RiOFoxNVplVi1DRjU3MDhUbDNBbjZmS1BqM1ltMVMwaWloempJalpraGh3OHgtaU5ReU81WlBCdUE?oc=5",
-    "story_key": "darkwing-duck-tendra-reboot-oficial-con-una-nueva-serie"
-  },
-  {
-    "date": "2026-09-23",
-    "branch": "Marvel",
-    "title": "Marvel anuncia oficialmente una nueva serie spin-off de Spider-Man",
-    "source": "collider.com",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOVF4eC1XcmNueDcxZjBmd29FOEt2ck5wQjRmT2hvYmJHTkFKZkdrclVtYWhNQ0d2ZnpfZUdqVHRDOUhHMmVlWG9XUm9fbTJNN0JjSnU3UG00SVFodGZSM0FhNVZPNXdqeDdkbDQxbTlYR0pQOFpaLTVIdTF2ZVVWVUdXejZTbi1CTmRR?oc=5",
-    "story_key": "marvel-anuncia-oficialmente-una-nueva-serie-spin-off-de-spider-man"
-  },
-  {
     "date": "2026-09-24",
     "branch": "Industria",
     "title": "Microsoft confirma que Activision asumirá el futuro de Halo",
@@ -1486,5 +1438,53 @@
     "source": "ComingSoon.net",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb2JQZmhSYUdScFlIMlVnbThYWXhhVGFZdW14WUdYbHU2N01ZZjFOOEg4WFdfWENkZm5wSUxvelNJeFlsalJIQjgyVEdJelVCV2o5aUdINEprOUdzR2Z0Z1lfOEwxSU1OWXlZelg0Vnh5ZXo2OGFfNHJQNG1DMTFUYzlBX0NvbTEybGlkSUtjbDNwUkowZkhUZ2xmR2_SAaIBQVVfeXFMTVNGTnJ3WjEtYS0ta1NVRktVMzNIbUxyU2dtT001d3RCTzFxVkZMYmdtSlV4MDVoQzBjcjNrajl4REp5cGdFa0NRYTRXLXVHcEJlMlBmSk1KcTBrRG5mRmpXMFBTemtJdXJqQlZuUTB6YnpwOWJzZG55b19qeWxoZEpOdFZFbFlOSFVZMXl6ZGRUd2JJUkk5TWlyMjMtOG8tcm1R?oc=5",
     "story_key": "avedon-la-pelicula-de-ron-howard-revela-su-trailer"
+  },
+  {
+    "date": "2026-10-23",
+    "branch": "Videojuegos",
+    "title": "Dragon Ball Xenoverse 3 se retrasa oficialmente",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1pM0tlX0M0YVJhS25HdnVyRl9GNHRMbmNmWmJnVzJtU1lQUGlBd1lBd0xGcHkxb2lkWEd6MjlKamlqcGxockdVT3UxTGtkZTVhNnFweFc5N3ppcmlaSW1hRUVBMktJYkEtZjdCYmpqZ0lidmJkaWRTSE1WVQ?oc=5",
+    "story_key": "dragon-ball-xenoverse-3-se-retrasa-oficialmente"
+  },
+  {
+    "date": "2026-10-23",
+    "branch": "Industria",
+    "title": "Splash Damage aplica despidos en un estudio recién adquirido",
+    "source": "PC Gamer",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWEdwLWJld2RHZlU1c3dxVmxpd1htbkFZdy1Ca2lwaHlGaFlpYXVidzBXdWxqWGFacnBxUXo4bDRKMVJBcUE2X0hxdkMxX24wTmpNZkZPdFJ4Wmt5aU5fZ0s2SnVXUlRZVjVFSHhvc09SZDFYMnBtY0RHeGxOczB4Yk5LYWZiWEhCT0lQaXNuRDV2dVdUZHdUUXI0NUFXUnpSdnFfczdSNUJFcVpIQlhic2N4S1llRHBiZF9KdDlCWFkzQ0I2VXpzeG5JYnBUaXE3TlBUcnBvbWJEb2NlWGQ2aWtpaVlNQU0?oc=5",
+    "story_key": "splash-damage-aplica-despidos-en-un-estudio-recien-adquirido"
+  },
+  {
+    "date": "2026-10-23",
+    "branch": "Ciberseguridad",
+    "title": "OpenAI y Wiz alertan sobre viejas fallas de PHP",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQlBtOHE4NVdQWHJKZUlOZzlJODlfX2tFQUJTYll1N3c1OFVEUGpQWDJncENMMGRjM3FvNThzVmkyNTdwSEQ0eGg0aWFvN19HdzlBeVdxM0lFbDdOVFVWdzVvelJlVVhYamdxZlJibzlqNlVKQl9oZzJZUW1LM0g1Tm1NZEhaWHJ1WG5LTkJTQmJKcU9Tb1lVN2lRckljbk15bm1yOHdZbC1mQzBzYllV?oc=5",
+    "story_key": "openai-y-wiz-alertan-sobre-viejas-fallas-de-php"
+  },
+  {
+    "date": "2026-10-23",
+    "branch": "Inteligencia artificial",
+    "title": "Microsoft apunta a una superinteligencia médica con IA",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVdXNUh5Ylc4REo4QVJUQk42eV9PS3B3UDlEdVhsREdRaG1HazZBOHVyZnFJYmhGc3hpcVM5VjRnYW02RlF6d1h3TDhDb1NqcWVyUHdDd0pQVk9GQUdnR1duUi1abGY0Y1EwTWNOaU9JbVZTMGJMVHFGSFV2Wkx6TWdZNDdmS3dnZzNWUEdZaV9KaWxNaDVoZ202ZTloaXE5bi1sam1VOXZuNkRoRHBWNFF0RVVLZTdETW5ZZXpoZGJhYXNWNkRBWEFpYlFyc2dJZmFKakp3Zkp5d29nOERSWQ?oc=5",
+    "story_key": "microsoft-apunta-a-una-superinteligencia-medica-con-ia"
+  },
+  {
+    "date": "2026-10-23",
+    "branch": "Series",
+    "title": "Prime Video renueva Carrie para una segunda temporada",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMTNVZzdjYlF4a3Z1eF9QeVhwcXplR3M0TXhCOFFLaUI1YXYzZXViOURxYUFEby1adzJpVHBnT2xQOGFqUjRKdzRfZnZCVFFvZkNlUC1DaDdJc2pkbm9mOWZSTFh3UlN2T0hhR3dqdHg5MlhxNEQydExEZ3pEV0owY05n?oc=5",
+    "story_key": "prime-video-renueva-carrie-para-una-segunda-temporada"
+  },
+  {
+    "date": "2026-10-23",
+    "branch": "Anime",
+    "title": "La película de Made in Abyss suma cuatro voces",
+    "source": "Anime News Network",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTWRsX2RfNTZlWDUyclNRUFk3S3FERWlLeW5rby1xNFFsd1lBRU8xS1NpNGpETUktRi0xTGMyVFR3TWxHM0xTOU5xQWVLZXJGU25IWnhIcm1qd1JuZHJrVzhhTy1iRUVqQV9EQU41azF1NkJkNzZqZjNWVzNzdUdhbGhVRG5DUGR0MnR5NWJEck9EZnl4RTRMdmZlVG43SlF3aWNvQjZvRkJ1UTNUVmFCXy1lcDYzbzkxQnpfcw?oc=5",
+    "story_key": "la-pelicula-de-made-in-abyss-suma-cuatro-voces"
   }
 ]
