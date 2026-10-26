@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-26",
-    "branch": "Industria",
-    "title": "Nintendo gana US$4,5 millones en demanda por piratería de Switch",
-    "source": "GamesIndustry.biz",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRjRCaDF2Q0w5U2RHQS1QcGxCV29MWFI1azk2X0tpbXNibzVMZ2ZyMFUtRkxKUGxIajNrVnpkNVJhdmN0LVJlSG44OFY4MGNuY0dZbVI4WVRreWJRYnk2ZDVEeXBjU2xweERDOWNCcEJRdmFrSzJVemVqWWpVYkhkN2NqNmVkSzNkc3BZM1NIRTFMa2lKcEdERjhsX1A2NDJkNEtnVlNtWTI2VDJ0WFNfUzZnMEQ2M2VRX2dwUFZyOWdRc1RiR3FV?oc=5",
-    "story_key": "nintendo-gana-us-4-5-millones-en-demanda-por-pirateria-de-switch"
-  },
-  {
-    "date": "2026-09-26",
-    "branch": "Actualizaciones",
-    "title": "Quake Champions abandona su modelo gratuito en la actualización final",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWGdudkFJQ2hoUnEtd0tZWkVKU244S0ZMS1dEVnUyOEsyU215QWVpSE00Zks2M2hmeE1UZEJ0WFljMk9QcmFsOXJEMEtKdWlzX0Q1cUJZQWxiZE9fU0diWDNfaUVJUU8yMlVKQnpzZFFoZzBMQUNBX1dyNDJEZlUzUzRBVQ?oc=5",
-    "story_key": "quake-champions-abandona-su-modelo-gratuito-en-la-actualizacion-final"
-  },
-  {
-    "date": "2026-09-26",
-    "branch": "Ciberseguridad",
-    "title": "Kiteworks pide apagar servidores ante una amenaza cibernética inminente",
-    "source": "TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc2c3VHpKOTdfRnRuazRlTi03Wk9LelRMSkk2ZmtsVjFhaS02UEhfYk9VN2xxZldFV1V3UnBQWXFtSUFEZ3VlSnJiX2FqOVRCZkFnTHhaUVBjUlUyREx1WktoN0pKd0RMY0pueDcwbnZnVER5NzBSTU5DcnpQQmd0OTBvajdvMEx4RDFVdjV4U1pLMXBlNW9aTlFlTU4wYlV3RFdvSDhSQlkyd2czM0N2N3Z4ZWNhRGMwNjlsVzg4eUg?oc=5",
-    "story_key": "kiteworks-pide-apagar-servidores-ante-una-amenaza-cibernetica-inminente"
-  },
-  {
-    "date": "2026-09-26",
-    "branch": "Inteligencia artificial",
-    "title": "Microsoft renueva Copilot con generación de código y agentes",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORFppWUc2LTE4NzBfY2prVG11cG9PQ1VyaFB6QkYzVGoyLWV5alVORkZraFREc3FBbmIxTThVay1nQnZZRXhvQ1JyQXpQeU1uY3NmYkt4eWtlSlZvZF8yR3o0LUtRZGFXWFkzdVdBTXJveUdqNG1PTTdHS25wQ0xOR0R3dWNCZFQ3Snlwcjc0S0FHYXg3RkhsMWFoMW5GX0hWWFFFQUJzZnptVjJXUUhR?oc=5",
-    "story_key": "microsoft-renueva-copilot-con-generacion-de-codigo-y-agentes"
-  },
-  {
-    "date": "2026-09-26",
-    "branch": "Anime",
-    "title": "Code Geass anuncia un nuevo anime para 2027",
-    "source": "Anime Corner",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMHY1RVlyMDBHeHlpVk9BZmc4Q3VwTk90NEVHck9vOTZZV0NXS3I3NzFES2RSeHdkWXdoUFQzMVRuZlh3dmQtQTVZQXhPNTd6R1NHcmstVGIzNld2a1BHU0owSlNHalhSQm5vclNna2FEbE0xZEhiVzk3aU0zSHlhNTBSUmNiaFozV3M1ejJnUnRnd0dwdDJ6dHRoanhCYnZxUXc?oc=5",
-    "story_key": "code-geass-anuncia-un-nuevo-anime-para-2027"
-  },
-  {
-    "date": "2026-09-26",
-    "branch": "Anime",
-    "title": "That Time I Got Reincarnated as a Slime volverá en 2027",
-    "source": "Anime News Network",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPV1l4VWRhMklCUjRSNHBJTGJsMWNCbmQyaUF4TFBseEFKUHFDaUowSmdVUzBaYWQyby12Qk5hV0cyOGpJOHk3NXJtVGJPYTJ2Tmg5Tk1NMzVVd3dNazJNcndXMUwySmtjVHZRUkowWWRybld0RnB2NWVHNXRXZHRYVzlRb0JPbFZRa3EtekNyYTFGeV8zLWFmM3IxRlgyT2szRHpEeVp4S0JHcUE0RksxR3dVemdVVk9ZczlzQU4zeENTZFY3Z0J1RDBHMk1xMGUyYm13Qkg3RnNfMkYxY3lMdFBELVZLUEVCUlE?oc=5",
-    "story_key": "that-time-i-got-reincarnated-as-a-slime-volvera-en-2027"
-  },
-  {
     "date": "2026-09-27",
     "branch": "Lanzamientos",
     "title": "Minecraft Dungeons 2 presenta su tráiler Get Ready",
@@ -1486,5 +1438,53 @@
     "source": "Crunchyroll",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOV1BmSGotLXBBUHJQdUZuN2ZhWmVITE9GdmQzbDE1YnhrV2pvRFgyaUZXMFFVVDZ3Tk54c2pBMTNMSzJSc2J0d3pBSjlqRkR3QjJTVFB3Qk9fbXNNMmJsRnVmOGZENzdfcjZDTm4tVmlUc0NZeTF6U24wQ0ppVWpXclI4aDFjY2t3V0xiS3BNMXdmd2ZlYkxfdlpFek5abFV4cVhtZGxtYnIxemVhT3NNN3hzYVJKamFxWkZFbFA1SWRleGZhR2dWQVdRN0pFVW84YjZrQWJueVZod1BRcVl6SVpLbw?oc=5",
     "story_key": "our-last-crusade-confirma-oficialmente-una-tercera-temporada"
+  },
+  {
+    "date": "2026-10-26",
+    "branch": "Industria",
+    "title": "Tim Sweeney carga contra la política de IA de Steam",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMEFLLURZM0MtOFRMVU5PckJST2xGNEYzeDRYTlhkREV4OVpRRWZzUm1fTzVwRzh4cl9xejNSMFEweHNDVFZlRksxVjZfVHd4R01UT010RkNmdUgzZjZMeWZPZXNTbUFRQXpzUnVUalZwbE55WDloM1EyZ09CX0VSay10Q0FQOVM0b3dtRUtZRmV1YVZRRllPSGg3VVdFOVdGM1NCZTZZRHkzMFNUNjNobS1wRVlSbm16LVBTOUFaLVdNelZWQWZ2Nmt6Mi1iQlNGM0oydDc5aVU?oc=5",
+    "story_key": "tim-sweeney-carga-contra-la-politica-de-ia-de-steam"
+  },
+  {
+    "date": "2026-10-26",
+    "branch": "Industria",
+    "title": "Microsoft amplía la consulta sobre Arkane Lyon y Marvel’s Blade",
+    "source": "GamesIndustry.biz",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSXFpY2xvUlRGTGFuQWY5OC1FT1B6UENCN3pidURlYXBwSHdYUG95QUUwMzBCNGlNcENrdUNBUzRxVWx5THpvcjR1V0dqc25VX29XOFhyeGVBc2dCWGZRMVZZRWNmak9ZUG9QVkIzQWIzWGdvUGlMSENVYU9uUENLSjRUT3ZPckRSSXozOWFRQ056NlNjV0poNDQ3cWtqVGpsbDJ2Z0Q1cTVIUllSa01JbUJtXzJTb2w3UU1LZUlrS1g0b0QyeGlF?oc=5",
+    "story_key": "microsoft-amplia-la-consulta-sobre-arkane-lyon-y-marvel-s-blade"
+  },
+  {
+    "date": "2026-10-26",
+    "branch": "IA y ciberseguridad",
+    "title": "Agentes de OpenAI burlan sandboxes mediante la caché de CPU",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQUzdBSXJpd083eUx4UlRyNnVSRC1kZjBhWUVuNjVmbkVvU3hGNlZjM3A2a0g1ZzRNVkJrdU82QmFabXVUMFhJMW1xeFJzUVJ3ZEEzRTFLZ0p6Q1E4SDRsRDhGaGUtSEhsNWxPRkdUNzJfQUxWS3FRSW45aHU0b0J2dzYwSE82QWRmS2h3Q3FUU2xQWEdaVDVURTFGdHVMRC0xclpPTE9aVnNLU0dycTN6SVltOVhEZU12YjRkQmhNN0FSd2ZaMGFXT2ozSExFXzJyaGZ6LVE1ZE5IZ0h4dHpJWmNPZGFhXy1LYl9JSVc5V1lLMFJ5RFJrTko0WXZFTldHR01jaHVfSWRsSk8xcUJ4Qmt5ZkhWUUJJTERSRmdCb0FEMEl4RDFhR3FjWlQ1Vi1kTGllQzhNYUFIcDFiM18zNkkyeHcwT0w5Qmh2dkNkQQ?oc=5",
+    "story_key": "agentes-de-openai-burlan-sandboxes-mediante-la-cache-de-cpu"
+  },
+  {
+    "date": "2026-10-26",
+    "branch": "Windows",
+    "title": "Microsoft prueba soporte para Intel APX en Windows 11",
+    "source": "Windows Report",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRC0zUFdFWnZQQWZpN1hkSjdDNElGUGtXdm1vd1ZOTzZucDlWTUQybEdkS2l1ZWFQWEl2bk54Q25hWXJ5LUhZYVo2N3lOTnowTlZyV3hHNG5aVFA1WkZVTHpVdVpydm55UTJWSGpPd0VQQjUzcUFOZVhwMVJtRUx3a1hUMkJHQTAwREpwcG1wbVZ1a0F0Q0lHcnU5eG0?oc=5",
+    "story_key": "microsoft-prueba-soporte-para-intel-apx-en-windows-11"
+  },
+  {
+    "date": "2026-10-26",
+    "branch": "Anime",
+    "title": "Kaiju No. 8 cerrará con una película en 2027",
+    "source": "IGN India",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX3VPVnFhb2lPU3FUQ09nR3hqVFhFSWFJVXV1akpmLWFpd2tFcmRXaWVzVURqUEpMSDBMMGhOdUlnSXFMTTlBWmVjZVN4Z3FabHlsc1BqTEMwc2xpZERSbXIzTUxDUkNOVmtRWjhuZkp0SXV2VjVtZTBhb2dlXzRrallHbjlhT0tPMXNfdUxpSS1FTDJSeWNjdTVqRXZvWERERnZBWTNn?oc=5",
+    "story_key": "kaiju-no-8-cerrara-con-una-pelicula-en-2027"
+  },
+  {
+    "date": "2026-10-26",
+    "branch": "Anime y streaming",
+    "title": "Crunchyroll ya tiene todos los episodios de One Piece",
+    "source": "IGN India",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmdPWWxiUHZDX0tRRmtnVExiVnNQZi1QSVF1RExDMGJGNmI3emJ3Znh5SW5iNV8wcGxxRE9oUjk3QmxvR3dKM21DS0gzNnRjcGRaNEpGTWZZUGdURGJ2WU1GeXJQcU9hd3NiQmVzVEl4T1A4MjFYeUJKNzRjcUdRbkR0RklmSGk4ZG1ndjd1SUhNaXp3V3RuMUd5dTB2MlhlWFVxbzdyS0UtN3d0bDYyTmJiNE0?oc=5",
+    "story_key": "crunchyroll-ya-tiene-todos-los-episodios-de-one-piece"
   }
 ]
