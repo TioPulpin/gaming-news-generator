@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-27",
-    "branch": "Lanzamientos",
-    "title": "Minecraft Dungeons 2 presenta su tráiler Get Ready",
-    "source": "IGN Pakistan",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdGVhMk1Fd0Z2dVJBdGVqazZvR3I4NFM3LWs1a05rVXozUHc5ck9Nb0FtT0Q5OE9OUUt0MUQyZ0RZaDV2RWd1dmxqQU9KbWN0WWVMWjFHSXhXT2RiUERIMzJHTzhjNGVKem5Da2xCdzVCMS1RRElrTWd2RVUyZjcyalo0LXoxZEdzdlItNFhBcjBwSUJPQV9uTUR5SQ?oc=5",
-    "story_key": "minecraft-dungeons-2-presenta-su-trailer-get-ready"
-  },
-  {
-    "date": "2026-09-27",
-    "branch": "Industria",
-    "title": "Bethesda promete preservar la identidad creativa de Obsidian",
-    "source": "PC Gamer",
-    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNOVZTXzZRVkdBbEM4b2lrbVBUbTA1Y2U5b21PVnQxdUdoUldmWW5Ca2ozMEdlbGh5YjlnbHZNTDA4czVBSFdoRFo1U2dEeHJsXzRtdDdISUhnQTdXaDllUWgyaWl6MEJUNjRBYkVGcHd2Z3BuTzB3dEpKQTc3ZVZkYWs5Y1A4MFIydXRXdkYwWlVubEZfUWQ4YjcxaWFSSmctMHpYY0lWMFE2MGkwZnI4aWYwRlJGZEVuNEcyUUJhZTNFTjJfZmwyODZiZHREd2xzR00zby1TaGd0RmJ0RlJEVEl5SVBzVmpNaTFkMnhwRlM0bC1rVnlrZ0dEUHhwNGp5Y0FRcGFzaWg2eG5zbXoxRlNmdjdONG44bW5DVFNZNnI?oc=5",
-    "story_key": "bethesda-promete-preservar-la-identidad-creativa-de-obsidian"
-  },
-  {
-    "date": "2026-09-27",
-    "branch": "IA y plataformas",
-    "title": "Google prueba compras en Gemini con Flipkart en India",
-    "source": "TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOG84eTZ6VVhkZFdKWEVOWW9scWdXM1Atd2Z1MXZQZlM5bXlMTlItQmxITllkNWVOa2F6dzV3XzlhOXd4Tnhidk5WX2ItLWVuZW9sa0FBWHk1ZjdOZjZqMXVWSFgySnpMeldWQ1RxM3pKNVJHREVTajBhUXVsRjdKd1U5a0YxYUs3ajJZUTNsRE5xSzVMM01xYVRWc0FjMUUtVjJhcGRwaE5YRVVFM1JTSzVrazdKLTNkRkE?oc=5",
-    "story_key": "google-prueba-compras-en-gemini-con-flipkart-en-india"
-  },
-  {
-    "date": "2026-09-27",
-    "branch": "Ciberseguridad",
-    "title": "Australia investigará el presunto hackeo de OpenAI a una web sanitaria",
-    "source": "TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3hrSERXdUpBc19CYVRhWmhPNU80d1JkOF9uci1TeGJRcHlCOURaRV80cWZhMVZjWC1GMWFFaG91SktrLTVqUjgyOUR5NkozVkstcllPYl90Unl2YXY1UklCNkNNNVhqMkF3amRYZWdaZi1weGZkcU9EZ25BUDdVX3hBamxYdW5lWW9sd2JGcWxVWnVXRFdQMVFST25ZV0FodjREOFNMdFRWNk1ma0czWEpwZGFueVlp?oc=5",
-    "story_key": "australia-investigara-el-presunto-hackeo-de-openai-a-una-web-sanitaria"
-  },
-  {
-    "date": "2026-09-27",
-    "branch": "Anime",
-    "title": "The Fake Alchemist revela elenco y equipo en un teaser",
-    "source": "Crunchyroll",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFVDWWozaTNwTW9kVU1LLXF2UzRaLVVfSklFUHFIaGczQjVGZkMtTUpYa3ZuSDBDVnNpYjhsclBtU1ZqWElHdk9uUExWVzE3dFRRREtNQWhiLUUwUWp0Y0tvNTY1WWNXTmVZUjRNY1B6eHotQ2kzcmtKdmF1clg0cTRoTTRQenlUSHZsNk11V242MjUtY2lLVXlsUXhWNVk?oc=5",
-    "story_key": "the-fake-alchemist-revela-elenco-y-equipo-en-un-teaser"
-  },
-  {
-    "date": "2026-09-27",
-    "branch": "Cine",
-    "title": "Universal supera los US$5.000 millones en taquilla global",
-    "source": "Variety",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjM0WUZDMzE3SGhXTEZ6WEhPVGV1SjZjMGNwUWNIazdtQ1JfdXFpdTlTcEtsWHZQNEZfa29KWHNaQnVDU2liZkt4YU1aeDJHY0xNR3U3WWp4OWp2ZENwY0tuTVNLUUp3aEN5SWJPc3RySnlDTkkzRDhqZTN0WjM5UE9SWXd0M1R5VjVvS3JKeXgxS1ZTYklvSWw4OUJqVjJVMjJPN2VGRUVyZmdMTjBQeHhfZlRQN0E?oc=5",
-    "story_key": "universal-supera-los-us-5-000-millones-en-taquilla-global"
-  },
-  {
     "date": "2026-09-28",
     "branch": "Industria",
     "title": "Minecraft suma 300.000 jugadores nuevos al día, según Eurogamer",
@@ -1486,5 +1438,53 @@
     "source": "IGN India",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmdPWWxiUHZDX0tRRmtnVExiVnNQZi1QSVF1RExDMGJGNmI3emJ3Znh5SW5iNV8wcGxxRE9oUjk3QmxvR3dKM21DS0gzNnRjcGRaNEpGTWZZUGdURGJ2WU1GeXJQcU9hd3NiQmVzVEl4T1A4MjFYeUJKNzRjcUdRbkR0RklmSGk4ZG1ndjd1SUhNaXp3V3RuMUd5dTB2MlhlWFVxbzdyS0UtN3d0bDYyTmJiNE0?oc=5",
     "story_key": "crunchyroll-ya-tiene-todos-los-episodios-de-one-piece"
+  },
+  {
+    "date": "2026-10-27",
+    "branch": "Lanzamientos",
+    "title": "El RPG inspirado en Stardew Valley retrasa su lanzamiento",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EUUFtOUVGZDJ4TGM1NXlMdnQ4YXdMaExXWEdWWTA0YW9ibHdzbmhNcEVrRVhHYzJJOW9Qem1WelBxWVZjeFN3cUZTR3FTa09Ea1hGMUxvNG92cURZVWlDc0ZiNC1nSWxLenNpZVRB?oc=5",
+    "story_key": "el-rpg-inspirado-en-stardew-valley-retrasa-su-lanzamiento"
+  },
+  {
+    "date": "2026-10-27",
+    "branch": "Industria",
+    "title": "Microsoft ofrece bajas voluntarias a 60.000 empleados",
+    "source": "IGN Pakistan",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORDVJVURKcW1oQlZkOThCalgxYjY4Vy1BTWsyN0I2WFRQUDhPZmpXMHRzbERvb0JFSjdyWXI2Q2l3QUdhbjhtdWRTS1dnZFdCczVKWnZqM1N6cERpc0dmdFdBc210YXYtSEtnSVZtSEFFVFlvblZ2WUt5WGVTM3Z3a09WRzY1SGd3alc1cVNMZHZlZVFmTDcxTVN5a1ZtdUZmaGVKWWliOHM4aXR5a3FBTWh2Nzc5RTFNeHc?oc=5",
+    "story_key": "microsoft-ofrece-bajas-voluntarias-a-60-000-empleados"
+  },
+  {
+    "date": "2026-10-27",
+    "branch": "Software",
+    "title": "Apple lanza iOS y macOS 27.2 con novedades de Siri",
+    "source": "Ars Technica",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb3M1cEM5QURPSDJPTVZRaW9hUXRyZzRLa2xCem1JZlJQN0pvX1p2OGNiRUo3RTBBRXJ6WDM2c1hZZVpubDlNYWJEeGt4cDJrckprVjFEN05QRFkzUXcxYml1T3pNckpJdFhHeVVGSldrLW5wWWYzb2xsM2FoZDdOMHlHVF9nZThlM0RuTVg0QldFMXY2MXI3cjJWQmlNS2tJNTNBeFRVR3M3WlIxTlVyLTd1TQ?oc=5",
+    "story_key": "apple-lanza-ios-y-macos-27-2-con-novedades-de-siri"
+  },
+  {
+    "date": "2026-10-27",
+    "branch": "Chips",
+    "title": "Intel y AMD exploran una posible colaboración en chips",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPeTdtRUo2M3AzMDVQeUd2RFBxaHQ0eVNhUkRhNW1sUWtsRVprMG1oN29KbVRZRnBFV19naDRORGRBMXUtMlQyN1h5U0V4MFA0dUxOMldCX2FfWlhJa2hkMk91MGRPekxiaWtsSW4zck1LUzZ4alpiUGVCb2puZzlXMVVPc2FsMHVXWEZVSW04U0JTdXgzaDdvekU5NW9QNWdFMWRpMHVsbzdFM0UzWHNKdzVjLUFYQ2pGYV92N0VpakxDeFVub0NXeXN6NkxOLWVrR2M5NEw0RFZNS0pGeTNQVG9abHlKLURDSm9vSE56aXRQTnBNVkpnZlozQk8xWWc5ai0wWUt0WlZjbE1DLVQ2cXJ0aVNZUjJfYXdkWUZBYnRsTXJoQ0x4UFktMEoyRzlib0tBUVhGa2RRQmRPUEdmRGxDRUl4OE10OXVoOA?oc=5",
+    "story_key": "intel-y-amd-exploran-una-posible-colaboracion-en-chips"
+  },
+  {
+    "date": "2026-10-27",
+    "branch": "Series",
+    "title": "Coven Academy es renovada para una segunda temporada",
+    "source": "Variety",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPajBaTzJwNWg1TlNzcTZEbnc5MmtxdDMwWEFBMkNRYmZMWjUyY2ktYTZRYkFKcGU3VUJLcXZJQXN5RnZ3Zy1wV29QNndTTDlMTjR2ckl1TmQwZGJQdmNDZFM3dXRsSlBqdGNzbndiMzlOTXdlQzQxakxVbE8yWDRhSElVZ3Nwd0tVdFE?oc=5",
+    "story_key": "coven-academy-es-renovada-para-una-segunda-temporada"
+  },
+  {
+    "date": "2026-10-27",
+    "branch": "Series",
+    "title": "La secuela televisiva de Baywatch llegará en enero a Fox",
+    "source": "TVLine",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdjhBb0RmVHFNT3NXUjFUMDAzVkJ1N2o0V2E1d1ByMlpBMnV5bVo1azVEeVkyV0xRek1vWkZ6b2NfNzV3SFJhRVZibjhOamlMVEFmTi1yM3ZFNTZ2QXZvX0FFODZNOVU5elZYUXNOeGxkZVdJSXg3MnA3aGl2bXV6RFFQaEtxTjVWY3R1TzJkaw?oc=5",
+    "story_key": "la-secuela-televisiva-de-baywatch-llegara-en-enero-a-fox"
   }
 ]
