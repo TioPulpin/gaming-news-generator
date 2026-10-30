@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-09-30",
-    "branch": "Actualizaciones",
-    "title": "Deadlock recibe una gran actualización y alcanza récord de jugadores",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vcXI0OGR5M2hMV3luRDBvMmRtVk12VnJlcmlxNmg0c3VSN2hrRHlRQmtEczRCNlBZZkk2UEdPY1hMRWh0NWJVeTNGRVBncG1oZmFVTjQ5cTZHWkh2a1lDZUhtTk1sdmVFQTB6d1FXYlRmT2pNMlFsM3R2Qy04Zw?oc=5",
-    "story_key": "deadlock-recibe-una-gran-actualizacion-y-alcanza-record-de-jugadores"
-  },
-  {
-    "date": "2026-09-30",
-    "branch": "Lanzamientos",
-    "title": "El próximo Monster Hunter ya tiene fecha de lanzamiento",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zNFR6bUN4LVBoeDMyZnQxVVV5RHdoN3daOWtKaG9YZm9KV0FZZWJtMTg0aGtyNUhHNDdsTWtKb2NJc2V6dVd1WFZENHpvQ1lERHBWVHFRT0ZMTWxGQkVyMmhRaDFfdFdqeGtCU3ZzcEg?oc=5",
-    "story_key": "el-proximo-monster-hunter-ya-tiene-fecha-de-lanzamiento"
-  },
-  {
-    "date": "2026-09-30",
-    "branch": "Plataformas",
-    "title": "Steam aplicará algoritmos a descuentos y eventos",
-    "source": "PC Gamer",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVRmR3RjdVRpRkFqMktvaFFCa2JhZXlTOWx2S1FiMTVLYWNzTm1NeGVvTUhhcmxEd3YtWmppZjdQUXZTM0NNYlVhZG4xSTlGNWM1d0M2MThjTFJnN1FXNHZVelFTbUhfRjNXalczTXFnbGdpc01pbGNWdVhFT0JIQlNkMl84bEctMVE?oc=5",
-    "story_key": "steam-aplicara-algoritmos-a-descuentos-y-eventos"
-  },
-  {
-    "date": "2026-09-30",
-    "branch": "Ciberseguridad",
-    "title": "Apple lanza iOS 26.7.1 para corregir un fallo zero-day",
-    "source": "CNET",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUzNra1VBN2lxTlNKVHFXU09LUFZSM2pRQ3o5TjZPLUpxcU5Gc1dXOHN0SlYxSW9MYWVsUGNMY2dtNXo5QWV4aUFaSWpVTlBfLXYtZTYzVzFubUJvWV8waXdmX1dfVUFzamY2c1dZQi1UUlpUOGtSWFF3eGJ3Q0NvRlVDUlYtRVlSZmQ3UGxscmRRcV9PNndvSDRoYWlhTEdESVUwZnVtaXIzS0Fqcl83NjB3RmhBTmVzYmxNZjZxbEdpUQ?oc=5",
-    "story_key": "apple-lanza-ios-26-7-1-para-corregir-un-fallo-zero-day"
-  },
-  {
-    "date": "2026-09-30",
-    "branch": "Inteligencia artificial",
-    "title": "OpenAI lanza una suite de oficina integrada con ChatGPT",
-    "source": "TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMThVYXNHdk44dXhHc1F0NHZ5SzJYd2FBN3BWSHJ3R1pXMjMySWlfbTQwaVRxc2l3QkFGUDJLamZ2Yk1zVlBFekl6SVRlbF9kc0lpWEdjQVBHUzhETUNMQm0waVdPSmlOLTh6MlhNZ2pmbFZBR0hpQnYtQUhVX2tiTzBtbEp0YkRuQjViX0Z2eGFpTzVwMFlOd010STAyeVRKVHhlWVNnZ0xpYTcxVDlxM3dha2tjbXp3SE9QRGhfTkdNNlJLQm9sOTh4dHdpQQ?oc=5",
-    "story_key": "openai-lanza-una-suite-de-oficina-integrada-con-chatgpt"
-  },
-  {
-    "date": "2026-09-30",
-    "branch": "Series",
-    "title": "Amazon se acerca a aprobar una serie de Spider-Man",
-    "source": "Deadline",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeXJHYkxETzUwYkNma01feHFNUWdkRzcwc2tpWjc0aVJjcG9UTEQ2Zlh2THpkZTFuMlJFYmJuaVVERy1GWUpzSXQtSGpuWk83bDFZd1RNbU5kVXZ0T0JGYjBrV3A0RENEZFZUTjFZRVQyU3hERXRTcWpfVkV6a0VVazNxZnNXUWFJMEpRNVphQWk3a0E3V2hSV1pkUjZFVWc?oc=5",
-    "story_key": "amazon-se-acerca-a-aprobar-una-serie-de-spider-man"
-  },
-  {
     "date": "2026-10-01",
     "branch": "Gaming",
     "title": "El DLC Charting the Unknown de Crimson Desert se retrasa",
@@ -1486,5 +1438,53 @@
     "source": "Deadline",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObXNmWWdUTVppZWFwOXc5bml4MzBWOUxuRWY3b0JsT2VsM18waXQ0eG01cFdPeGNLaTFMOVgzUXhYVEwzY051RzlPb3J5c2hwcXdCWmxqNW1MRC1qeUlJU3hXSWxNT195M0c3blBBT2xUYjZmNE02ZV9DdzVWU3VGTGtaV2hYMHJucGVIc3EwVjNoS0d3REM2M1YtZUlPQQ?oc=5",
     "story_key": "la-pelicula-de-elden-ring-apunta-a-ser-clave-en-el-mercado"
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "Lanzamientos",
+    "title": "The Duskbloods se retrasa hasta 2027 en Switch 2",
+    "source": "Video Games Chronicle",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakZlZHZnbXBYLUJlNXhpdmpCQ1RIM2h4ZnF0WGdacVZNa0VrTnVJNllTUV9iSW53d2xfZzJPRXBERkRMX1NqeFZtdmxDNFVwY3JrTjBpSDF5TUxDTVl6bEZIVU5pemN4WWFieXY3QW9lelluRWtrZEt3LVd3TE1Kbk14bjhmYXVwQXFXUGt3bUFfUkNIeDRNdy1oNFFnUnRVWExwempucmNueXhtSnJOT1pSQW8?oc=5",
+    "story_key": "the-duskbloods-se-retrasa-hasta-2027-en-switch-2"
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "Eventos",
+    "title": "Witchbrook revela su fecha en el Indie World de Nintendo",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMml4NzhaWGxLUW9UcDNBRTRFc245Z3Q2VDRQSWlJMlE1U0ZaVFduYXViRmlJcjlOQTB5UUxvd3g3Q0dUdjNSeTFlMGJQM2NNVFVPWlZ1ODVKLTZOdWVLYU14YXpmNlZ1Rmo1V2lRX0c1WU83ZzdKQjNvUVhSM2RMWnpXWHo3RE0?oc=5",
+    "story_key": "witchbrook-revela-su-fecha-en-el-indie-world-de-nintendo"
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "Inteligencia artificial",
+    "title": "Anthropic destina la mayor parte de su cómputo a I+D",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPZ19jcFFQMTkwa2UxaVNfSXFQSlZZbXNXOE9MV1gzR1RjYm4wVUc4NjI4YzFrU3BSYzA5UmpKekhOX1l0MkRTMEpPeGJqUF9NMDZJWXRVUjFNVG8zZm4xbUZzUF9sRG5kSzlUVkctN2xzNnkyX3ktS2RwREpNX2R2LWhiNUkweUgtUk1fNFRQbWJvVnNFR1FNZDFEeFFzZGZNUm1NUE83dFBLbnFEUjZWRGdTczJHMVFCVmVta2RWWmQ2T3BtUGlCcUJnVDItVU00WTd4ZXh5QjBuSmU0cERuUW5oRzBDSHQ0bXVHSlc3WU9oZmRfNXpzRGoxM181M1RBdWZjT3VsLXRiMUxrVS1qQVZtV3ZncU1UNWxFUWcxTFZzMUFEOEI1Tmc2bjBkZGl1OGNrUlZZRkRTZlN5?oc=5",
+    "story_key": "anthropic-destina-la-mayor-parte-de-su-computo-a-i-d"
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "Inteligencia artificial",
+    "title": "Anthropic presenta nuevas herramientas de Claude para abogados",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbFBaWDBVa3BKM0dEcGpjZldpYXlJb1pZdDYtMFFOaDJpMEtjWkVyaGMtVHhGd0pwZDRLLUJhNnlveHJwZHNsckY1STlMZXBuc1Z4SUpiSEJVTFlWR0I5d1o3X3ZabkRNMkE0TDRTaVNiVnRzS0o4S1JTcllTVUVPZ1JXOFI1bFV2dm1JaE00YzluSGZwY2V4NDk1aVB3c1RTX2pFZUk5SzQ?oc=5",
+    "story_key": "anthropic-presenta-nuevas-herramientas-de-claude-para-abogados"
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "Series",
+    "title": "Netflix prepara una serie live-action de PUBG con Donald Glover",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS3BKaFVKRXhzMDRCaEYtWjRQcWduQldjVTFYcHp4RmhzSWk2MTdFUjdseTR0ck5VT2tsNlp0ek1FSkkycXJPY01NZ0t5bFo4MVNkVmczczJYMjZ5S2hvMlpUUzk2Y3JIUmlLT1FwR055b3k1b3ZXMnpEd1ZPb2ZDNUw4SW5LejV6cXdtYll2eEFUTWVXa2c?oc=5",
+    "story_key": "netflix-prepara-una-serie-live-action-de-pubg-con-donald-glover"
+  },
+  {
+    "date": "2026-10-30",
+    "branch": "Anime",
+    "title": "Death Stranding Isolations estrena su primer tráiler de anime",
+    "source": "IGN",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc3hPcjVXdXFoWUUwTFNwWGV2Nnd5bTAxRXFDU0hQQUxuU1I4V1VBaEhxTjJkWHRjbXZVcUx5LTFxbjN3NjJkVkI2SzgtcFhsaFJWRGt5SFgyMFc3VjNmSEtyU25vQ1V3d3BPSzY3NGF2aEpWNVFzc3pKdDk3OW9kaHl2YjMzR0R6OGVJbklxZlNLWkd1QVh1YUJ1WmhjampYbVpkWFNxZkFSb0U?oc=5",
+    "story_key": "death-stranding-isolations-estrena-su-primer-trailer-de-anime"
   }
 ]
