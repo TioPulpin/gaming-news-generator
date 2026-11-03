@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-10-04",
-    "branch": "Industria",
-    "title": "Capcom planea convertir RE Engine en un motor con IA",
-    "source": "PC Gamer",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbHBzd3FjNEtnTXVYNk1IU1M0SDBYMjhzUm5OcHNORGVMRTBEbFIyei13X25vaVBGYXl6TnRjaTFjWGxjYmNpRmJfektfVHBxSHZUNWZBYUJ4SGFIMWwxenVVb3Z3REt3RGN1cUR4bEdSdC1QTWUtdS1jczZGZFl3VmhPR2FONVhaQ2NuTE5zQTlxektYckRycVhmZTB6b3lDeU9DT0dfWFM2V0UxQ1pUV2hjMVRQeDJKcUhnek1TM1JhMjh5MnhaQjVVS1ZzcnVyZTZXRlRMSmk?oc=5",
-    "story_key": "capcom-planea-convertir-re-engine-en-un-motor-con-ia"
-  },
-  {
-    "date": "2026-10-04",
-    "branch": "Actualización",
-    "title": "Metro Redux recibirá mejora next-gen y la saga alcanza 50 millones",
-    "source": "Eurogamer.net",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYy1NOUljcGhfb3J6dTFuX1N3MXhBVnZkWlVHNzdya0VLc0N0RjBSM3hZWXA4dnNUMmF4YVFiTnMwNW0xaXRuQzQ1djR0MGhDTDhjRTM2OUpYMXhGXzlxUndTRzNqSE93d0k5RkN2b2c2MmJ1SXM5alY1OU9XcjJnQ0xoajNaV0tl?oc=5",
-    "story_key": "metro-redux-recibira-mejora-next-gen-y-la-saga-alcanza-50-millones"
-  },
-  {
-    "date": "2026-10-04",
-    "branch": "Ciberseguridad",
-    "title": "Arrestan a CEO por presunto contrabando de servidores Nvidia a China",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPTS1ZdWR6VWFvcURsdGFQNUZjODR2QkZVOFk4c3hBT3hBNnlyY0k1Q0oyRzNFNk4wY0Q3VTlKdEU0aVdUdGZHNW1YWkN2LUxpcUE4MmJBdVhSRkFyLTFRSEhocUloZTB1MnFNYnV6TmN0WENtUC01aGc5WkpLazJBZGZuNGYtVzZNYmoyX2pDQjNYS1VYSHd5MklwTk1aVWYwNktaUm1JWms0SGFEbWlTMDBXYzJZRUYtWURTQ2lZaVZxMmptaDdnWDctek81dWJQME4xTHh4a1FQT1NPWHMycWptS0hvUzYxVWhOZXBqVWd2VVgxWWlOWWJRWDg3SGY4OVFMY3lPbGVyU3pXa3QzZnlnTGxtWGRicDhjYjdvbndvTzJGNHlxS05Ja25FRGMyeF96Q1hjLU9JWmlrQ2RBUkw3Tm42dDEzU245ZmxFdVZlT0RtbTVaRUcwTk5TbDJEa3FPdXpyeVZ6OUFxMWY3Yzkwa3JIcERwM0NmX3ozUjJaLWcwY3FXN1FKNm1lMUF4UFE?oc=5",
-    "story_key": "arrestan-a-ceo-por-presunto-contrabando-de-servidores-nvidia-a-china"
-  },
-  {
-    "date": "2026-10-04",
-    "branch": "Hardware e IA",
-    "title": "Nvidia presenta una DGX Spark de 64 GB para IA local",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNNFhTNUhxdDVQdjd4T3kwZUZfUWQwWDZ6V0NOSXhySzN3bmdsOFo1QUpqNWV4R1Q3VzFCZXpLMVYxZk1wYXJwUFl3cmFlbzBOWGdfRmhaOUdVM3JSQ1hBcWQtY1hjbVhIWHdXUkxMU1NIWWNvMHo1aXdwUXVYRmt5YXhRcFJPNUQ2aW5nNjhoLWRPWS0yVmp2NV9YcExOTTJiMnZ2TWRNaW5PNjEtZVppdmRKYkoydDZqS1VxZTg0R09tSERDUW4zY3k3NWdMb0tNcTBBVFZmLW1nUHRWS212dHlZNlVGSHdQcHRYQWRnSmd6RjZXWEtqU1VERGM1Q1hpREZTN3pCRkVaRG5menN6ak8wdmhyYnlkZFFidTFOWmRDZUMtU1ZtbmY4TQ?oc=5",
-    "story_key": "nvidia-presenta-una-dgx-spark-de-64-gb-para-ia-local"
-  },
-  {
-    "date": "2026-10-04",
-    "branch": "Adaptaciones",
-    "title": "RuneScape 4 tendrá una adaptación animada",
-    "source": "ign.com",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXcxbDhUSllyc1lxMFA3NjBkcENHeUF0MlM0QUJ6TzRXRHl4QnFwSzBBYUgwY21QaUxfVUs5Z2Y5cGY0RlZwYThoMkdpRGV0MkYzRjdhWXZnTXktN1FXZFBVZS1fOVdRdUZ5UkVfWDZrZG9ZZ0NtR0tQd2lIelRCN0xOX3VGMjZX?oc=5",
-    "story_key": "runescape-4-tendra-una-adaptacion-animada"
-  },
-  {
-    "date": "2026-10-04",
-    "branch": "Anime",
-    "title": "Black Clover temporada 2 ya tiene estreno en Crunchyroll",
-    "source": "Crunchyroll",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNHlZbUlFdkF6eFVDVllXSUdkVXd4aGYwblVpSWhNVWNBOXJJOEQydGlTdVFmeVdnUHNSbXpHQ2VUN0l2TDhPTUlPT2xRM0ROM2VRNGRyY3gwcDJzcERwLWdGc3JDRi1CZHRHaDk5dDZnMFhyWlpOaE04aXlQSy1NUWRlNVZuNkNMQzR0Y2RCWmQ5SV9GUTJYTGdDRFlOQlYxNnFGT0gwY2ZLUmlmZlQxOFV3?oc=5",
-    "story_key": "black-clover-temporada-2-ya-tiene-estreno-en-crunchyroll"
-  },
-  {
     "date": "2026-10-05",
     "branch": "Industria",
     "title": "El director de Final Fantasy VII Remake habla de su trama",
@@ -1438,5 +1390,53 @@
     "source": "Crunchyroll",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVjdfbHF0SVRYMnU1elBNS21WY0lhS1VLdXNWdm9WdEFCckw3TzRiNmE4TWluaFBkTUNEdExpR0xpbnZiRkdYNWJPS0kyTVpqR190NERib2ZTU3lobDlkVk9ZbzhWeXRXcnk3MlhCdzhDb1ZINVI4VGFoQlhVVUdrbGlNZHFadklnYlFoRDZsQmVBOHNuekYyaFJSbzV4WVhXMTZyRXZwMHdfem5DaWt5X3FNd0Zudw?oc=5",
     "story_key": "el-anime-charisma-se-estrenara-el-7-de-enero"
+  },
+  {
+    "date": "2026-11-03",
+    "branch": "Industria",
+    "title": "Kingdom of Gaming retrasa su evento hasta 2027",
+    "source": "GamesIndustry.biz",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWXN5X2Fwc05KZDN4anJrNVZKeTFIWFl5MVVnMUZTYk5lR2hOWjJBSm8zMGNXZUZwMnBaWW01b1dXS2NCdThOdTYwckZDTHl5ME1va2xKNm82SEZQZVFiVmdZNVFsdHljSlBkRTBmc3gyMm9FOUNod2ZGRm54c2ZYLVRacUJmdlBLLVE?oc=5",
+    "story_key": "kingdom-of-gaming-retrasa-su-evento-hasta-2027"
+  },
+  {
+    "date": "2026-11-03",
+    "branch": "Lanzamientos",
+    "title": "Thief: The Dark Project Remastered llegará el 3 de diciembre",
+    "source": "VGChartz",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaGc4RUQ1NHRsNkRFSHhNMVVLWktoXzJLa18yQzFrdjh4d1VxSDdvZmJlU2s0WFMxVnR5VHd0Z2czWWVfWjNoNW1JUGJXeEJleXdtclFRODhudlFNUF9CMXhFZWU5bjJTa0NJS2xNVkhzNFlZR3piM0ZBVDJKbDhGYVFmaE44Vnl5U3ZTMGExbHFId2JGM2h5NXpoRmNiOVU0Nk5uVmkwNEZ4VFZMemdNdFhtOHdySkVzVEE?oc=5",
+    "story_key": "thief-the-dark-project-remastered-llegara-el-3-de-diciembre"
+  },
+  {
+    "date": "2026-11-03",
+    "branch": "Hardware e IA",
+    "title": "Microsoft perfila los requisitos de memoria para PCs con IA",
+    "source": "Wccftech",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMU05ZjBlMzY2aEsyY2pXV0pSZnpjUWw5amJYVXNndTNuTW41WGVBQVdSek1IZ1BfVWZJT25uTGVCNkk3bDlKZlFvSFlUemF5QUY3V1puaFNPVzVmOW9BMTlJNDg3d1FUZ01xbWxKYmVGcy03eWVCODB5V25NbS1VYVRXdXo1S1BIdVhONXZtUkVGRDM2akY5bF9RdXdkWGVya2F0SkRhVzJndWMtV09iaUREVGMyazhMZExWbmQ1aUNSUnNOZE9MaNIBzgFBVV95cUxPYUU2LXF4SGViSmhGZmNSM0lTazNRSUItY3owUzBzQTZpWWt4cTFFTmdDeWZWVGc1NHBBaU1hZFVud2Fyd2txSzNVcVd0NW5UU3hNS2o2M0RlWWZyYUVsVnQ3RWZyc2c4QzhIamx0bXlVTktTcGllcXJhbWNFWE8wUUlyVTZPZEZzd2tSVkJ1UXM4MGl0T2dnREY2N19KWnZKU2xHc3JGcFhQbk45VXE0YUtvYnREMVJKdHBaZHFOVUVhS21ZUkFmQzNCMjFodw?oc=5",
+    "story_key": "microsoft-perfila-los-requisitos-de-memoria-para-pcs-con-ia"
+  },
+  {
+    "date": "2026-11-03",
+    "branch": "IA",
+    "title": "Un modelo de IA ejecuta Doom desde sus propios pesos",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNak14YU95TEdNZW1nWUM3WnNGdVlIclowS3VRTkViNERvbXBBU1lsZVNOaHJKWi1GZXpvVG13UURJOUVBZDlNVEc5S3NHZU1oeDJBeWlpM0ZheWtYQjM4MDlHUVp0Vy1DTWc2WGcySDB1MTAtWVRvZ3g5UFYwazMxNDhIQS12NHRIQUgyRFRkb3luVTNFb3JXUVZyY3BhZ3JOaUFzZjcySDdtdzU5VWdIOEt3VTdFaktYWlIybXhIRlJUNkFHWXlQTXpxSEMxd3ZOdjRwYUo0bUJLR201dHpEdEN4dDdvWjNHWHEzNjhJMGpsa2FPTExtdjJWMkFfTlFSQUJqcVFHTHVkOWdQRk9WbTBKWDNkeVJOVWNwUFJvVjM0ZzRhWWxpc25ObjZDVDVfaFdiZ2ZkR0FMRHpRUjRiMWQ4dS1Fa19Fd3g3emRzQ09Idy1hSmhoWFJ5UEs1WUlld01NR0EwUmtxU0k?oc=5",
+    "story_key": "un-modelo-de-ia-ejecuta-doom-desde-sus-propios-pesos"
+  },
+  {
+    "date": "2026-11-03",
+    "branch": "Series",
+    "title": "HBO renueva Youth para una segunda temporada",
+    "source": "Deadline",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SdGpUZnNTbnVOZVhsYnNETUFXVG9EMzhXMXpKakNiUy1vT1g4YzdnUEpVRkVvazFSRTVhTmpVME1wWE5zWmNRZVhWZUtqTERKa2tEMjdMVUljTjJPRmhjVW15LVZ4cFdDTy1TWFVVZDc5MWpYTkE?oc=5",
+    "story_key": "hbo-renueva-youth-para-una-segunda-temporada"
+  },
+  {
+    "date": "2026-11-03",
+    "branch": "Series",
+    "title": "Dave Bautista ganó músculo para la serie de God of War",
+    "source": "The Hollywood Reporter",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMmh4cVl2bVJpZTJuRlR1MUw1WGZxZGpSMkctWUFSQXI0emM0MTBSdm9jN2hyRmZ2VS10cllXSmJVcnNrSjEzUk9SWUt5M0g5Y292dEtIVHA2aUhZZEpGU3pPOGJQYk5KYllNdWdQWjJnRkVfTnF1MXBWdVZoaDN0OU5MWDN2N3JuRFk3Yl9Jb3BKem1UM1ZEMnZmNDNva01PWHNwNTREbXk3TGpvTm83Yg?oc=5",
+    "story_key": "dave-bautista-gano-musculo-para-la-serie-de-god-of-war"
   }
 ]
