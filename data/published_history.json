@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-10-06",
-    "branch": "Lanzamientos",
-    "title": "Frostpunk confirma su fecha de lanzamiento en Nintendo Switch",
-    "source": "IGN",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmVHZE02blE5VlRoYVRSbGREeWtuUGRlWkRSM1lhZTUwbkd5eUhwRlNtVGJNX2tjMnZVTWJpMXdPMUc1eWZZMmoxc2J2U3VLMlhqZVhoa080OWNWZmNBbERfekNNdXdyaUJOYnFRMnUxeW9JQUxjV3lvVkhMWEZINkV1dllua3lGV0E?oc=5",
-    "story_key": "frostpunk-confirma-su-fecha-de-lanzamiento-en-nintendo-switch"
-  },
-  {
-    "date": "2026-10-06",
-    "branch": "Anuncios",
-    "title": "Nintendo anuncia The Legend of Zelda: Master Collection",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWWlxNWQwVGJPbkUxbEozeC1PTW1OWndvZzhlZ1B2WUtUby01VTVuVlFvTlg2UjBGcGJyRHEyeVJuTFVoRGh2T3gzSmR3RFJ1cEFIV3oxcjN2TFJzQ1JyRDd3QkVKM3VXRmFMYktaSHJSb0ZjcXVMMnN0VUFoSm1PZy0ycEhNZw?oc=5",
-    "story_key": "nintendo-anuncia-the-legend-of-zelda-master-collection"
-  },
-  {
-    "date": "2026-10-06",
-    "branch": "Inteligencia artificial",
-    "title": "OpenAI y Synopsys crearán una IA para diseñar chips",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOOEV3UkhBWnlSSHNQVG1xSDVKWGNGYXh4RWdmbXkzbzQ5UGRfaXk4TWY1eGlwcE91ZTQtSTB4UFpxTV9GeHZTVEJMazJGbXQ1NXhCZ1dBek1pdHlGTXFXMnkxeVk1MWNKV1YzQ3pUdHBIRnFzWFBfOFZVd0ZDVElTNkRiWlJreXNBVGYzYXdlZTVQZ3BZS083MGJtN0tnNTBVRVpOSVhKN01WV2tMZUxPOU4zT1pxblRtT1Vrb1BUMEVNdFZyTTVVam9lVmVMUHFpc0traDRlaUNMbFA5eDBadnNDNWdDN0V1THBOYVhvLUJrQTRjdjBMVXh3RkdwMUluX1FsTnBpbU9SN2tFUFE5MEJHaGZCUURSdkhuLWM0elIwSmJmd2FpUk4zaXp5cHV4eUdYT2NXRFp1Q3BmbUp3dWNIS1RrSmVIZkhCVmRLSHY1UnptcERrelRSdW1YVy1JRmxzZVlkQ1c?oc=5",
-    "story_key": "openai-y-synopsys-crearan-una-ia-para-disenar-chips"
-  },
-  {
-    "date": "2026-10-06",
-    "branch": "Redes sociales",
-    "title": "TikTok incorpora asistente de compras con IA",
-    "source": "TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkNjRGNCZTFjNDFKc2J5aWgtX092bDFDOV9FTlpPUUUzUUxzMXpvMTJhd3ZEbDNnR2JnbTM2N1MyWll4NmxqNVh5OHQtSTZhR3l1aUNWeWRvcFdkY19Xb2Nrb1lnLU95dXlzRDZiVC1LaE1XR2F3WjB0YW1JWmRLTGN0RXAzZndKNVpBU2hCS1ZpSFgySHE4TXJ3elB1TlhH?oc=5",
-    "story_key": "tiktok-incorpora-asistente-de-compras-con-ia"
-  },
-  {
-    "date": "2026-10-06",
-    "branch": "Series",
-    "title": "Tulsa King renueva para una quinta temporada",
-    "source": "The Hollywood Reporter",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTHVNTE5sbnRfTV9tcDh4ZGtsWDdSMkM4NDZILXFUZ0IxUUJ6X2dPOFJJc2xYNWlPTXNmXzZhSjJvUzYtVnlJcmJfVjluQkpFbVJJdmpMX3dxbkE1d0FFX0tLaWJka0tUenRIVE9sd2g0S0M0Y2RYUS1xRkptYzV4aEhyaWQ4ZmZqRHFCdC0zQ1VpdXZmTFkxN09lUS1uYjA?oc=5",
-    "story_key": "tulsa-king-renueva-para-una-quinta-temporada"
-  },
-  {
-    "date": "2026-10-06",
-    "branch": "Series",
-    "title": "Imperfect Women renueva para una segunda temporada",
-    "source": "Deadline",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa0NaTjFtenMyaXVhT3lNUXJHQUxQQVZ3VjdnQ2pEcXJQeHg5SUg4Und4UlhtLVVDN0t0a3JfVnVsczZOVGtQVHpxRldzenpWa19zTzRIbTRudDVHYWdidGxKc0VJMWF0Y3BNd2VWc1hCZ1lsWmEtcWptZVkwOGhPamFzMHJLa1JFX0pjWmZtS0RZeUI2LUZucjdONzBOMTQ?oc=5",
-    "story_key": "imperfect-women-renueva-para-una-segunda-temporada"
-  },
-  {
     "date": "2026-10-07",
     "branch": "Lanzamientos",
     "title": "Warhammer Survivors llegará el 10 de noviembre a Game Pass",
@@ -1438,5 +1390,53 @@
     "source": "Anime News Network",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPckJXNG5LUnhPVG9kaHJtOG9mSXlkOGxZUTFUTnpTU21fdXh3LV9zaHlBQjhXc1NibnZoMk9IVkoxZDlKekU5RHROakxibXNnSmFEUWwzV1I1c3FTSmJiRlV4VUxEcW9maEtFV0xidmRPamJiMVBUXzFhMndKOTdzeE9SWWRiZnYza0MzcHNjblEybjE4djdUeVBHWnJRX2xaSFVId0JDd2xUaUlJYVJpRGxzODJKY3c?oc=5",
     "story_key": "girls-band-cry-estrenara-una-nueva-pelicula-el-21-de-mayo"
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "Gaming",
+    "title": "El nuevo God of War sufre un importante retraso",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxeXVhU3l4QUFiRWF4SFpjUmxqX2ZiMWNQbVhqTUc2LVd4NjR1Sk1MbDJZVWoyM2VqOVZSZXpjY3NjVzlIckltbENEZmhaSXk2eVptaW5NbzIySnFLa0M5SzFYZmhGZDgxbW8w?oc=5",
+    "story_key": "el-nuevo-god-of-war-sufre-un-importante-retraso"
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "Gaming",
+    "title": "El próximo DLC de Pokémon Pokopia ya tiene fecha",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcWhieW5NdDFETUhsTkV3aG9TUEZUYk9IZGlGNVI3d1hVMlkwa0RVRkdnOEk3NlRkOEJjbFUyZ3pCSGJESm9ONFVJLXJUVDdkU0liSElKdzY5RWdKMmp1OUE0eEdfWlNreVdiZkxqMk5mc3BGdUlzZXFHbWdsSnFfRU1FQzdFWWg3QmRmOFVlaDlGRy1F?oc=5",
+    "story_key": "el-proximo-dlc-de-pokemon-pokopia-ya-tiene-fecha"
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "Tecnología",
+    "title": "AMD se acerca a superar a Intel en x86",
+    "source": "The Register",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0Rsakw2cUV1OUVLSmk1Z1ZRSEkwNjVrOHV1UWZ3Q1k2eDJIdG5lbktJeFlCdzRJWWlPaFQ4dkNxN0l6eEE0cENNQVd6aGtmSG8zbl94SDFibzAwMHJUVUkydFZFelE4UEFYSEUzZUNaM0NJek0wMGVaS3Y2SnZtcUxnQTZKZXIxOVJHVXQ3VjVpZVZGRkxJeXdfTnRSRkxNWDZOS1VTZ1lfeU0?oc=5",
+    "story_key": "amd-se-acerca-a-superar-a-intel-en-x86"
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "Tecnología",
+    "title": "Apple recorta su presupuesto interno para uso de IA",
+    "source": "Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNlpwLUc1MHh4TnNOVk9HY3BLVUlLS2ZwTjRIUEtqb0VKa2JYZG13VTc2TzdZZ2dlOUUtTmlZYTdmeGJIUVVpcWFBeS1PWGQ5X3FFS3lBMzJ0WjJsRjMzWmpaRl9KRUZzSWRpTHVaQ3lUeU5wNnM0S3dZLTVaMWo3RWNnMmZqcTBCY3NOajRvSk13UmM4R2VBUjNtT2w0NU96aU9FelhEZ1BJcHNWTExwYVRNczg?oc=5",
+    "story_key": "apple-recorta-su-presupuesto-interno-para-uso-de-ia"
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "Cultura Pop",
+    "title": "Maya Hawke se une a la película de Magic",
+    "source": "The Hollywood Reporter",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNclBCcXZ2VzdVYXFuaTZ4bEtWeGgxYW4tdjlxblNEUENNaGFBanpZRXhaMjFYSmtTZm45RWloMUxFc09sRXJCZmF6Uk9JWmRBZGFfOTVYOUpWLW9vWkppZ3JnamFibGt0MlNwOTB3NExhS3U4aFc3SFlINmJpR09zVDUtdmtEWl95YWdHZHZNRkhjOVVhWFFEMmNR?oc=5",
+    "story_key": "maya-hawke-se-une-a-la-pelicula-de-magic"
+  },
+  {
+    "date": "2026-11-05",
+    "branch": "Cultura Pop",
+    "title": "Spirit Circle tendrá anime y llegará en diciembre",
+    "source": "Crunchyroll",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTjN4Y3VGYUJCQkktOFhLTlhoUmNFbVFVencydUFvcGZCM1FreWh3RV90SDZhY1RWVE5tOVNTdjdWbkJsWlZlc1l3R3ZWamFWV2U3YXhqN005WlhZOHc3czBPYzIxcWJvNHJaWEFZcmdVOWI4bERMd1MxTHpjUGNDQjhWb0NBVkpXajh3ZHpUT0h1SmM4TU9jRFVjNTYxNzlMS2hOT0wzbEdpWUV0UzBN?oc=5",
+    "story_key": "spirit-circle-tendra-anime-y-llegara-en-diciembre"
   }
 ]
