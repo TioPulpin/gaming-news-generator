@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-10-10",
-    "branch": "Industria",
-    "title": "Los altos precios hunden las ventas de PlayStation y Xbox",
-    "source": "Polygon.com",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Ldk9saFpYenRjWmZqYlJvLWFyYzN1eDNGQWpNNWpKRko4aUZpVlFEaFpRRkN2aDBuRTlTMlhlMDhVNEJ5NWJraUYzR2NZSlktMGZJa01JZm9fQjZiVlp6VWMyQkd4X3duM1JsTFNGYVNUUktwNFpaNDczSGI?oc=5",
-    "story_key": "los-altos-precios-hunden-las-ventas-de-playstation-y-xbox"
-  },
-  {
-    "date": "2026-10-10",
-    "branch": "Industria",
-    "title": "Bobby Kotick se incorpora al consejo de Skydance",
-    "source": "Eurogamer.net",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pbFY4Vk5wQWdGZmRhMVE5UFJzR1BfX0Y4dVNReTRzamFzQ2xzT0JDZkZHcnpiUmNleWVxSFpiUG1rcGpPVVkydGpYMjJJN0xIX0VkOGJUbWpod1ZRLTBuM19CNndKdW9sVUNJMHVjVFc0cmt0dkVV?oc=5",
-    "story_key": "bobby-kotick-se-incorpora-al-consejo-de-skydance"
-  },
-  {
-    "date": "2026-10-10",
-    "branch": "Seguridad",
-    "title": "Apple lanza iOS 26.7.1 para corregir un fallo de día cero",
-    "source": "CNET",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUzNra1VBN2lxTlNKVHFXU09LUFZSM2pRQ3o5TjZPLUpxcU5Gc1dXOHN0SlYxSW9MYWVsUGNMY2dtNXo5QWV4aUFaSWpVTlBfLXYtZTYzVzFubUJvWV8waXdmX1dfVUFzamY2c1dZQi1UUlpUOGtSWFF3eGJ3Q0NvRlVDUlYtRVlSZmQ3UGxscmRRcV9PNndvSDRoYWlhTEdESVUwZnVtaXIzS0Fqcl83NjB3RmhBTmVzYmxNZjZxbEdpUQ?oc=5",
-    "story_key": "apple-lanza-ios-26-7-1-para-corregir-un-fallo-de-dia-cero"
-  },
-  {
-    "date": "2026-10-10",
-    "branch": "Hardware e IA",
-    "title": "AMD prepararía un EPYC Verano con 72 núcleos para IA",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNXzFCZlFnU3hHR2RaeWRNOXk2VlFsM0FzOWRTbVdxcWZzbmI3R1ExMklaUnoySzJ1VUVnRjF2OUdYcVNGU2oyaklTbEx6RG5HeVFHUm9nQmwydVNmTFVBWjFyeXNuQm15WlV1aXgyUGo1dkJQczVxU09helltNGYwczBFQzNkZklfbTd4WDR5MGMyVWt3aHRMV2xBX0szOHZweFpRNFAyWmJ4WXZaZ01SMjVablhPNXM5NHBOSEFicWhZdFIyLTB2Vi1zdHpHVVZ4QzZoQUJ6dXFUdzN5dHBMc1pwT1lCU3pOcE1UcnVfRFJvNE13N0E1aVh1QWdrWUV3QURvMWFJQnQ5SG43eEphNFVzMU0?oc=5",
-    "story_key": "amd-prepararia-un-epyc-verano-con-72-nucleos-para-ia"
-  },
-  {
-    "date": "2026-10-10",
-    "branch": "Anime y cine",
-    "title": "Beyond the Spider-Verse y Crunchyroll muestran sus próximos planes",
-    "source": "The Hollywood Reporter",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNzNHRmVZODdjQldyTGt3dmp4Zk5iSGVsdEM0SVlyVkZhM0I0NUdxUnU3QUFCWTZQUWRVcjdJa3V1MW1qN18zYl9YbjhrdGNjTTh3ZUhlQTd6RDluTkg4YlBuS2VVNlV6ZU1NeWVZdDY2Z0Rtc1hScWZKR0hyZzRtUzBPMWNNYmplUE1vNl9zV3FBeVNxSjUxUkw1a0RwdklIdXFhcjVtUGJwQlhxMlVzN1RkcEhuTjlMclplSUJLbw?oc=5",
-    "story_key": "beyond-the-spider-verse-y-crunchyroll-muestran-sus-proximos-planes"
-  },
-  {
-    "date": "2026-10-10",
-    "branch": "Marvel",
-    "title": "Marvel prepara Zodiac para 2028 y más especiales de Zombies",
-    "source": "The Hollywood Reporter",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUZTU0VreS1rTFJtYnpMN3c3bW9tbkFCRktlX3lGM0VKMkxDWHJrc0dOTXRJdjN6UXdQSU1oeVZZcnlPaG1jbU9sNUtBUDhxUmduN3ZiUjk4U1VuVnY2NzE5Z2pSV2ZzYXJZeFFjQXFtWElYTHJWdEowcnV1YlFMMGhTVldGcHNEU01JZHJWZVp2ZkxSTmRueTRjRXN4UlZHd1FNNDNB?oc=5",
-    "story_key": "marvel-prepara-zodiac-para-2028-y-mas-especiales-de-zombies"
-  },
-  {
     "date": "2026-10-11",
     "branch": "Lanzamientos",
     "title": "The Witch's Bakery confirma su fecha de lanzamiento con un nuevo tráiler",
@@ -1438,5 +1390,53 @@
     "source": "ComingSoon.net",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcEltd09YMU9XM044ZHdOSTNtTkU1LTc1ZXppbEdxdERmTExtcmRwaTI5cVFRN3VNd3oweUxhRk5aTzRNc2FPNVd0RkZvb0ktUEU0ZXQwWWdVTFpxdGRtTnkteVNINzN1MmM2eGJoc2JOeFN2ZWxmQkxERXBJc0Z2OFN6R2Z5aUpoaFlQYVI4YzQ4eU50Tm5N0gGcAUFVX3lxTE1YTnBFVDlDNGsydkR2LUlIS2U5Y28tdXB6SlBwNGdBNWt3azBkSTh0X1FzdHpmQXB2STM3XzZXUlFfUkFFTVBlM2ZyaVltNXB3YXBKWWFHMGxQYVRYNWxLdExmcThrcGRkMVpPaXJzZnhSRU5pS2NZa1Fud1lmSnJfdWcyamRqZkhaUTBFeHAwRW4waWV2N1lRZmhXNw?oc=5",
     "story_key": "un-trailer-de-jurassic-park-revela-una-serie-cancelada"
+  },
+  {
+    "date": "2026-11-09",
+    "branch": "Esports",
+    "title": "Exfundador de H2K revela el coste de un equipo de LoL",
+    "source": "Dexerto",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaHFoa1kyWk15YkdpcGFBRU5sWWZ6dlN0TnhGWWRDUEdnVzhHblZFNE5UN2FMWjd5R1FDWGlKZ2dtMHRDMmpUbkhVNU0wUEdZRktrb2x4U3BoVlRvYU96TllXTGtMdkNhMU5vLWFPU0ZtdGhQcGo1QktaQ01wT3daZTMzM2o3VkFuanhsckdpX1pscE80bnJ5NDFaU2dEcWVFOS1VOXl3?oc=5",
+    "story_key": "exfundador-de-h2k-revela-el-coste-de-un-equipo-de-lol"
+  },
+  {
+    "date": "2026-11-09",
+    "branch": "Lanzamientos",
+    "title": "Rally Shift estrena tráiler con fecha de lanzamiento",
+    "source": "IGN India",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1cktDZ1JsaHBaR2lJMnFEcUdzOVl2djloYVlLa29tZnlua00xaHN6ckxodXlHd2hYQ2d0aGs1c0VQai1FRnJVNzZuaTYzdGRncFMxWWx0TFFGNkNkTlVnWEJjOW1kZkMyWDJJdUcwTnZ0UV9JMGVXLWJ0ekdVUQ?oc=5",
+    "story_key": "rally-shift-estrena-trailer-con-fecha-de-lanzamiento"
+  },
+  {
+    "date": "2026-11-09",
+    "branch": "IA",
+    "title": "OpenAI y Anthropic presentan nuevas herramientas de IA",
+    "source": "CNET",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURicUhYclN6VEZ0VEtFVW5uSVpzZEY2VktKRS11RXhaVTdFbWF3MnBZMTVvOWVtMzlnNW5OLTh4em9waGMxSTF0anNUWnBNSmVBaDlXQTBmQnJsNGZTYUR2UXJJX1NrZVBCaDg2YWtHY0h3b2ZqNlF1UXV2U1ktWGxsanEyNnVXcF9YY0x6d0h6X2tiZGU3Sl8xOGF6RnNMbnc2aWdwc3BNR05Iclc1dw?oc=5",
+    "story_key": "openai-y-anthropic-presentan-nuevas-herramientas-de-ia"
+  },
+  {
+    "date": "2026-11-09",
+    "branch": "IA y web",
+    "title": "Grandes empresas de IA apoyan un opt-out unificado",
+    "source": "OpenTools",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLU9WaVlOY093T0Y2bVZfQ25zNFY1R0ZqemYtUjlia1czQ2xQbGxnLWRjTHhZczl4TThWX0NCSmtfcGNveFBzaXliclRzalUzbUlrbmZPUnRFTk9DaWtwbjNzbTVGU2dkejZJRUlPTm90X013NFhSc2V5SV9jeUNLWFNFSjc0aE9SSjlrOUtLaldsR1N6?oc=5",
+    "story_key": "grandes-empresas-de-ia-apoyan-un-opt-out-unificado"
+  },
+  {
+    "date": "2026-11-09",
+    "branch": "Cine",
+    "title": "Angry Birds Movie 3 revela cameo de Sonic",
+    "source": "stupidDOPE",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNck5YWkkzb3U2cVVGZlVjLUdIZVRrVUo4SkNvcnFsLUVLTkhMbWc1VTg5WFdOd3hic3RyWGRVOTl3TTctQ1NUeHZtVXlORlN0MWZpTTY1OWdleUlyREZMaTZJT3FWblVvOHRJN1ZTQmxBNkU4a3A4enFadEhxZW1pbHRQWEoybmxhZ01tZWZpa0wxRkV6cndlWTBhRjRsWkU?oc=5",
+    "story_key": "angry-birds-movie-3-revela-cameo-de-sonic"
+  },
+  {
+    "date": "2026-11-09",
+    "branch": "Cine",
+    "title": "Schwarzenegger será Santa en The Man With the Bag",
+    "source": "stupidDOPE",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcGYwdlg0SDYtZ2JzTXFsaDBnV1RycExfbXpmV3R5UWNWZHB3NV9WbU1UVGtiN09Ob1JiX09xU3hkSnVhTmlxZUhRTnRzYVRjX2o3QjB4bUpYVklWT00zVTBWOElIWTlzbDFWMHVKY0pzUlZUM05hcThHSkViN000aVBWMDBIZTFyek5LS1V5WEpuSHNFQ2dWQVR3?oc=5",
+    "story_key": "schwarzenegger-sera-santa-en-the-man-with-the-bag"
   }
 ]
