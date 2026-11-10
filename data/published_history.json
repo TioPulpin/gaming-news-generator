@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-10-11",
-    "branch": "Lanzamientos",
-    "title": "The Witch's Bakery confirma su fecha de lanzamiento con un nuevo tráiler",
-    "source": "IGN India",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaDZGNW4tcUxGbjhlYjNlbXFwN0luOXJ2VzVoNnJOVzhaTnJuYm5mNFN0ZDNzM0N1eWFuS0lpMUpEY0xlUzhYY0Vld1A5aW1HUVI0TGVZY3JpY1BNcmJLRFJBMmZTSFJNRlQtcDBFV3VMV0RWdFAzVTR4bTYyU1REdENhZkhUUXdaXzh4Uy03YjdGV2hULWxyT2w2OWpwVmF4b1o0NEhCR2tJUHA0NUJMajlVSlBSVEw2M0JiaGVlaXRnMmM1N1A0ZEd2OA?oc=5",
-    "story_key": "the-witch-s-bakery-confirma-su-fecha-de-lanzamiento-con-un-nuevo-trailer"
-  },
-  {
-    "date": "2026-10-11",
-    "branch": "Hardware",
-    "title": "Pimax presenta un visor VR inalámbrico para competir con Valve",
-    "source": "PC Gamer",
-    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNZ3ljSFl2V1NNQU4wbVM3YVFXT1ZoSGZfaXVzZnlIell3bENpU2lOcU13QVZPeFp1ZFU2RnNlNU45MHBvWnQxazNEVFZtYmJIUXNwcVR3bGk0NU5zeExxbmh1TzRuSHlkbXhGWXItTGZ5YzF6QTJQOW1tLUM4b3RpRHdDUWJvREdBdm9abE9OZ2NNTjdONlRsYkJOT2tIRF9vb0hjTUR2bnhoZlFnTVdWckR2Wl85ai0tSFFGSHdEY1FXaW5tOThFSl9DQWNtS0ZGUThPUjRGQ2JUQkhXXzFJYlF0R2JhTU9oN0F6V0VZNi1pQ0JkbWtsZThWQlN4eEp4TFNwcFZoVG5Cd3hpcUtCVFlHT3U?oc=5",
-    "story_key": "pimax-presenta-un-visor-vr-inalambrico-para-competir-con-valve"
-  },
-  {
-    "date": "2026-10-11",
-    "branch": "Inteligencia artificial",
-    "title": "Los grandes laboratorios de IA preparan planes ante riesgos catastróficos",
-    "source": "Tom's Hardware",
-    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOQVFuSFo3Z01hMGZjZXBUemJ2U0NOdmJ6YVh2Z3NhZWZrUC01cVdQN1M5bEZvUnJCdHBNX0xQdmRkMXItRUtWb2ZhUFRabW1NaUVla2E5X0ZfRkRMVGxYbi1wRlRzMmtoTU0yY0Y5aUFDRnFRZFBPcmFUTVY1NUdfY0FyZHIxTW5lRmoxRVVXLWdSMEJRWTk5ZkNGUVdoUHlra1djUUFxdl9RQnlfbVlFUDlIckZjTzJvWlhRZXBqUGFWb1l2b0xkRFNhSEdMeTYxVklIdzl3Um5sRjBkcVhFUFAxWkJmX1VkNWVSbHlwZkNLYWZicldsMmxGYVlsdjNYWmFCT0NpN2Z5c29UNVRQSWgxUHRxcXBQWXBJSWNNOFlacGVLekNzSlN2LS1waGFpYm1DRzMzRGtFd1NMNGN4MUpjaTZMRU1rYWRnd2JZRm1JTllVNVY2bW43Rmx4LWF3bUtYODZKYUxud28?oc=5",
-    "story_key": "los-grandes-laboratorios-de-ia-preparan-planes-ante-riesgos-catastroficos"
-  },
-  {
-    "date": "2026-10-11",
-    "branch": "Apple",
-    "title": "Ya se pueden presentar reclamos por el acuerdo de IA de Apple",
-    "source": "CNET",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXhBQUpHcHV6YnAtMHZvVm1RSjM3X0Zlc2Y4ZW1HZlN5U21HNkM0UDNUdFd6ZTF5Q1I3Vy1WTjB5cFZLdlJ6TGNWcTNMSzZPaC1GNXdYRUp2cllqQ0c4NFIyck9LUnMzU3p2MnNiZzZyTkNhSE9TUHg5WGpQU0owMHVFa3J4eFJmT2pMXzN5TVFQNnZjQ1hOUnBOUnQ?oc=5",
-    "story_key": "ya-se-pueden-presentar-reclamos-por-el-acuerdo-de-ia-de-apple"
-  },
-  {
-    "date": "2026-10-11",
-    "branch": "Anime y manga",
-    "title": "Masashi Kishimoto revela el manga Shadow Rising y un nuevo anime",
-    "source": "IGN",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVprTTAxaVgyZjFITy1TRWV3OHk1X0FoZHdJWUNha19hVnQtaTJ5Rmx1OWp5Rldmb2tfM2t5MGI5YjhmaTVnaFhQQjVoa1RQUDlDUUZzUE9ZcXJlZUVBS09qZlNmQ0libWFUNXU5SElzOURkVHAtV2pJNFRQZDJ6Y0prYm4xRU50UWlsaTZMSXFYRDYxeTQ3UVkyWE8tQ0V0M21J?oc=5",
-    "story_key": "masashi-kishimoto-revela-el-manga-shadow-rising-y-un-nuevo-anime"
-  },
-  {
-    "date": "2026-10-11",
-    "branch": "Anime",
-    "title": "Mobile Suit Gundam Seed Movie Revival confirma estreno en Estados Unidos",
-    "source": "ComicBook.com",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb1lENW1MT3hlVW9JdHAwOHlxem9fOXVBZHhKM3FaWkxYNUpMOHNDMHZyUF9pbG1uc1oxVGNNRkdiblhLWkRLdDEzTmhVTkNYWFVHTHdZbnRwWFpOY1BtMk5KanJPVzZTWDlMOXl2Y2F2c2JTZUZwSDNwSTY4SDdVZ3gwTVI1QlBJQm1QUXYtVFJOZmpvbEtYcW9Qb1hlNVJOSHR3alBvMHlHWkVKZGlvcUYyTEQxUzlOeHF0aXpUc3Y5cHF6dFNTaEFhNG5TUQ?oc=5",
-    "story_key": "mobile-suit-gundam-seed-movie-revival-confirma-estreno-en-estados-unidos"
-  },
-  {
     "date": "2026-10-12",
     "branch": "Industria",
     "title": "Steam rompe otro récord de usuarios simultáneos",
@@ -1438,5 +1390,53 @@
     "source": "stupidDOPE",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcGYwdlg0SDYtZ2JzTXFsaDBnV1RycExfbXpmV3R5UWNWZHB3NV9WbU1UVGtiN09Ob1JiX09xU3hkSnVhTmlxZUhRTnRzYVRjX2o3QjB4bUpYVklWT00zVTBWOElIWTlzbDFWMHVKY0pzUlZUM05hcThHSkViN000aVBWMDBIZTFyek5LS1V5WEpuSHNFQ2dWQVR3?oc=5",
     "story_key": "schwarzenegger-sera-santa-en-the-man-with-the-bag"
+  },
+  {
+    "date": "2026-11-10",
+    "branch": "Industria",
+    "title": "Skydance anuncia despidos en su división de videojuegos",
+    "source": "GamesIndustry.biz",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVm1PWHlHSVZIRktsSUxyVzZhQUhOR2xNMGxpVEtpN2JWb1ZINFZqUmY1YVFNcTBzLTlRSWV6MkRFVTEwa0lkRVFCV3BUZmQ2U251bXpqZTdISFVVbHdPZGdKMHhsT2pVNWtUWnp2Nk1TSG56b25uYUh3NWpfcnY3Q3hTR2ZOdmRHclJBNFBnWkZya0ZyQ2xmd2RxQ2Ywdw?oc=5",
+    "story_key": "skydance-anuncia-despidos-en-su-division-de-videojuegos"
+  },
+  {
+    "date": "2026-11-10",
+    "branch": "Lanzamientos",
+    "title": "El RPG de Warhammer 40K llegará en 2027",
+    "source": "Polygon.com",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcEwxVWFsMlpvYkpYTHVDY0hzbS1KdUtHSlRkNFZrX09Tb3JZZ0lvVXlKS2xKZUd2SUpwSHJBVTJxUUVBck1XY1RHMGlLUUk5Rkd1bUlzUm43cWpUXzRSRkFrd0lSQWk2ODJUejU0WGlRT2RBYm1xUnhFTjRlT01ZeDhmVTY?oc=5",
+    "story_key": "el-rpg-de-warhammer-40k-llegara-en-2027"
+  },
+  {
+    "date": "2026-11-10",
+    "branch": "Redes sociales",
+    "title": "Meta expande globalmente la IA que estima edades en Instagram",
+    "source": "TechCrunch",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOHFSSTNhUHV0Zk1VSWRzVm1palhFUl9YLUMxazd6V0ljT1hQWV9IWGRSSy1FQ19JRjdUa1ZpVS1YWktSU04zZ0NaV2NuMmZZc2NjYmtYUm5HLTdjVXRER3F2ekVCOVhrS08waXI5bHliSHpsVm1wUk5zV0s1SS1xUEJacm9zWG54Yy1QY19RcE1idw?oc=5",
+    "story_key": "meta-expande-globalmente-la-ia-que-estima-edades-en-instagram"
+  },
+  {
+    "date": "2026-11-10",
+    "branch": "Hardware",
+    "title": "AMD reconoce un fallo de driver que desgasta SSD",
+    "source": "Tom's Hardware",
+    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPVnJhTEQzSkRrbGdNZFJ2Z1dRWjhBazVNblpVTm82X3VjUmNEVE1STGZfRFhlWm9MTFc3bHMzd2hMRzg5UC0wMFZ3OVppRmZVNkxEbFRvYTBJSmxkeWdzR0doOFhDS0NKdEJ4T3pCS045NExFOU0zZkJ1UVp1bWs4UHdmbnVLWV9BcWJpOVJ6eTRSMmJ4YWozZmJFb01SYTI3M2IyMlpYdlphWDIycUZQVFpkdGI1SDZVbmxWT05IZzFYTDZtbUhvbDMzUi1id25Qc1kzVGFtVkNLTTM5Rzc3Sy10MVhTLWJiOW1oRXVFZElUNWp2SXVad1FaYlloeldWYVZVUUpoNzREc1N2TjhQSHFRVkpPbGlwdFVVZGdpZl9rWTdNV2NuVGZObXFERTFPdWZJVllmUXhRNXIzNlQzWFVKaDZONm5mMUJJUQ?oc=5",
+    "story_key": "amd-reconoce-un-fallo-de-driver-que-desgasta-ssd"
+  },
+  {
+    "date": "2026-11-10",
+    "branch": "Streaming",
+    "title": "Paramount+ y HBO Max planean un servicio conjunto en 2027",
+    "source": "Variety Australia",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMTJGM2swMkUzY2lqTW44d0xVT0M1aGNFcXJYNkVxTEdYVkp4Vi1PdEVROVowSW9zQUhlTWI1SkdSN0YyOXptWlF3TWQtcWlqNDBPYzFCN2JVdWR3RHlqZVB3LUx2SHlNQmxJbnR1cjhwT1NqY2FjUTczVTlPVnpWYnZTOU5wZVdUazNwN2NRb0d3OU8ydWp6RGpZSllFdw?oc=5",
+    "story_key": "paramount-y-hbo-max-planean-un-servicio-conjunto-en-2027"
+  },
+  {
+    "date": "2026-11-10",
+    "branch": "DC",
+    "title": "Jeremy Latcham liderará DC Studios tras la salida de Gunn",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcUcwY2JIOVpIc1pqclVkQjNqOTFxczlqeWJPMF90TkZKend3NVNpdTdGbkUwZ1lJYkVELWFBWGh6a0QtNDY4YXVvSTJmRGNjeUhCenY5UUFJQ1RyR1F4bV9sMWJOcnRUZWc5YlgwenVzU0piaXA2Z1lEUHhJUkRBeFo5aEJhMXBDRUxDU3dneDBIc1dJX3djSkNBSi1OUnVaSnRmMFp5SGJpbTFsTkxfb24xR05fdFdvckNzbUZMZE9icVlqUGNHU094VUpLbkVkZ0E?oc=5",
+    "story_key": "jeremy-latcham-liderara-dc-studios-tras-la-salida-de-gunn"
   }
 ]
